@@ -1,5 +1,8 @@
 # React + Vite
 
+2. tách btn thành componnent
+3. đặt biến cho formLogin
+
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:

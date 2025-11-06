@@ -1,7 +1,7 @@
 import "./headerNavbar.css";
 import { Link } from "react-router-dom";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faFacebook, faInstagram } from "@fortawesome/free-brands-svg-icons";
+import { UseIcon, faFacebook, faInstagram } from "~/assets/icon";
+
 const HeaderNavbar = ({ children }) => {
     const appConects = [
         {
@@ -33,7 +33,7 @@ const HeaderNavbar = ({ children }) => {
                         <span className="flex items-center ml-1">
                             {appConects.map((Element, index) => (
                                 <a href={Element.link} key={index}>
-                                    <FontAwesomeIcon icon={Element.icon} />
+                                    <UseIcon icon={Element.icon} />
                                 </a>
                             ))}
                         </span>
