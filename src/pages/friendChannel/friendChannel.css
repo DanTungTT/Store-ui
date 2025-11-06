@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+.friendChannelContainer {
+    width: var(--app-width-);
+    min-height: 70rem;
+    margin: 0 auto;
+    font-size:1.5rem;
+    .formLogin {
+        input::placeholder {
+            color: #c0c0c0;
+        }
+    }
+}

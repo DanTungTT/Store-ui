@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+.header {
+    background-image: var(--header-backgroundColor-);
+    box-shadow: 0 0px 5px #000;
+    font-size: var(--default-fontSize-);
+    color: var(--header-textColor-);
+}
+.header-wrapper {
+    height: var(--header-height-);
+    width: var(--app-width-);
+    margin: 0 auto;
+}

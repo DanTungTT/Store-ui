@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+footer {
+    width: var(--app-width-);
+    margin: 0 auto;
+    font-size: var(--default-fontSize-);
+}
+.informationFooter {
+    h3 {
+        font-weight: 300;
+        padding: 2rem 2rem 2rem 0rem;
+    }
+    li {
+        font-size: 1.2rem;
+        font-weight: 100;
+        color: var(--primary-textColor-);
+        padding: 0.2rem 0.2rem 0.2rem 0rem;
+        &:hover:not(.qr) {
+            color: var(--primary-color-);
+        }
+    }
+    .payFooter_Ship {
+        ul {
+            @apply grid grid-cols-3 px-6  gap-y-0.5;
+        }
+    }
+}

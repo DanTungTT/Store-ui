@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+.header-navbar {
+    ul {
+        li {
+            margin: 0 0.7rem;
+            a {
+                margin: 0 0.3rem;
+            }
+        }
+    }
+    .header__navbar-left {
+        li {
+            position: relative;
+        }
+        li:not(:first-child)::before {
+            content: "";
+            display: block;
+            width: 1px;
+            height: 1.5rem;
+            position: absolute;
+            top: 50%;
+            right: 95%;
+            transform: translate(-50%, -50%);
+            margin: 0 1rem 0 0;
+            background-color: white;
+            z-index: 1;
+        }
+    }
+}

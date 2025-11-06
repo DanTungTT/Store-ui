@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+.headerDashboard {
+    font-size: var(--default-fontSize-);
+    box-shadow: 0 0px 5px #9c9b9b;
+    height: var(--headerDashboard-height-);
+}
+.headerDashboard-wrapper {
+    width: var(--app-width-); 
+    margin: 0 auto;
+
+}

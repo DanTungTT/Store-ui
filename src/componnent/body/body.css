@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+.body-wrapper {
+    width:1200px;
+    min-height: 1000px;
+    margin: 0 auto;
+    background-color: brown;
+    text-align: center;
+}
