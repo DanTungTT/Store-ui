@@ -1,4 +1,4 @@
-import { Header, Body, Footer } from "~/componnent";
+import { Header, Body, Footer } from "~/componnents";
 const DefaultLayout = ({ children }) => {
     return (
         <>

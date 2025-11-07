@@ -1,5 +1,4 @@
 import { DefaultLayout, DashboardLayout } from "~/layout";
-import { Body } from "~/componnent";
 import { Link } from "react-router-dom";
 import { publicRouter as LinkItems } from "~/routers";
 const Login = () => {

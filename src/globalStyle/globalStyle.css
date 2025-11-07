@@ -23,9 +23,6 @@ html {
     --default-fontSize-: 1.5rem;
     --base-lineHeight-: 2;
     --primary-color-: #ee4d2d;
-
-    /* componnent ui */
-    --formInput-color-: #fff;
 }
 @font-face {
     font-family: "fontLogo";

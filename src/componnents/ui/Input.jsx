@@ -1,6 +1,6 @@
 import { UseIcon, faEye, faEyeSlash } from "~/assets/icon";
-const Input = ({ type = "text", placeholder, className }) => {
-    const hiddenPassword = (
+const Input = ({ type = "text", hiddenPassword, placeholder, className }) => {
+    const hiddenPasswordIcon = (
         <div className="relative w-[2rem] flex items-center">
             <UseIcon icon={faEye} className="absolute" />
             <UseIcon icon={faEyeSlash} className="absolute" />
@@ -8,9 +8,9 @@ const Input = ({ type = "text", placeholder, className }) => {
     );
     return (
         <>
-            <div className="flex border border-[#c7c7c7] p-3 my-10 rounded has-[input:focus]:shadow-[0rem_0rem_.2rem_#333]">
+            <div className="flex border border-[#c7c7c7] p-3 my-11 rounded has-[input:focus]:shadow-[0rem_0rem_.2rem_#333]">
                 <input className={className} type={type} placeholder={placeholder} />
-                {type === "password" && hiddenPassword}
+                {hiddenPassword && hiddenPasswordIcon}
             </div>
         </>
     );

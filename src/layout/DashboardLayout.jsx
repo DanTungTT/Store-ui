@@ -1,4 +1,4 @@
-import { HeaderDashboard, DashboardFooter } from "~/componnent";
+import { HeaderDashboard, DashboardFooter } from "~/componnents";
 const DashboardLayout = ({ children }) => {
     return (
         <>

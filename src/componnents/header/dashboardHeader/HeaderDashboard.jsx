@@ -1,4 +1,4 @@
-import { Logo } from "~/componnent/logo";
+import { Logo } from "~/componnents/logo";
 import "./headerDashboard.css";
 import { Link } from "react-router-dom";
 const HeaderDashboard = () => {

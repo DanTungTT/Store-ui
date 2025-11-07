@@ -1,5 +1,5 @@
 import "./header.css";
-import { Logo } from "~/componnent/logo";
+import { Logo } from "~/componnents/logo";
 import { Link } from "react-router-dom";
 import HeaderNavbar from "./HeaderNavbar";
 const Header = () => {

@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+/* componnent ui */
+:root {
+    --formLogin-bgColor-: #fff;
+    --formLogin-textColor-: #333;
+    --formLogin-width-: 40rem;
+    --formLogin-placeholderColor-: #c0c0c0;
+}
+.formLogin {
+    input::placeholder {
+        color: var(--formLogin-placeholderColor-);
+    }
+}
