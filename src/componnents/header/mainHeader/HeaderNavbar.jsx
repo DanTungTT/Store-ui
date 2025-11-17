@@ -1,5 +1,7 @@
-import "./headerNavbar.css";
 import { Link } from "react-router-dom";
+import clsx from "clsx";
+
+import styles from "./headerNavbar.module.css";
 import { UseIcon, faFacebook, faInstagram } from "~/assets/icon";
 
 const HeaderNavbar = ({ children }) => {
@@ -15,8 +17,8 @@ const HeaderNavbar = ({ children }) => {
     ];
     return (
         <>
-            <nav className="header-navbar flex justify-between leading-[var(--base-lineHeight-)]">
-                <ul className="header__navbar-left flex ">
+            <nav className={clsx(styles["header-navbar"], "flex justify-between leading-[var(--base-lineHeight-)]")}>
+                <ul className={clsx(styles["header__navbar-left"], "flex")}>
                     {children.map((navbarItem, index) => {
                         if (navbarItem.type) {
                             return (

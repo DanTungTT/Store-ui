@@ -24,9 +24,3 @@ html {
     --base-lineHeight-: 2;
     --primary-color-: #ee4d2d;
 }
-@font-face {
-    font-family: "fontLogo";
-    src: url(../assets/font/Bitcount/Bitcount.ttf) format("truetype");
-    font-weight: normal;
-    font-style: normal;
-}

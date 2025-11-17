@@ -4,9 +4,10 @@ import GlobalStyle from "./globalStyle/GlobalStyle";
 import App from "./App";
 
 createRoot(document.getElementById("root")).render(
-    // <StrictMode>
-    <GlobalStyle>
-        <App />
-    </GlobalStyle>,
-    // </StrictMode>,
+    <StrictMode>
+        <GlobalStyle>
+            <App />
+        </GlobalStyle>
+        ,
+    </StrictMode>,
 );

@@ -1,31 +1,22 @@
+import { createContext } from "react";
+import { UseIcon, faAngleUp } from "~/assets/icon";
+
 import { DashboardLayout } from "~/layout";
-import { createContext, useRef } from "react";
-import { FormLogin, Input, Button } from "~/componnents";
-import { UseIcon, faAngleUp, faFacebook, faGoogle } from "~/assets/icon";
-import "./friendChannel.css";
+import { FormLogin, Input } from "~/componnents";
 
-export const LayoutFooter = createContext();
+import styles from "./friendChannel.module.css";
 
+export const InforDashboard = createContext();
+const infor = {
+    title: "Kênh người bán",
+    InforShopFooter: "",
+};
 const FriendChannel = () => {
-    const inputForm = [
-        {
-            placeholder: "Email/Số điện thoại/Tên đăng nhập",
-            className: "outline-none w-[100%]",
-            type: "text",
-        },
-        {
-            hiddenPassword: true,
-            type: "password",
-            className: "outline-none w-[100%]",
-            placeholder: "Nhập mật khẩu",
-            minLength: 6,
-        },
-    ];
     return (
         <>
-            <LayoutFooter value="">
+            <InforDashboard value={infor}>
                 <DashboardLayout>
-                    <main className="friendChannelContainer">
+                    <main className={styles.friendChannelContainer}>
                         <div className="flex justify-between mt-[12rem] px-[7rem]">
                             <div className="mt-[10rem]">
                                 <div className="w-[40.5rem]">
@@ -47,16 +38,14 @@ const FriendChannel = () => {
                             </div>
 
                             <div>
-                                <FormLogin title="Đăng Ký" qr>
-                                    {inputForm.map((input, index) => {
-                                        return <Input key={index} {...input} id={index}></Input>;
-                                    })}
-                                    {/* <Input
+                                <FormLogin title="Đăng Nhập" qr>
+                                    <Input
                                         id="1"
                                         placeholder="Email/Số điện thoại/Tên đăng nhập"
                                         className="outline-none w-[100%]"
                                         type="text"
                                     />
+
                                     <Input
                                         id="2"
                                         hiddenPassword
@@ -64,7 +53,7 @@ const FriendChannel = () => {
                                         className="outline-none w-[100%]"
                                         placeholder="Nhập mật khẩu"
                                         minLength={6}
-                                    /> */}
+                                    />
                                 </FormLogin>
                                 {/*  */}
                                 <div className="w-[40rem] my-7 shadow-[0rem_0rem_1rem_#ededed] p-5 text-center hover:bg-[#eeeded] ">
@@ -78,7 +67,7 @@ const FriendChannel = () => {
                         </div>
                     </main>
                 </DashboardLayout>
-            </LayoutFooter>
+            </InforDashboard>
         </>
     );
 };

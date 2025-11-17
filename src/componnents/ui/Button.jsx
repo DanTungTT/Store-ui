@@ -8,7 +8,7 @@ const Button = ({ type = "normal", title, propsIcon, className }) => {
     return (
         <>
             <div className="w-[100%] text-center">
-                <button className={`${type && typeBtn[type]} ${className}`}>
+                <button className={`${type && typeBtn[type]} ${className} cursor-pointer`}>
                     {propsIcon && <UseIcon icon={propsIcon.icon} className={`mr-2 ${propsIcon.className}`} />}
                     {title}
                 </button>

@@ -3,9 +3,9 @@
 .header-navbar {
     ul {
         li {
-            margin: 0 0.7rem;
+            @apply mx-[0.7rem];
             a {
-                margin: 0 0.3rem;
+                @apply mx-[0.3rem];
             }
         }
     }

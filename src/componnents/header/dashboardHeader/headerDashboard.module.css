@@ -6,7 +6,6 @@
     height: var(--headerDashboard-height-);
 }
 .headerDashboard-wrapper {
-    width: var(--app-width-); 
+    width: var(--app-width-);
     margin: 0 auto;
-
 }

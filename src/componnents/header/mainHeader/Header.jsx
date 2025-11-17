@@ -1,7 +1,11 @@
-import "./header.css";
-import { Logo } from "~/componnents/logo";
 import { Link } from "react-router-dom";
+import clsx from "clsx";
+
+import { Logo } from "~/componnents/logo";
 import HeaderNavbar from "./HeaderNavbar";
+
+import styles from "./header.module.css";
+
 const Header = () => {
     const headerNavItems = [
         { title: "Kênh người bán", type: "friendChannel" },
@@ -9,15 +13,15 @@ const Header = () => {
     ];
     return (
         <>
-            <header className="header">
-                <div className="header-wrapper">
+            <header className={styles.header}>
+                <div className={styles["header-wrapper"]}>
                     <div>
                         <HeaderNavbar>{headerNavItems}</HeaderNavbar>
                         <div>
                             <Link to="/">
-                                <div className="header-logo flex items-center">
+                                <div className="flex items-center">
                                     <Logo />
-                                    <span className="text-[2.5rem]/[1.4rem] m-1 font-[fontLogo] ">SupperSeo</span>
+                                    <span className={clsx(styles.fontLogo, "text-[2.5rem]/[1.4rem] m-1")}>SEO</span>
                                 </div>
                             </Link>
                             <div className="header-pages">

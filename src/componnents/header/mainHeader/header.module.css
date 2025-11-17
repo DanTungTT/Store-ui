@@ -11,3 +11,12 @@
     width: var(--app-width-);
     margin: 0 auto;
 }
+@font-face {
+    font-family: "fontLogo";
+    src: url(../assets/font/Bitcount/Bitcount.ttf) format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+.fontLogo {
+    font-family: "fontLogo";
+}

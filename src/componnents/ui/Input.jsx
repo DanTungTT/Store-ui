@@ -1,34 +1,51 @@
-import { forwardRef, useEffect, useState } from "react";
+import { forwardRef, useEffect, useImperativeHandle, useState, useRef } from "react";
 import { UseIcon, faEye, faEyeSlash } from "~/assets/icon";
 
-const Input = ({ type, id, hiddenPassword, placeholder, className, ...props }) => {
+const Input = ({ type, id, text, hiddenPassword, placeholder, className, ...props }, ref) => {
     const [hiddenIcon, setHiddenIcon] = useState(true);
-    const [errorMessage, setErrorMassage] = useState(null);
+    const [errorInput, setErrorInput] = useState();
+
     const ipnutType = hiddenIcon ? type : "text";
+
     const iconType = hiddenIcon ? faEyeSlash : faEye;
-    const funcChecks = {
+    const inputRef = useRef(null);
+    const handleCheck = (inputElement) => {
+        const errorMassage =
+            checkIpnut[inputElement.type] && checkIpnut[inputElement.type](inputElement.value, inputElement.minLength);
+        setErrorInput(errorMassage);
+    };
+    const checkIpnut = {
         text(inputValue) {
-            return inputValue.trim() === "" ? "Trường này không được bỏ trống" : null;
+            return inputValue.trim() === "" ? "Vui lòng không bỏ trống" : null;
         },
         password(inputValue, minLength) {
-            return inputValue.trim() <= minLength ? "Vui lòng nhập đủ kí tự" : null;
+            return inputValue.trim() <= minLength ? "Vui lòng nhập đúng ký tự" : null;
         },
     };
-    const handleBlur = (el) => {
-        setErrorMassage(funcChecks[el.type](el.value, el.minLength));
-    };
+
+    useImperativeHandle(ref, () => {
+        return {
+            validate(inputElement, min) {
+                return handleCheck(inputElement, min);
+            },
+            getElement() {
+                return inputRef.current;
+            },
+        };
+    }, []);
     return (
         <>
-            <div className="flex flex-col my-11 relative">
+            <div className="flex flex-col my-9 relative">
                 <div
-                    className={`flex border ${errorMessage ? "border-red-500" : "border-[#c7c7c7]"}  p-3 my-5 rounded has-[input:focus]:shadow-[0rem_0rem_.2rem_#333]`}
+                    className={`flex border border-[#c7c7c7] p-3 my-5 rounded has-[input:focus]:shadow-[0rem_0rem_.2rem_#333]`}
                 >
                     <input
                         id={id}
+                        ref={inputRef}
                         className={className}
                         type={ipnutType}
                         placeholder={placeholder}
-                        onBlur={(e) => handleBlur(e.target)}
+                        onBlur={(e) => handleCheck(e.target)}
                         {...props}
                     />
                     {hiddenPassword && (
@@ -40,9 +57,9 @@ const Input = ({ type, id, hiddenPassword, placeholder, className, ...props }) =
                         </div>
                     )}
                 </div>
-                <span className="text-red-500 absolute bottom-[-1.7rem]">{errorMessage}</span>
+                <span className="text-red-500 absolute bottom-[-1.7rem]">{errorInput}</span>
             </div>
         </>
     );
 };
-export default Input;
+export default forwardRef(Input);

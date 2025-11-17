@@ -1,20 +1,29 @@
+import { Children, cloneElement, createRef, useEffect, useRef } from "react";
 import { faFacebook, faGoogle } from "~/assets/icon";
+import clsx from "clsx";
+
 import { Input, Button } from "~/componnents/ui";
 import QrLogin from "./QrLogin";
-import "./formLogin.css";
-import { Children, cloneElement, useRef } from "react";
+
+import styles from "./formLogin.module.css";
 
 const FormLogin = ({ title, qr, children, clauseAndPolicy }) => {
+    const inputRefs = useRef([]);
+    const arrChildren = Children.map(children, (child, index) => {
+        inputRefs.current[index] = createRef();
+        return cloneElement(child, { ref: inputRefs.current[index] });
+    });
+
+    function handleSubmit(e) {
+        e.preventDefault();
+        inputRefs.current.map((el, index) => {
+            const inputElement = el.current.getElement();
+            el.current.validate(inputElement);
+        });
+    }
     return (
         <>
-            <form
-                className="formLogin 
-                             w-[var(--formLogin-width-)] 
-                             text-[var(--formLogin-textColor-)] 
-                             shadow-[0rem_0rem_1rem_#ededed] 
-                             p-[3rem] 
-                             bg-[var(--formLogin-bgColor-)]"
-            >
+            <form onSubmit={(e) => handleSubmit(e)} className={clsx(styles.formLogin)}>
                 <div>
                     {/*  */}
                     <div className="flex justify-between my-6">
@@ -23,7 +32,8 @@ const FormLogin = ({ title, qr, children, clauseAndPolicy }) => {
                         </div>
                         {qr && <QrLogin />}
                     </div>
-                    {children}
+
+                    {arrChildren}
                     <div>
                         <Button
                             type="primary"
@@ -39,7 +49,7 @@ const FormLogin = ({ title, qr, children, clauseAndPolicy }) => {
                             </a>
                         </div>
                     )}
-                    <div className="flex items-center justify-between my-10">
+                    <div className="flex items-center justify-between my-5">
                         <div className="h-[.1rem] w-[40%] bg-[#8a8888]"></div>
                         <p className="text-center text-[#c0c0c0]">Hoặc</p>
                         <div className="h-[.1rem] w-[40%] bg-[#8a8888]"></div>
