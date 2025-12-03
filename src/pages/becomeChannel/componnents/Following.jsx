@@ -1,6 +1,5 @@
 import clsx from "clsx";
-import styles from "../becomeASeller.module.css";
-const Following = ({ img, title, text }) => {
+const Following = ({ img, title, text, textColor }) => {
     return (
         <>
             <div>
@@ -11,7 +10,7 @@ const Following = ({ img, title, text }) => {
                 {/* description */}
                 <div>
                     <h3 className="title text-center text-[1.8rem] my-7">{title}</h3>
-                    <p className={clsx(styles.headingColor, "text-center")}>{text} </p>
+                    <p className={clsx(textColor, "text-center")}>{text} </p>
                 </div>
             </div>
         </>

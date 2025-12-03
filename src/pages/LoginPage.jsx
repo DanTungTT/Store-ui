@@ -1,10 +1,10 @@
-import { DefaultLayout, DashboardLayout } from "~/layout";
+import { DefaultLayout, SubnetLayout } from "~/layout";
 import { Link } from "react-router-dom";
 import { publicRouter as LinkItems } from "~/routers";
 const Login = () => {
     return (
         <>
-            <DashboardLayout>
+            <SubnetLayout>
                 {LinkItems.map((link, index) => {
                     const textNode = link.path === "/" ? "home" : link.path.slice(1, link.path.length);
                     return (
@@ -13,7 +13,7 @@ const Login = () => {
                         </Link>
                     );
                 })}
-            </DashboardLayout>
+            </SubnetLayout>
         </>
     );
 };

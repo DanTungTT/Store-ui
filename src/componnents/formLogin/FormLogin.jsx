@@ -1,8 +1,8 @@
-import { Children, cloneElement, createRef, useEffect, useRef } from "react";
+import { Children, cloneElement, createRef, useRef } from "react";
 import { faFacebook, faGoogle } from "~/assets/icon";
 import clsx from "clsx";
 
-import { Input, Button } from "~/componnents/ui";
+import { Button } from "~/componnents/ui";
 import QrLogin from "./QrLogin";
 
 import styles from "./formLogin.module.css";

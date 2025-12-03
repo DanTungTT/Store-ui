@@ -21,6 +21,8 @@ import academyShopee from "./following/academyShopee.png";
 import facebook from "./following/facebook.png";
 import ShopeeRounded from "./following/ShopeeRounded.png";
 import youtube from "./following/youtube.png";
+
+
 export { 
     // img banner
     giftBoxIcon, 

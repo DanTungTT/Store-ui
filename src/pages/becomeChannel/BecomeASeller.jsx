@@ -1,6 +1,6 @@
 import clsx from "clsx";
 
-import { DashboardLayout } from "~/layout";
+import { SubnetLayout } from "~/layout";
 import { InforDashboard } from "../friendChannel/FriendChannelPage";
 import { FormLogin, Input } from "~/componnents";
 import { Reson, Step, BenefitItem, Following } from "./componnents";
@@ -11,13 +11,14 @@ import styles from "./becomeASeller.module.css";
 const infor = {
     title: "Đăng Ký",
     InforShopFooter: "footer",
+    helper: "",
 };
 
 const BecomeASeller = () => {
     return (
         <>
             <InforDashboard value={infor}>
-                <DashboardLayout>
+                <SubnetLayout>
                     <main className={styles.becomeASellerContainer}>
                         {/* banner & register form */}
                         <div className={styles["becomeASellerContainer-register"]}>
@@ -57,6 +58,7 @@ const BecomeASeller = () => {
                             </div>
                         </div>
 
+                        {/* convice */}
                         <div className={styles.convice}>
                             <div>
                                 {/* header convince */}
@@ -73,7 +75,7 @@ const BecomeASeller = () => {
                                         {conviceItems.map((item, index) => {
                                             return (
                                                 <li key={index}>
-                                                    <Reson img={item.img} title={item.title} text={item.text} />
+                                                    <Reson {...item} textColor={styles.headingColor} />
                                                 </li>
                                             );
                                         })}
@@ -118,7 +120,7 @@ const BecomeASeller = () => {
                                         {benefitItems.map((el, index) => {
                                             return (
                                                 <li key={index}>
-                                                    <BenefitItem {...el} />
+                                                    <BenefitItem {...el} textColor={styles.headingColor} />
                                                 </li>
                                             );
                                         })}
@@ -146,7 +148,7 @@ const BecomeASeller = () => {
                                         {follows.map((el, index) => {
                                             return (
                                                 <li key={index} className="col-span-1 w-[25rem] mx-auto">
-                                                    <Following {...el} />
+                                                    <Following {...el} textColor={styles.headingColor} />
                                                 </li>
                                             );
                                         })}
@@ -155,7 +157,7 @@ const BecomeASeller = () => {
                             </div>
                         </div>
                     </main>
-                </DashboardLayout>
+                </SubnetLayout>
             </InforDashboard>
         </>
     );

@@ -14,8 +14,8 @@ html {
     --header-backgroundColor-: linear-gradient(180deg, #f63f2e, #ff6633);
     --header-textColor-: #fff;
 
-    /* headerDashboard */
-    --headerDashboard-height-: 8.5rem;
+    /* subnetHeader */
+    --subnetHeader-height-: 8.5rem;
 
     /* global variable */
     --primary-textColor-: #333;

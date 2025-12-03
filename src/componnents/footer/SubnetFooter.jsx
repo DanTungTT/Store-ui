@@ -3,7 +3,7 @@ import { UseIcon } from "~/assets/icon";
 import data from "./data";
 import "./footer.css";
 import { InforDashboard } from "~/pages/friendChannel/FriendChannelPage";
-const DashboardFooter = () => {
+const SubnetFooter = () => {
     const infor = useContext(InforDashboard);
 
     let Footer;
@@ -102,4 +102,4 @@ const DashboardFooter = () => {
         </>
     );
 };
-export default DashboardFooter;
+export default SubnetFooter;

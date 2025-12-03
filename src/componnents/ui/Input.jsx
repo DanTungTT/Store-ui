@@ -4,11 +4,10 @@ import { UseIcon, faEye, faEyeSlash } from "~/assets/icon";
 const Input = ({ type, id, text, hiddenPassword, placeholder, className, ...props }, ref) => {
     const [hiddenIcon, setHiddenIcon] = useState(true);
     const [errorInput, setErrorInput] = useState();
+    const inputRef = useRef(null);
 
     const ipnutType = hiddenIcon ? type : "text";
-
     const iconType = hiddenIcon ? faEyeSlash : faEye;
-    const inputRef = useRef(null);
     const handleCheck = (inputElement) => {
         const errorMassage =
             checkIpnut[inputElement.type] && checkIpnut[inputElement.type](inputElement.value, inputElement.minLength);

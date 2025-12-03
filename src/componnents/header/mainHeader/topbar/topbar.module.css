@@ -2,12 +2,31 @@
 
 .header-navbar {
     ul {
+        margin: 0.3rem 0;
         li {
-            @apply mx-[0.7rem];
+            @apply mx-[1rem] text-[1.3rem];
+
+            span:hover  {
+                opacity: 0.7;
+            }
             a {
                 @apply mx-[0.3rem];
             }
+           
         }
+    }
+    .spacing:before {
+        content: "";
+        display: block;
+        width: 1px;
+        height: 1.5rem;
+        position: absolute;
+        top: 50%;
+        right: 95%;
+        transform: translate(-50%, -50%);
+        margin: 0 1rem 0 0;
+        background-color: white;
+        z-index: 1;
     }
     .header__navbar-left {
         li {
@@ -28,3 +47,4 @@
         }
     }
 }
+

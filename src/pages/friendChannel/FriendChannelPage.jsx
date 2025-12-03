@@ -1,7 +1,7 @@
 import { createContext } from "react";
 import { UseIcon, faAngleUp } from "~/assets/icon";
 
-import { DashboardLayout } from "~/layout";
+import { SubnetLayout } from "~/layout";
 import { FormLogin, Input } from "~/componnents";
 
 import styles from "./friendChannel.module.css";
@@ -10,12 +10,13 @@ export const InforDashboard = createContext();
 const infor = {
     title: "Kênh người bán",
     InforShopFooter: "",
+    helper: "",
 };
 const FriendChannel = () => {
     return (
         <>
             <InforDashboard value={infor}>
-                <DashboardLayout>
+                <SubnetLayout>
                     <main className={styles.friendChannelContainer}>
                         <div className="flex justify-between mt-[12rem] px-[7rem]">
                             <div className="mt-[10rem]">
@@ -66,7 +67,7 @@ const FriendChannel = () => {
                             {/*  */}
                         </div>
                     </main>
-                </DashboardLayout>
+                </SubnetLayout>
             </InforDashboard>
         </>
     );

@@ -18,7 +18,7 @@ import {
     facebook,
     ShopeeRounded,
     youtube,
-} from "~/assets/img/becomeASeller";
+} from "~/assets/img/header/becomeASeller/";
 
 
 const liBanerItems = [

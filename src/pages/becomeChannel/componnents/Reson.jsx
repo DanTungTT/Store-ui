@@ -1,5 +1,4 @@
-import styles from "../becomeASeller.module.css";
-const Reson = ({ img, title, text }) => {
+const Reson = ({ img, title, text, textColor }) => {
     return (
         <>
             <div className="item text-center py-3">
@@ -11,7 +10,7 @@ const Reson = ({ img, title, text }) => {
                         <h1 className="font-semibold">{title}</h1>
                     </div>
                     <div className="py-5">
-                        <p className={styles.textColor}>{text}</p>
+                        <p className={textColor}>{text}</p>
                     </div>
                 </div>
             </div>

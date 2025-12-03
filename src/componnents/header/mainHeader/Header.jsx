@@ -2,21 +2,17 @@ import { Link } from "react-router-dom";
 import clsx from "clsx";
 
 import { Logo } from "~/componnents/logo";
-import HeaderNavbar from "./HeaderNavbar";
+import Topbar from "./topbar/Topbar";
 
 import styles from "./header.module.css";
 
 const Header = () => {
-    const headerNavItems = [
-        { title: "Kênh người bán", type: "friendChannel" },
-        { title: "Trờ thành người bán", type: "becomeASeller" },
-    ];
     return (
         <>
             <header className={styles.header}>
                 <div className={styles["header-wrapper"]}>
                     <div>
-                        <HeaderNavbar>{headerNavItems}</HeaderNavbar>
+                        <Topbar />
                         <div>
                             <Link to="/">
                                 <div className="flex items-center">
