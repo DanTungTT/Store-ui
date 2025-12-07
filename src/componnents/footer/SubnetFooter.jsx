@@ -1,13 +1,14 @@
-import { useContext } from "react";
 import { UseIcon } from "~/assets/icon";
 import data from "./data";
 import "./footer.css";
-import { InforDashboard } from "~/pages/friendChannel/FriendChannelPage";
-const SubnetFooter = () => {
-    const infor = useContext(InforDashboard);
 
-    let Footer;
-    if (infor?.InforShopFooter) Footer = infor.InforShopFooter;
+import { useLayoutContext } from "../../hooks/projectHooks/useContext";
+const SubnetFooter = () => {
+    const { LayoutFooter } = useLayoutContext();
+    console.log(LayoutFooter);
+    let Footer = LayoutFooter;
+
+    // if () Footer = infor.InforShopFooter;
     const [footerInfors, followingFooter, payFooter, qrFooter] = data;
     const footer1 = (
         <Footer className="informationFooter">
@@ -94,7 +95,7 @@ const SubnetFooter = () => {
 
     return (
         <>
-            {infor?.InforShopFooter ? (
+            {LayoutFooter ? (
                 footer1
             ) : (
                 <footer className="text-center text-[1.5rem]">© 2025 Shopee. Tất cả các quyền được bảo lưu.</footer>

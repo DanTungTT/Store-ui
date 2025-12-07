@@ -1,6 +1,6 @@
 @import "tailwindcss";
 
-.friendChannelContainer {
+.sellerChannelContainer {
     width: var(--app-width-);
     min-height: 70rem;
     margin: 0 auto;

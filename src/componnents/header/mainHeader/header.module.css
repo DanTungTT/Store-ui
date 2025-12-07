@@ -13,7 +13,7 @@
 }
 @font-face {
     font-family: "fontLogo";
-    src: url(../assets/font/Bitcount/Bitcount.ttf) format("truetype");
+    src: url("~/assets/font/fontlogo/bitcount.ttf") format("truetype");
     font-weight: normal;
     font-style: normal;
 }

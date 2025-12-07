@@ -9,6 +9,7 @@ import {
     faBell,
     faCircleQuestion,
     faGlobe,
+    faMagnifyingGlass,
 } from "@fortawesome/free-solid-svg-icons";
 
 const UseIcon = ({ icon, ...props }) => {
@@ -29,4 +30,5 @@ export {
     faCircleQuestion,
     faGlobe,
     faAngleDown,
+    faMagnifyingGlass,
 };

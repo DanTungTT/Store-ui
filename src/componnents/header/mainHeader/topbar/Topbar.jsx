@@ -5,7 +5,7 @@ import DownAppWrapper from "./ downApp/DownAppWrapper";
 import NotificationWrapper from "./notification/NotificationWrapper";
 
 import styles from "./topbar.module.css";
-import { UseIcon, faFacebook, faInstagram, faBell, faCircleQuestion, faGlobe, faAngleDown } from "~/assets/icon";
+import { UseIcon, faFacebook, faInstagram, faCircleQuestion, faGlobe, faAngleDown } from "~/assets/icon";
 
 const Topbar = () => {
     return (
@@ -15,7 +15,7 @@ const Topbar = () => {
                     {/* kenh nguoi ban */}
                     <li>
                         <span>
-                            <Link to="/friendChannel">Kênh người bán</Link>
+                            <Link to="/sellerChannel">Kênh người bán</Link>
                         </span>
                     </li>
                     {/* tro thanh nguoi ban */}

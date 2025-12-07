@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+.helpContainer {
+    width: var(--app-width-);
+    margin: 0 auto;
+}
+.search {
+    background-color: var(--primary-color-);
+    height: 220px;
+}

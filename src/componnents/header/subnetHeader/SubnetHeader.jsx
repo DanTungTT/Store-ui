@@ -1,14 +1,12 @@
 import { Link } from "react-router-dom";
-import { useContext } from "react";
-import clsx from "clsx";
 
 import { Logo } from "~/componnents/logo";
-import { InforDashboard } from "~/pages";
+import { useLayoutContext } from "~/hooks/projectHooks/useContext";
 
 import styles from "./subnetHeader.module.css";
 
 const subnetHeader = () => {
-    const infor = useContext(InforDashboard);
+    const { titleHeader, titleHelp } = useLayoutContext();
     return (
         <>
             <header className={styles.subnetHeader}>
@@ -18,11 +16,11 @@ const subnetHeader = () => {
                             <Link to="/">
                                 <Logo />
                             </Link>
-                            <h1 className="header-title text-[2.5rem]/[3rem] ml-6">{infor?.title}</h1>
+                            <h1 className="header-title text-[2.5rem]/[3rem] ml-6">{titleHeader}</h1>
                         </div>
                         <div className=" flex items-center">
                             <a href="#" className="text-[var(--primary-color-)]">
-                                {infor?.helper || "Bạn cần giúp đỡ?"}
+                                {titleHelp}
                             </a>
                         </div>
                     </div>

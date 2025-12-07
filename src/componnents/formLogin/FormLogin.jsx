@@ -71,7 +71,7 @@ const FormLogin = ({ title, qr, children, clauseAndPolicy }) => {
                     {clauseAndPolicy && (
                         <div className="text-center pt-[2.6rem] text-[1.43rem]">
                             <span className="text-[var(--primary-textColor-)]">
-                                Bằng việc đăng ký, bạn đã đồng ý với shoppe về
+                                Bằng việc đăng ký, bạn đã đồng ý với Seo về
                             </span>
                             <a href="#" className="text-[var(--primary-color-)]">
                                 <br /> Điều khoản dịch vụ
@@ -85,7 +85,7 @@ const FormLogin = ({ title, qr, children, clauseAndPolicy }) => {
 
                     {/*  */}
                     <div className="text-center pt-[3rem]">
-                        <span className="text-[#b3b3b3]">Bạn mới biết tới SupperSeo? </span>
+                        <span className="text-[#b3b3b3]">Bạn mới biết tới Seo? </span>
                         <a href="#" className="text-[var(--primary-color-)]">
                             {title === "Đăng Nhập" ? "Đăng Ký" : "Đăng Nhập"}
                         </a>
