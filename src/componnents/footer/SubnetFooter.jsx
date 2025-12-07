@@ -7,7 +7,7 @@ const SubnetFooter = () => {
     const infor = useContext(InforDashboard);
 
     let Footer;
-    if (infor.InforShopFooter) Footer = infor.InforShopFooter;
+    if (infor?.InforShopFooter) Footer = infor.InforShopFooter;
     const [footerInfors, followingFooter, payFooter, qrFooter] = data;
     const footer1 = (
         <Footer className="informationFooter">
@@ -94,7 +94,7 @@ const SubnetFooter = () => {
 
     return (
         <>
-            {infor.InforShopFooter ? (
+            {infor?.InforShopFooter ? (
                 footer1
             ) : (
                 <footer className="text-center text-[1.5rem]">© 2025 Shopee. Tất cả các quyền được bảo lưu.</footer>

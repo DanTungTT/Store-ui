@@ -1,14 +1,10 @@
-import { Button } from "~/componnents/ui";
+import FloatingBox from "~/componnents/floatingBox/FloatingBox";
 import { UseIcon, faQrcode, faAppStore, faGooglePay } from "~/assets/icon";
-const DownApp = ({ ref, style, ...pros }) => {
+
+const DownAppFloating = ({ ...props }) => {
     return (
         <>
-            <div
-                ref={ref}
-                style={style}
-                {...pros}
-                className="bg-white w-[19rem] rounded-2xl py-5 shadow-[0_0_.5rem_#333]"
-            >
+            <FloatingBox {...props} className="w-[19rem] py-5">
                 <div className="mr-10">
                     <UseIcon icon={faQrcode} className="text-[15rem] text-[#333] " />
                 </div>
@@ -22,9 +18,9 @@ const DownApp = ({ ref, style, ...pros }) => {
                         Google Play
                     </a>
                 </div>
-            </div>
+            </FloatingBox>
         </>
     );
 };
 
-export default DownApp;
+export default DownAppFloating;

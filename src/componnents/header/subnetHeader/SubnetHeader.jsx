@@ -22,7 +22,7 @@ const subnetHeader = () => {
                         </div>
                         <div className=" flex items-center">
                             <a href="#" className="text-[var(--primary-color-)]">
-                                {infor.helper || "Bạn cần giúp đỡ?"}
+                                {infor?.helper || "Bạn cần giúp đỡ?"}
                             </a>
                         </div>
                     </div>

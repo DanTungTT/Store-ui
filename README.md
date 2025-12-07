@@ -1,13 +1,6 @@
 # React + Vite
 
-1. sửa lại logic validate form
-2. hoàn thiện những trang còn lại của header
-3. hoàn thiện header:
-    - canh chỉnh logo
-    - desgin ô search
-    - desgin card shopping
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+// This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
 
