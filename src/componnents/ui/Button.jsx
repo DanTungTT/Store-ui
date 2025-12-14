@@ -1,9 +1,9 @@
 import { UseIcon } from "~/assets/icon";
-const Button = ({ type, title, propsIcon, className }) => {
+const Button = ({ type = "normal", title, propsIcon, className }) => {
     const typeBtn = {
         primary: "text-white bg-[var(--primary-color-)] rounded",
         secondary: "rounded border-[var(--primary-color-)] text-[var(--primary-color-)] bg-[#ffeee8] border-[1px]",
-        normal: "border border-[#333] rounded",
+        normal: "border border-[#333] ",
     };
     return (
         <>

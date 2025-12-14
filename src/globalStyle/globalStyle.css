@@ -8,6 +8,11 @@ html {
 * {
     user-select: none;
 }
+@layer base {
+    body {
+        font-size: var(--default-fontSize-);
+    }
+}
 :root {
     /* header variable */
     --header-height-: 12rem;

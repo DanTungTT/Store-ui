@@ -19,7 +19,7 @@ const subnetHeader = () => {
                             <h1 className="header-title text-[2.5rem]/[3rem] ml-6">{titleHeader}</h1>
                         </div>
                         <div className=" flex items-center">
-                            <a href="#" className="text-[var(--primary-color-)]">
+                            <a href="#" className="block text-[var(--primary-color-)]">
                                 {titleHelp}
                             </a>
                         </div>

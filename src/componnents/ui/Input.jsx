@@ -18,7 +18,7 @@ const Input = ({ type, id, text, hiddenPassword, placeholder, className, ...prop
             return inputValue.trim() === "" ? "Vui lòng không bỏ trống" : null;
         },
         password(inputValue, minLength) {
-            return inputValue.trim() <= minLength ? "Vui lòng nhập đúng ký tự" : null;
+            return inputValue.trim().length < minLength ? "Vui lòng nhập đúng ký tự" : null;
         },
     };
 

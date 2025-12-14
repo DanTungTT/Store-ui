@@ -7,9 +7,10 @@ import { UseIcon, faAngleUp } from "~/assets/icon";
 import { useEffect } from "react";
 
 const SellerChannel = () => {
-    const { setTitleHeader } = useLayoutContext();
+    const { setTitleHeader, setTitleHelp } = useLayoutContext();
     useEffect(() => {
         setTitleHeader("Kênh người bán");
+        setTitleHelp("Bạn cần giúp đỡ?");
     }, []);
     return (
         <>

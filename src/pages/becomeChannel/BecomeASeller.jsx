@@ -10,10 +10,11 @@ import styles from "./becomeASeller.module.css";
 import { useEffect } from "react";
 
 const BecomeASeller = () => {
-    const { setTitleHeader, setLayoutFooter } = useLayoutContext();
+    const { setTitleHeader, setLayoutFooter, setTitleHelp } = useLayoutContext();
     useEffect(() => {
         setTitleHeader("Trở Thành Người Bán");
         setLayoutFooter("footer");
+        setTitleHelp("Bạn cần giúp đỡ?");
         return () => {
             setLayoutFooter("");
             setTitleHeader("");

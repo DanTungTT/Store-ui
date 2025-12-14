@@ -5,7 +5,7 @@ import "./footer.css";
 import { useLayoutContext } from "../../hooks/projectHooks/useContext";
 const SubnetFooter = () => {
     const { LayoutFooter } = useLayoutContext();
-    console.log(LayoutFooter);
+
     let Footer = LayoutFooter;
 
     // if () Footer = infor.InforShopFooter;
