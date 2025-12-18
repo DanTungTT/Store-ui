@@ -3,9 +3,7 @@ import DownAppFloating from "./DownAppFloating";
 
 const DownAppWrapper = () => {
     // effect hover downApp
-    const { open, refs, floatingStyles, getReferenceProps, getFloatingProps } = useHoverFloating({
-        strategy: "fixed",
-    });
+    const { open, refs, floatingStyles, getReferenceProps, getFloatingProps } = useHoverFloating();
     return (
         <>
             <li ref={refs.setReference} {...getReferenceProps()}>

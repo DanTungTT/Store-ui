@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 
 import { Logo } from "~/componnents/logo";
-import { useLayoutContext } from "~/hooks/projectHooks/useContext";
+import { useLayoutContext } from "~/hooks/projectHooks/useLayoutContext";
 
 import styles from "./subnetHeader.module.css";
 

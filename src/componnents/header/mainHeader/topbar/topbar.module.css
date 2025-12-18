@@ -1,18 +1,17 @@
 @import "tailwindcss";
 
-.header-navbar {
+.header-topbar {
     ul {
         margin: 0.3rem 0;
         li {
             @apply mx-[1rem] text-[1.3rem];
 
-            span:hover  {
+            span:hover {
                 opacity: 0.7;
             }
             a {
                 @apply mx-[0.3rem];
             }
-           
         }
     }
     .spacing:before {
@@ -28,7 +27,7 @@
         background-color: white;
         z-index: 1;
     }
-    .header__navbar-left {
+    .header__topbar-left {
         li {
             position: relative;
         }
@@ -47,4 +46,3 @@
         }
     }
 }
-

@@ -1,16 +1,16 @@
 import { forwardRef } from "react";
-
+import clsx from "clsx";
 import { Button } from "~/componnents/ui/";
 import FloatingBox from "~/componnents/floatingBox/FloatingBox";
 
 import { LoginToView } from "~/assets/img/header/Notification";
 
-const NotificationFloating = forwardRef(({ refFloating, middlewareData, style, ...props }, ref) => {
+const NotificationFloating = forwardRef(({ refFloating, middlewareData, ...props }, ref) => {
     const btnStyles =
         "text-[var(--primary-textColor-)] w-[100%]  hover:bg-white hover:text-[var(--primary-color-)] p-3";
     return (
         <>
-            <FloatingBox ref={refFloating} style={style} {...props}>
+            <FloatingBox {...props}>
                 <div
                     ref={ref}
                     className="arrow w-20 h-20  bg-white rotate-[45deg]"

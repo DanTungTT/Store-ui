@@ -11,6 +11,7 @@ html {
 @layer base {
     body {
         font-size: var(--default-fontSize-);
+       
     }
 }
 :root {

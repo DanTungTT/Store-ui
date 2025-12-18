@@ -1,4 +1,4 @@
-import { forwardRef, useEffect, useImperativeHandle, useState, useRef } from "react";
+import { forwardRef, useImperativeHandle, useState, useRef } from "react";
 import { UseIcon, faEye, faEyeSlash } from "~/assets/icon";
 
 const Input = ({ type, id, text, hiddenPassword, placeholder, className, ...props }, ref) => {
@@ -34,7 +34,7 @@ const Input = ({ type, id, text, hiddenPassword, placeholder, className, ...prop
     }, []);
     return (
         <>
-            <div className="flex flex-col my-9 relative">
+            <div className="flex flex-col my-5 relative">
                 <div
                     className={`flex border border-[#c7c7c7] p-3 my-5 rounded has-[input:focus]:shadow-[0rem_0rem_.2rem_#333]`}
                 >

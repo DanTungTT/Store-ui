@@ -6,12 +6,13 @@ import NotificationWrapper from "./notification/NotificationWrapper";
 
 import styles from "./topbar.module.css";
 import { UseIcon, faFacebook, faInstagram, faCircleQuestion, faGlobe, faAngleDown } from "~/assets/icon";
+import LanguagesWrapper from "./languages/LanguagesWrapper";
 
 const Topbar = () => {
     return (
         <>
-            <nav className={clsx(styles["header-navbar"], "flex justify-between leading-[var(--base-lineHeight-)]")}>
-                <ul className={clsx(styles["header__navbar-left"], "flex relative")}>
+            <nav className={clsx(styles["header-topbar"], "flex justify-between leading-[var(--base-lineHeight-)]")}>
+                <ul className={clsx(styles["header__topbar-left"], "flex relative")}>
                     {/* kenh nguoi ban */}
                     <li>
                         <span>
@@ -59,18 +60,17 @@ const Topbar = () => {
                             </span>
                         </Link>
                     </li>
+                    {/* languages */}
+                    <LanguagesWrapper />
                     <li>
-                        <span>
-                            <UseIcon icon={faGlobe} />
-                            Tiếng Việt
-                            <UseIcon icon={faAngleDown} />
-                        </span>
-                    </li>
-                    <li>
-                        <span>Đăng ký</span>
+                        <Link to="/register">
+                            <span>Đăng ký</span>
+                        </Link>
                     </li>
                     <li className={clsx(styles.spacing, "relative")}>
-                        <span>Đăng nhập</span>
+                        <Link to="/login">
+                            <span>Đăng nhập</span>
+                        </Link>
                     </li>
                 </ul>
             </nav>
