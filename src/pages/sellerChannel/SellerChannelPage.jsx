@@ -8,9 +8,28 @@ import { useEffect } from "react";
 
 const SellerChannel = () => {
     const { setTitleHeader, setTitleHelp } = useLayoutContext();
+
+    const inputs = [
+        {
+            id: "1",
+            placeholder: "email/số điện thoại/tên đăng nhập",
+            type: "text",
+            name: "text",
+        },
+        {
+            id: "2",
+            type: "password",
+            name: "password",
+            placeholder: "Nhập mật khẩu",
+        },
+    ];
     useEffect(() => {
         setTitleHeader("Kênh người bán");
         setTitleHelp("Bạn cần giúp đỡ?");
+        return () => {
+            setTitleHeader("");
+            setTitleHelp("");
+        };
     }, []);
     return (
         <>
@@ -36,23 +55,7 @@ const SellerChannel = () => {
                         </div>
 
                         <div>
-                            <FormLogin title="Đăng Nhập" qr>
-                                <Input
-                                    id="1"
-                                    placeholder="Email/Số điện thoại/Tên đăng nhập"
-                                    className="outline-none w-[100%]"
-                                    type="text"
-                                />
-
-                                <Input
-                                    id="2"
-                                    hiddenPassword
-                                    type="password"
-                                    className="outline-none w-[100%]"
-                                    placeholder="Nhập mật khẩu"
-                                    minLength={6}
-                                />
-                            </FormLogin>
+                            <FormLogin title="Đăng Nhập" qr inputs={inputs} />
                             {/*  */}
                             <div className="w-[40rem] my-7 shadow-[0rem_0rem_1rem_#ededed] p-5 text-center hover:bg-[#eeeded] ">
                                 <button>

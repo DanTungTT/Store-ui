@@ -20,6 +20,14 @@ const BecomeASeller = () => {
             setTitleHeader("");
         };
     }, []);
+    const inputs = [
+        {
+            id: "1",
+            type: "number",
+            name: "number",
+            placeholder: "Số điện thoại",
+        },
+    ];
     return (
         <>
             <SubnetLayout>
@@ -51,9 +59,7 @@ const BecomeASeller = () => {
 
                             {/* right */}
                             <div className="mt-[8.5rem]">
-                                <FormLogin title="Đăng Ký" clauseAndPolicy>
-                                    <Input type="text" placeholder="Số điện thoại" className="outline-none w-[100%]" />
-                                </FormLogin>
+                                <FormLogin title="Đăng Ký" clauseAndP inputs={inputs} />
                             </div>
                         </div>
                     </div>

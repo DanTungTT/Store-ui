@@ -66,10 +66,10 @@ const SupportPage = () => {
                             <h1 className="text-[3.4rem] text-white">Xin chào, Seo có thể giúp gì được cho bạn?</h1>
                         </div>
                         {/* search input */}
-                        <div className="bg-white w-[80rem] h-[6rem] flex rounded-xl">
+                        <div>
                             <SearchInput
                                 placeholder="Nhập từ khóa hoặc nội dụng cần tìm"
-                                className=" text-[2.5rem] flex-1 outline-none pl-10 placeholder:text-[2.5rem]"
+                                className="w-[80rem] text-[30px] h-[5rem]"
                             />
                         </div>
                     </div>

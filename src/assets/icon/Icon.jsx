@@ -11,6 +11,7 @@ import {
     faGlobe,
     faMagnifyingGlass,
     faXmark,
+    faBagShopping,
 } from "@fortawesome/free-solid-svg-icons";
 
 const UseIcon = ({ icon, ...props }) => {
@@ -33,4 +34,5 @@ export {
     faAngleDown,
     faMagnifyingGlass,
     faXmark,
+    faBagShopping,
 };

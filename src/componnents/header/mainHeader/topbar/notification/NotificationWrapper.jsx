@@ -40,11 +40,10 @@ const NotificationWrapper = () => {
                 </span>
                 {/* floating element */}
                 {open && (
-                    <div ref={refs.setFloating} style={floatingStyles}>
+                    <div ref={refs.setFloating} style={floatingStyles} {...getFloatingProps()}>
                         <NotificationFloating
                             ref={refArrow}
                             middlewareData={middlewareData}
-                            {...getFloatingProps()}
                             style={{
                                 ...transitionStyles,
                             }}

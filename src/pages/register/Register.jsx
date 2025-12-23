@@ -15,6 +15,14 @@ const Register = () => {
             setLayoutFooter("");
         };
     }, []);
+    const inputs = [
+        {
+            id: "1",
+            type: "number",
+            name: "number",
+            placeholder: "Số điện thoại",
+        },
+    ];
     return (
         <>
             <SubnetLayout>
@@ -33,9 +41,7 @@ const Register = () => {
                             ></div>
                             {/* form */}
                             <div>
-                                <FormLogin title="Đăng Ký" clauseAndPolicy>
-                                    <Input placeholder="Số điện thoại" className="outline-none" />
-                                </FormLogin>
+                                <FormLogin title="Đăng Ký" clauseAndPolicy inputs={inputs} />
                             </div>
                         </div>
                     </main>

@@ -16,6 +16,20 @@ const Login = () => {
             setTitleHelp("");
         };
     }, []);
+    const inputs = [
+        {
+            id: "1",
+            placeholder: "Email/Số điện thoại/Tên đăng nhập",
+            type: "text",
+            name: "text",
+        },
+        {
+            id: "2",
+            placeholder: "Mật Khẩu",
+            type: "password",
+            name: "password",
+        },
+    ];
     return (
         <>
             <SubnetLayout>
@@ -34,10 +48,7 @@ const Login = () => {
                             ></div>
                             {/* form */}
                             <div>
-                                <FormLogin title="Đăng Nhập" qr>
-                                    <Input placeholder="Email/Số điện thoại/Tên đăng nhập" className="outline-none" />
-                                    <Input placeholder="Số điện thoại" className="outline-none" />
-                                </FormLogin>
+                                <FormLogin title="Đăng Nhập" qr inputs={inputs} />
                             </div>
                         </div>
                     </main>
