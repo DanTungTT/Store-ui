@@ -1,4 +1,5 @@
 import { createContext, useState } from "react";
+import { useContext } from "react";
 
 export const LayoutContext = createContext();
 
@@ -16,3 +17,5 @@ const LayoutProvider = ({ children }) => {
 };
 
 export default LayoutProvider;
+
+export const useLayoutContext = () => useContext(LayoutContext);

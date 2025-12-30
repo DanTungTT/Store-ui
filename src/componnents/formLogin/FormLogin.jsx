@@ -2,12 +2,15 @@ import { useEffect, useState } from "react";
 import { faFacebook, faGoogle } from "~/assets/icon";
 import clsx from "clsx";
 
+import { useAuthenContext } from "~/provider/AuthenProvider";
+import { useNameContext } from "~/provider/NameProvider";
 import { Button, Input } from "~/componnents/ui";
 import QrLogin from "./QrLogin";
 
 import styles from "./formLogin.module.css";
 
 const FormLogin = ({ title, qr, inputs, clauseAndPolicy }) => {
+    const { login } = useAuthenContext();
     const [form, setForm] = useState({
         text: "",
         password: "",
@@ -18,11 +21,12 @@ const FormLogin = ({ title, qr, inputs, clauseAndPolicy }) => {
     const [error, setError] = useState({});
     const [isFormValid, setIsFormValid] = useState(false);
 
+    const { setName } = useNameContext();
     const schema = {
         text: ["isRequired"],
         password: ["isRequired", { minLength: 6 }],
         email: ["isRequired", "isEmail"],
-        number: ["isRequired", "isNumber", { minLength: 10 }],
+        number: ["isRequired", "isNumber", { lengthInput: 10 }],
     };
     // handle event onChange
     const handleChange = (input) => {
@@ -67,6 +71,9 @@ const FormLogin = ({ title, qr, inputs, clauseAndPolicy }) => {
             minLength(min) {
                 return inputValue.length < min ? `Trường này phải nhập đủ ${min} kí tự` : null;
             },
+            lengthInput(value) {
+                return inputValue.length !== value ? `Trường này phải nhập ${value} kí tự` : null;
+            },
         };
         for (const rule of rules) {
             if (typeof rule === "string") {
@@ -105,6 +112,7 @@ const FormLogin = ({ title, qr, inputs, clauseAndPolicy }) => {
                     key === "email" && console.log("Email  :", form[key]);
                 }
             });
+            login(form);
         }
     };
     return (
@@ -137,7 +145,7 @@ const FormLogin = ({ title, qr, inputs, clauseAndPolicy }) => {
                     {/* button login */}
                     <div>
                         <Button
-                            type="primary"
+                            typeStyle="primary"
                             title={title === "Đăng Nhập" ? "Đăng Nhập" : "Tiếp Theo"}
                             className="w-[100%] py-4 my-5"
                         />
@@ -164,11 +172,13 @@ const FormLogin = ({ title, qr, inputs, clauseAndPolicy }) => {
                             propsIcon={{ icon: faFacebook, className: "text-blue-500" }}
                             title="Facebook"
                             className="w-[90%] py-3"
+                            type="button"
                         />
                         <Button
                             propsIcon={{ icon: faGoogle, className: "text-red-500" }}
-                            title="Facebook"
+                            title="Google"
                             className="w-[90%] py-3"
+                            type="button"
                         />
                     </div>
 

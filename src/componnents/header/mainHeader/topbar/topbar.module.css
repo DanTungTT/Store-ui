@@ -9,9 +9,6 @@
             span:hover {
                 opacity: 0.7;
             }
-            a {
-                @apply mx-[0.3rem];
-            }
         }
     }
     .spacing:before {

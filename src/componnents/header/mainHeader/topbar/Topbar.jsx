@@ -1,14 +1,17 @@
 import { Link } from "react-router-dom";
 import clsx from "clsx";
 
+import { useAuthenContext } from "~/provider/AuthenProvider";
 import DownAppWrapper from "./ downApp/DownAppWrapper";
 import NotificationWrapper from "./notification/NotificationWrapper";
+import Avatar from "./Avatar";
 
 import styles from "./topbar.module.css";
-import { UseIcon, faFacebook, faInstagram, faCircleQuestion, faGlobe, faAngleDown } from "~/assets/icon";
+import { UseIcon, faFacebook, faInstagram, faCircleQuestion } from "~/assets/icon";
 import LanguagesWrapper from "./languages/LanguagesWrapper";
 
 const Topbar = () => {
+    const { isAuthen } = useAuthenContext();
     return (
         <>
             <nav className={clsx(styles["header-topbar"], "flex justify-between leading-[var(--base-lineHeight-)]")}>
@@ -60,18 +63,25 @@ const Topbar = () => {
                             </span>
                         </Link>
                     </li>
+
                     {/* languages */}
                     <LanguagesWrapper />
-                    <li>
-                        <Link to="/register">
-                            <span>Đăng ký</span>
-                        </Link>
-                    </li>
-                    <li className={clsx(styles.spacing, "relative")}>
-                        <Link to="/login">
-                            <span>Đăng nhập</span>
-                        </Link>
-                    </li>
+                    {isAuthen ? (
+                        <Avatar />
+                    ) : (
+                        <>
+                            <li>
+                                <Link to="/register">
+                                    <span>Đăng ký</span>
+                                </Link>
+                            </li>
+                            <li className={clsx(styles.spacing, "relative")}>
+                                <Link to="/login">
+                                    <span>Đăng nhập</span>
+                                </Link>
+                            </li>
+                        </>
+                    )}
                 </ul>
             </nav>
         </>

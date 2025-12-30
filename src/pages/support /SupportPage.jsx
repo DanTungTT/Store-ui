@@ -1,5 +1,5 @@
 import clsx from "clsx";
-import { useLayoutContext } from "~/hooks/projectHooks/useLayoutContext";
+import { useLayoutContext } from "~/provider/LayoutProvider";
 import { useEffect, useState } from "react";
 
 import { SubnetLayout } from "~/layout";

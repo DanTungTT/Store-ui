@@ -2,7 +2,7 @@ import { UseIcon } from "~/assets/icon";
 import data from "./data";
 import "./footer.css";
 
-import { useLayoutContext } from "~/hooks/projectHooks/useLayoutContext";
+import { useLayoutContext } from "~/provider/LayoutProvider";
 const SubnetFooter = () => {
     const { LayoutFooter } = useLayoutContext();
 
