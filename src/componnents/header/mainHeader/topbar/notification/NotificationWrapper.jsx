@@ -1,18 +1,18 @@
 import { useRef } from "react";
 import { useHoverFloating } from "~/hooks/floatingUi";
-import { arrow, offset } from "@floating-ui/react";
+import { arrow, autoPlacement, offset } from "@floating-ui/react";
 
 import NotificationFloating from "./NotificationFloating";
 import { UseIcon, faBell } from "~/assets/icon";
 import clsx from "clsx";
-const NotificationWrapper = () => {
+const NotificationWrapper = ({ ...props }) => {
     const refArrow = useRef(null);
 
     // effect hover noti
     const { open, refs, floatingStyles, getReferenceProps, getFloatingProps, middlewareData, transitionStyles } =
         useHoverFloating({
             optionsFloating: {
-                staytegy: "fixed",
+                strategy: "fixed",
                 middleware: [offset({ mainAxis: 10, crossAxis: -150 }), arrow({ element: refArrow })],
             },
             optionsTransitionStyles: {
@@ -31,9 +31,10 @@ const NotificationWrapper = () => {
                 },
             },
         });
+
     return (
         <>
-            <li ref={refs.setReference} {...getReferenceProps()}>
+            <li {...props} ref={refs.setReference} {...getReferenceProps()}>
                 <span>
                     <UseIcon icon={faBell} />
                     Thông báo

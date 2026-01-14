@@ -2,7 +2,7 @@ import clsx from "clsx";
 
 import { Button } from "~/componnents/ui";
 
-const BenefitItem = ({ img, type, name, description, list, textColor }) => {
+const BenefitItem = ({ img, type, name, description, list, textColor, ...props }) => {
     const bgBtns = {
         Cross: "bg-[#0046ab]",
         ShopeeCard: "bg-[#ee4d2d]",
@@ -10,7 +10,7 @@ const BenefitItem = ({ img, type, name, description, list, textColor }) => {
     };
     return (
         <>
-            <div className="w-[30rem] shadow-[0_0_.1rem_#333]">
+            <div className="w-[30rem] shadow-[0_0_.1rem_#333]" {...props}>
                 {/* img */}
                 <div>
                     <img src={img} alt={name} />

@@ -1,5 +1,5 @@
 import { useState, useRef, useLayoutEffect } from "react";
-import NotificationSlideBanner from "./NotificationBanner";
+import SlideBanner from "./NotificationBanner";
 import clsx from "clsx";
 
 const listNoti = [
@@ -25,7 +25,7 @@ const listNoti = [
     },
 ];
 
-const NotificationBannerWrapper = ({ onRemoveNoti }) => {
+const BannerWrapper = ({ onRemoveNoti, className }) => {
     const [currentIndex, setCurrentIndex] = useState(0);
 
     const [dragging, setDragging] = useState(false);
@@ -77,10 +77,10 @@ const NotificationBannerWrapper = ({ onRemoveNoti }) => {
 
     return (
         <>
-            <div className="relative h-[8rem]  mt-10  w-[100rem] mx-auto overflow-hidden">
+            <div className={clsx("relative h-[9rem] mt-5  sm:mt-10  w-[60rem] mx-auto overflow-hidden", className)}>
                 <ul
                     ref={refUl}
-                    className="w-full transition-all   flex w-full h-[8.5rem]   [scrollbar-width:none] [-ms-overflow-style:none] [&::webkit-scrollbar]:hidden [&>li]:py-4 [&>li]:px-8"
+                    className="w-full transition-all   flex w-full h-[8.5rem]   [scrollbar-width:none] [-ms-overflow-style:none] [&::webkit-scrollbar]:hidden"
                 >
                     {listNoti.map((item, index) => {
                         return (
@@ -91,9 +91,9 @@ const NotificationBannerWrapper = ({ onRemoveNoti }) => {
                                 onMouseLeave={handleMouseLeave}
                                 key={index}
                                 ref={refWidthLi}
-                                className="bg-[#fff8e4]  border border-[#ffe8b4] min-w-[100%] text-[1.3rem]  relative"
+                                className="bg-[#fff8e4]  border border-[#ffe8b4] min-w-[100%] text-[1.3rem]  relative p-1 sm:p-2 md:p-5"
                             >
-                                <NotificationSlideBanner {...item} onRemoveNoti={onRemoveNoti} />
+                                <SlideBanner {...item} onRemoveNoti={onRemoveNoti} />
                             </li>
                         );
                     })}
@@ -118,4 +118,4 @@ const NotificationBannerWrapper = ({ onRemoveNoti }) => {
     );
 };
 
-export default NotificationBannerWrapper;
+export default BannerWrapper;

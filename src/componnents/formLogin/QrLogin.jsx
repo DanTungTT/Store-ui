@@ -1,5 +1,5 @@
 import { UseIcon, faQrcode } from "~/assets/icon";
-const QrLogin = ({ ...props }) => {
+const QrLogin = () => {
     return (
         <>
             <div className="qrLogin flex ">
@@ -41,7 +41,7 @@ const QrLogin = ({ ...props }) => {
                                             before:border-r-transparent
                                                     "
                     ></span>
-                    <UseIcon icon={faQrcode} className="text-[4.5rem] text-[var(--primary-color-)] cursor-pointer" />
+                    <UseIcon icon={faQrcode} className="text-[4.5rem] primaryColor cursor-pointer" />
                 </div>
             </div>
         </>

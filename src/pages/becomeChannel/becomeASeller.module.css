@@ -8,12 +8,10 @@
     color: var(--heading-color-);
 }
 .becomeASellerContainer {
-    font-size: var(--default-fontSize-);
     padding-bottom: 1rem;
-    border-bottom: .3rem var(--primary-color-) solid;
+    border-bottom: 0.3rem var(--primary-color-) solid;
 }
 .becomeASellerContainer-register {
-    height: 65rem;
     width: 100%;
     margin-top: 1.2rem;
     background-image: url(https://deo.shopeemobile.com/shopee/shopee-buyeruserfetoc-live-sg/assets/020bba13463e5663.png);
@@ -24,16 +22,9 @@
 .primaryColor {
     color: var(--primary-color-);
 }
-.convice,
-.instrucsionContainer,
-.benefitContainer,
-.following {
-    width: var(--app-width-);
-    margin: 0 auto;
-}
+
 .instrucsion {
     background-image: var(--header-backgroundColor-);
-    height: 35rem;
     * {
         color: var(--instrucsion-color-);
     }

@@ -1,9 +1,26 @@
-import { Link } from "react-router-dom";
+import { useEffect, useState } from "react";
+import { data, Link } from "react-router-dom";
 import { publicRouter as LinkItems } from "~/routers";
+import api from "~/api/api";
+
+// https://api.escuelajs.co/api/v1/categories
 const Content = () => {
+    const rs = api("\products");
+
     return (
         <>
             <main className="col-span-9">
+                <div className="h-full">
+                    <ul>
+                        {rs.map((product, index) => {
+                            return (
+                                <div key={product.id}>
+                                    <img src={product.images} alt="" width="150px" /> {product.title}
+                                </div>
+                            );
+                        })}
+                    </ul>
+                </div>
                 {/* {LinkItems.map((link, index) => {
                     const textNode = link.path === "/" ? "home" : link.path.slice(1, link.path.length);
                     return (

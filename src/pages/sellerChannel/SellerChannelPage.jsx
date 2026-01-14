@@ -3,9 +3,8 @@ import { useEffect } from "react";
 import { useLayoutContext } from "~/provider/LayoutProvider";
 import GuestRouter from "~/routers/GuestRouter";
 import { SubnetLayout } from "~/layout";
-import { FormLogin, Input } from "~/componnents";
+import { FormLogin } from "~/componnents";
 
-import styles from "./sellerChannel.module.css";
 import { UseIcon, faAngleUp } from "~/assets/icon";
 
 const SellerChannel = () => {
@@ -36,13 +35,12 @@ const SellerChannel = () => {
         <>
             <GuestRouter>
                 <SubnetLayout>
-                    <main className={styles.sellerChannelContainer}>
-                        <div className="flex justify-between mt-[12rem] px-[7rem]">
-                            <div className="mt-[10rem]">
-                                <div className="w-[40.5rem]">
-                                    <h1 className="text-[3rem]  text-[var(--primary-color-)] font-[500]">
-                                        Bán hàng chuyên nghiệp
-                                    </h1>
+                    <main className="container-page min-h-[70rem]">
+                        <div className="flex flex-col  justify-between md:flex-row md:pt-[9rem] ">
+                            {/* banner */}
+                            <div className="text-center m-auto py-20 mb-20 sm:py-20 sm:mt-[5rem]">
+                                <div className="m-auto  w-[30rem] sm:w-[40.5rem]">
+                                    <h1 className="text-[3rem]  primaryColor font-medium">Bán hàng chuyên nghiệp</h1>
                                     <p className="text-[1.9rem] my-4 text-[#888888]">
                                         Quản lý shop của bạn một cách hiệu quả hơn trên Shopee với Shopee - Kênh Người
                                         bán
@@ -57,7 +55,7 @@ const SellerChannel = () => {
                                 </div>
                             </div>
 
-                            <div>
+                            <div className="overflow-hidden max-w-full flex flex-col justify-center items-center">
                                 <FormLogin title="Đăng Nhập" qr inputs={inputs} />
                                 {/*  */}
                                 <div className="w-[40rem] my-7 shadow-[0rem_0rem_1rem_#ededed] p-5 text-center hover:bg-[#eeeded] ">

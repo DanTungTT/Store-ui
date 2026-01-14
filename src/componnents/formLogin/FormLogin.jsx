@@ -21,7 +21,6 @@ const FormLogin = ({ title, qr, inputs, clauseAndPolicy }) => {
     const [error, setError] = useState({});
     const [isFormValid, setIsFormValid] = useState(false);
 
-    const { setName } = useNameContext();
     const schema = {
         text: ["isRequired"],
         password: ["isRequired", { minLength: 6 }],
@@ -134,7 +133,7 @@ const FormLogin = ({ title, qr, inputs, clauseAndPolicy }) => {
                                 key={index}
                                 {...input}
                                 name={name}
-                                className="outline-none w-[100%]"
+                                className="outline-none "
                                 value={form?.[input.type]}
                                 onChange={(e) => handleChange(e.target)}
                                 onBlur={(e) => handleBlur(name, e.target.value)}
@@ -145,9 +144,8 @@ const FormLogin = ({ title, qr, inputs, clauseAndPolicy }) => {
                     {/* button login */}
                     <div>
                         <Button
-                            typeStyle="primary"
                             title={title === "Đăng Nhập" ? "Đăng Nhập" : "Tiếp Theo"}
-                            className="w-[100%] py-4 my-5"
+                            className="w-full py-4 my-5 btn-primary"
                         />
                     </div>
 
@@ -171,13 +169,13 @@ const FormLogin = ({ title, qr, inputs, clauseAndPolicy }) => {
                         <Button
                             propsIcon={{ icon: faFacebook, className: "text-blue-500" }}
                             title="Facebook"
-                            className="w-[90%] py-3"
+                            className="w-[90%] py-3 btn-normal"
                             type="button"
                         />
                         <Button
                             propsIcon={{ icon: faGoogle, className: "text-red-500" }}
                             title="Google"
-                            className="w-[90%] py-3"
+                            className="w-[90%] py-3 btn-normal"
                             type="button"
                         />
                     </div>
@@ -185,14 +183,12 @@ const FormLogin = ({ title, qr, inputs, clauseAndPolicy }) => {
                     {/* policy */}
                     {clauseAndPolicy && (
                         <div className="text-center pt-[2.6rem] text-[1.43rem]">
-                            <span className="text-[var(--primary-textColor-)]">
-                                Bằng việc đăng ký, bạn đã đồng ý với Seo về
-                            </span>
-                            <a href="#" className="text-[var(--primary-color-)]">
+                            <span className="text-primaryColor">Bằng việc đăng ký, bạn đã đồng ý với Seo về</span>
+                            <a href="#" className="primaryColor">
                                 <br /> Điều khoản dịch vụ
                             </a>
                             &
-                            <a href="#" className="text-[var(--primary-color-)]">
+                            <a href="#" className="primaryColor">
                                 Chính sách bảo mật
                             </a>
                         </div>
@@ -201,7 +197,7 @@ const FormLogin = ({ title, qr, inputs, clauseAndPolicy }) => {
                     {/*  */}
                     <div className="text-center pt-[3rem]">
                         <span className="text-[#b3b3b3]">Bạn mới biết tới Seo? </span>
-                        <a href="#" className="text-[var(--primary-color-)]">
+                        <a href="#" className="primaryColor">
                             {title === "Đăng Nhập" ? "Đăng Ký" : "Đăng Nhập"}
                         </a>
                     </div>

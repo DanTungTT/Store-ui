@@ -1,5 +1,5 @@
 import { UseIcon, faXmark } from "~/assets/icon";
-const NotificationSlideBanner = ({ noti, link, onRemoveNoti }) => {
+const SlideBanner = ({ noti, link, onRemoveNoti }) => {
     return (
         <div className="flex px-5">
             <span>
@@ -14,4 +14,4 @@ const NotificationSlideBanner = ({ noti, link, onRemoveNoti }) => {
     );
 };
 
-export default NotificationSlideBanner;
+export default SlideBanner;

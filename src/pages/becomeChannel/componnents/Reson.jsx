@@ -3,7 +3,7 @@ const Reson = ({ img, title, text, textColor }) => {
         <>
             <div className="item text-center py-3">
                 <div className="img">
-                    <img className="mx-auto" src={img} alt={`"${title}"`} />
+                    <img className="mx-auto max-w-[8rem]" src={img} alt={`"${title}"`} />
                 </div>
                 <div className="text py-5">
                     <div>

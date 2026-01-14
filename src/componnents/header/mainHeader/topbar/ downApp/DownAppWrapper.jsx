@@ -1,9 +1,15 @@
 import useHoverFloating from "~/hooks/floatingUi/useHoverFloating";
 import DownAppFloating from "./DownAppFloating";
+import { autoPlacement, offset } from "@floating-ui/react";
 
 const DownAppWrapper = () => {
     // effect hover downApp
-    const { open, refs, floatingStyles, getReferenceProps, getFloatingProps } = useHoverFloating();
+    const { open, refs, floatingStyles, getReferenceProps, getFloatingProps } = useHoverFloating({
+        optionsFloating: {
+            strategy: "fixed",
+            middleware: [offset({ mainAxis: 10 }), autoPlacement()],
+        },
+    });
     return (
         <>
             <li ref={refs.setReference} {...getReferenceProps()}>

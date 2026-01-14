@@ -14,6 +14,7 @@ import {
     faBagShopping,
     faUserAstronaut,
     faRightFromBracket,
+    faList,
 } from "@fortawesome/free-solid-svg-icons";
 
 const UseIcon = ({ icon, ...props }) => {
@@ -39,4 +40,5 @@ export {
     faBagShopping,
     faUserAstronaut,
     faRightFromBracket,
+    faList,
 };

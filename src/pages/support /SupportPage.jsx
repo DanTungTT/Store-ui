@@ -1,13 +1,11 @@
-import clsx from "clsx";
 import { useLayoutContext } from "~/provider/LayoutProvider";
 import { useEffect, useState } from "react";
 
 import { SubnetLayout } from "~/layout";
 import { SearchInput } from "~/componnents/ui";
-import NotificationBannerWrapper from "./componnents/NotificationBannerWrapper";
+import BannerWrapper from "./componnents/BannerWrapper";
 import CategoryItem from "./componnents/CategoryItem";
 
-import styles from "./supportPage.module.css";
 import { home, notiComon, pay, refund, ship, tag, phone } from "~/assets/img/header/support";
 
 const array = [
@@ -59,30 +57,35 @@ const SupportPage = () => {
     return (
         <>
             <SubnetLayout>
-                <div className={clsx(styles.search)}>
-                    <div className="flex flex-col justify-evenly items-center h-full">
+                <div className="bg-primary h-[22rem]">
+                    <div className="flex flex-col justify-evenly items-center h-full w-[50rem] m-auto">
                         {/* greeting */}
-                        <div>
+                        <div className="text-center">
                             <h1 className="text-[3.4rem] text-white">Xin chào, Seo có thể giúp gì được cho bạn?</h1>
                         </div>
                         {/* search input */}
                         <div>
                             <SearchInput
                                 placeholder="Nhập từ khóa hoặc nội dụng cần tìm"
-                                className="w-[80rem] text-[30px] h-[5rem]"
+                                className="w-[50rem]  text-[25px] h-[5rem] sm:w-[60rem] sm:text-[30px] md:w-[70rem] lg:w-[80rem]"
                             />
                         </div>
                     </div>
                 </div>
-                <main className={clsx(styles.helpContainer)}>
-                    {hiddenNoti && <NotificationBannerWrapper onRemoveNoti={handleRemoveNoti} />}
+                <main className="container-page">
+                    {hiddenNoti && (
+                        <BannerWrapper
+                            onRemoveNoti={handleRemoveNoti}
+                            className="sm:w-[60rem] sm:h-[9rem] md:w-[70rem] lg:w-[80rem]"
+                        />
+                    )}
 
-                    <div className="category mt-25 px-40">
+                    <div className=" mt-25 px-20 sm:px-25 md:px-30 container-xl">
                         <div className="headding my-5">
                             <h1 className="text-[2.5rem] font-semibold">Danh mục</h1>
                         </div>
                         <div className="items">
-                            <ul className="grid grid-cols-4 gap-6">
+                            <ul className="grid grid-cols-2 gap-5 sm:grid-cols-3 sm:gap-5 md:grid-cols-3 lg:grid-cols-4">
                                 {array.map((item, index) => {
                                     return (
                                         <li key={index}>
@@ -94,7 +97,7 @@ const SupportPage = () => {
                         </div>
                     </div>
                     {/* question comon */}
-                    <div className="my-20 px-40">
+                    <div className="my-20 px-40 container-xl">
                         <div className="my-5">
                             <h1 className="text-[2.5rem] font-semibold">Câu hỏi thường gặp</h1>
                         </div>

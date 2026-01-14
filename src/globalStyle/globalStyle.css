@@ -1,5 +1,27 @@
 @import "tailwindcss";
 
+:root {
+    /* header variable */
+    --header-backgroundColor-: linear-gradient(180deg, #f63f2e, #ff6633);
+    --header-height-: 12rem;
+    --header-mobileHeight-: 7rem;
+    --header-textColor-: #fff;
+
+    /* subnetHeader */
+    --subnetHeader-height-: 8.5rem;
+
+    /* global variable */
+    --primary-textColor-: #333;
+    --secondary-textColor: #fff;
+    --default-fontSize-: 1.5rem;
+    --base-lineHeight-: 2;
+    --primary-color-: #ee4d2d;
+    --xl-width-: 120rem;
+    --lg-width-: 102.4rem;
+    --md-width-: 76.8rem;
+    --sm-width-: 64rem;
+}
+
 html {
     font-family: sans-serif;
     font-size: 62.5%;
@@ -11,22 +33,69 @@ html {
 @layer base {
     body {
         font-size: var(--default-fontSize-);
-       
+        color: var(--primary-textColor-);
+    }
+    .container-page {
+        margin: 0 auto;
     }
 }
-:root {
-    /* header variable */
-    --header-height-: 12rem;
-    --header-backgroundColor-: linear-gradient(180deg, #f63f2e, #ff6633);
-    --header-textColor-: #fff;
 
-    /* subnetHeader */
-    --subnetHeader-height-: 8.5rem;
+@layer components {
+    .btn-primary {
+        color: white;
+        background-color: var(--primary-color-);
+        border-radius: 4px;
+    }
+    .btn-normal {
+        border: 1px solid #333;
+    }
+    .btn-secondary {
+        border-radius: 4px;
+        color: var(--primary-color-);
+        background-color: #ffeee8;
+        border: 1px solid var(--primary-color-);
+    }
+}
 
-    /* global variable */
-    --primary-textColor-: #333;
-    --app-width-: 120rem;
-    --default-fontSize-: 1.5rem;
-    --base-lineHeight-: 2;
-    --primary-color-: #ee4d2d;
+@layer utilities {
+    .bg-primary {
+        background-color: var(--primary-color-);
+    }
+    .border-primary {
+        border-color: var(--primary-color-);
+    }
+    .primaryColor {
+        color: var(--primary-color-);
+    }
+    .text-primaryColor {
+        color: var(--primary-textColor-);
+    }
+    .text-secondary {
+        color: var(--secondary-textColor-);
+    }
+    .text-secondaryColor {
+        color: var(--secondary-textColor-);
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .container-page {
+        max-width: var(--xl-width-);
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1280px) {
+    .container-page {
+        max-width: var(--lg-width-);
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1020px) {
+    .container-page {
+        max-width: var(--md-width-);
+    }
+}
+@media screen and (min-width: 640px) and (max-width:768px) {
+    .container-page {
+        max-width: var(--sm-width-);
+    }
 }

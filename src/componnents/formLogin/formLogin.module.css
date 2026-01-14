@@ -4,11 +4,11 @@
 :root {
     --formLogin-bgColor-: #fff;
     --formLogin-textColor-: #333;
-    --formLogin-width-: 40rem;
+    --formLogin-width-: 35rem;
     --formLogin-placeholderColor-: #c0c0c0;
 }
 .formLogin {
-    @apply w-[var(--formLogin-width-)] text-[var(--formLogin-textColor-)]  shadow-[0rem_0rem_1rem_#ededed] p-[3rem] bg-[var(--formLogin-bgColor-)];
+    @apply w-[var(--formLogin-width-)] text-[var(--formLogin-textColor-)]  shadow-[0rem_0rem_1rem_#ededed] py-[3rem] px-5 sm:p-[3rem] bg-[var(--formLogin-bgColor-)];
 
     input::placeholder {
         color: var(--formLogin-placeholderColor-);
