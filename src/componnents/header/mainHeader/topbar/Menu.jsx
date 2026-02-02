@@ -2,8 +2,10 @@ import clsx from "clsx";
 import { Link } from "react-router-dom";
 
 import { useAuthenContext } from "~/provider/AuthenProvider";
-import DownAppWrapper from "./ downApp/DownAppWrapper";
+
+import DownAppWrapper from "./downApp/DownAppWrapper";
 import LanguagesWrapper from "./languages/LanguagesWrapper";
+import Avatar from "./Avatar";
 
 import styles from "./topbar.module.css";
 import { UseIcon, faFacebook, faInstagram, faBell, faCircleQuestion, faXmark } from "~/assets/icon";

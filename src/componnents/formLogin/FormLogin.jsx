@@ -119,7 +119,7 @@ const FormLogin = ({ title, qr, inputs, clauseAndPolicy }) => {
             <form onSubmit={(e) => handleSubmit(e)} className={clsx(styles.formLogin)}>
                 <div>
                     {/* title */}
-                    <div className="flex justify-between my-6">
+                    <div className="flex justify-between my-1">
                         <div>
                             <h1 className="text-[2rem] ">{title}</h1>
                         </div>

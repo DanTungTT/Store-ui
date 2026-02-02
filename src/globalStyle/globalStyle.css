@@ -11,11 +11,16 @@
     --subnetHeader-height-: 8.5rem;
 
     /* global variable */
-    --primary-textColor-: #333;
+
+    /* color */
     --secondary-textColor: #fff;
+    --primary-color-: #ee4d2d;
+    --bg-banner-: #fff;
+
+    /* unit */
     --default-fontSize-: 1.5rem;
     --base-lineHeight-: 2;
-    --primary-color-: #ee4d2d;
+    --primary-textColor-: #333;
     --xl-width-: 120rem;
     --lg-width-: 102.4rem;
     --md-width-: 76.8rem;

@@ -32,7 +32,7 @@ const Avatar = () => {
                         <FloatingBox {...getFloatingProps()} className="">
                             <div>
                                 <div className="flex flex-col p-5 [&>span:hover]:text-[var(--primary-color-)]">
-                                    <span className="text-[var(--primary-textColor-)]">
+                                    <span className="text-[var(--primary-textColor-)] truncate">
                                         Tài khoản: {isAuthen.text || isAuthen.number}
                                     </span>
                                     <span className="text-[var(--primary-textColor-)]">Xem chi tiết</span>

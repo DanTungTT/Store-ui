@@ -1,34 +1,55 @@
-import "./body.css";
-import imgBanner from "~/assets/img/body/banner";
+import { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 import Sidebar from "./Sidebar";
 import Content from "./Content";
+import Banner from "./Banner";
+import HomeFeatureItem from "./HomeFeatureItem";
+
+import "./body.css";
 const Body = () => {
+    const [homeFeatures, setHomeFeatures] = useState([]);
+    useEffect(() => {
+        fetch("http://localhost:3000/products")
+            .then((res) => res.json())
+            .then((data) => setHomeFeatures(data));
+    }, []);
+    // homeFeatures.map((item, index) => {
+    //     console.log(item.images);
+    // });
+    const getImg = (images) => {
+        return (
+            <>
+                {images.map((img, index) => (
+                    <img src={img} />
+                ))}
+            </>
+        );
+    };
     return (
         <>
-            <div className="body-wrapper grid grid-cols-12 gap-x-[2px]">
+            <div className="body-wrapper grid grid-cols-12 gap-x-[2px] ">
                 {/* banner slider */}
-                {/* <section className="container-xl col-span-12 mt-[3rem]">
-                    <div className="grid grid-cols-3 gap-x-2 overflow-hidden">
-                        <div className="col-span-2">
-                            <ul className="flex col-span-2 overflow-hidden ">
-                                {imgBanner.slider.map((img, index) => (
-                                    <li key={index} className="min-w-full">
-                                        <img src={img} className="" />
-                                    </li>
-                                ))}
-                            </ul>
-                        </div>
-                        <div className="col-span-1">
-                            <ul className="flex flex-col col-span-1 gap-1">
-                                {imgBanner.static.map((img, index) => (
-                                    <li key={index}>
-                                        <img src={img} alt="" />
-                                    </li>
-                                ))}
-                            </ul>
-                        </div>
+                <div className="col-span-12 bg-[var(--bg-banner-)]  pb-10">
+                    <div className="container-page grid grid-cols-12 mt-[3rem] ">
+                        <Banner className="col-span-12" />
                     </div>
-                </section> */}
+
+                    {/* homeFeatures */}
+                    <ul className="container-page flex  justify-evenly mt-[3rem] ">
+                        {/* {homeFeatures.map((item, index) => (
+                            <li key={item.id} className="cursor-pointer">
+                                <Link to={item["react-router"]}>
+                                    <HomeFeatureItem {...item} />
+                                </Link>
+                            </li>
+                        ))} */}
+                    </ul>
+                </div>
+                <div className="h-[10rem] col-span-12"></div>
+                {homeFeatures.map((item, index) => {
+                    return getImg(item.images);
+                })}
+
                 {/* <Sidebar></Sidebar>
                 <Content></Content> */}
             </div>

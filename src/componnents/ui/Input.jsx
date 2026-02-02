@@ -13,7 +13,7 @@ const Input = ({ type, setIcon, errorMessage, ...props }) => {
                 <div
                     className={`flex border border-[#c7c7c7] p-3 my-5 rounded has-[input:focus]:shadow-[0rem_0rem_.2rem_#333]`}
                 >
-                    <input type={ipnutType} {...props} />
+                    <input type={ipnutType} {...props} className="flex-1 outline-none" />
                     {type === "password" && (
                         <div
                             onClick={() => setIsPasswordVisible(!isPasswordVisible)}

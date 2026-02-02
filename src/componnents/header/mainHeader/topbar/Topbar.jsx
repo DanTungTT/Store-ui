@@ -4,7 +4,7 @@ import clsx from "clsx";
 
 import { useAuthenContext } from "~/provider/AuthenProvider";
 import useMediaQuery from "~/hooks/projectHooks/useMediaQuery";
-import DownAppWrapper from "./ downApp/DownAppWrapper";
+import DownAppWrapper from "./downApp/DownAppWrapper";
 import NotificationWrapper from "./notification/NotificationWrapper";
 import LanguagesWrapper from "./languages/LanguagesWrapper";
 import Menu from "./Menu";

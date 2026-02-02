@@ -46,10 +46,10 @@ const Login = () => {
                                         paddingTop: "30%",
                                         boxSizing: "border-box",
                                     }}
-                                    className="w-1/3"
+                                    className="w-1/3 hidden xl:block"
                                 ></div>
                                 {/* form */}
-                                <div>
+                                <div className="h-[60rem] flex justify-center items-center">
                                     <FormLogin title="Đăng Nhập" qr inputs={inputs} />
                                 </div>
                             </div>

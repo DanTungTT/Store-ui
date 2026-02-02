@@ -1,0 +1,1161 @@
+{
+    "homeFeatures": [
+        {
+            "id": 1,
+            "react-router": "/hang-quoc-te",
+            "img": "src/assets/img/body/api/homeFeatures/hangQuocTe.png",
+            "title": "Hàng Quốc Tế"
+        },
+        {
+            "id": 2,
+            "react-router": "/seo-xu-li",
+            "img": "src/assets/img/body/api/homeFeatures/seoXuLi.png",
+            "title": "Seo Xử lí"
+        },
+
+        {
+            "id": 3,
+            "react-router": "/deal-hot",
+            "img": "src/assets/img/body/api/homeFeatures/flashSeo.png",
+            "title": "Deal Hot Giờ vàng"
+        },
+        {
+            "id": 4,
+            "react-router": "/seo-style",
+            "img": "src/assets/img/body/api/homeFeatures/seoStyle.png",
+            "title": "Seo Style Voucher 30%"
+        },
+        {
+            "id": 5,
+            "react-router": "/khach-hang-than-thiet",
+            "img": "src/assets/img/body/api/homeFeatures/khachHangThanThiet.png",
+            "title": "Khách hàng thân thiết"
+        },
+        {
+            "id": 6,
+            "react-router": "/ma-giam-gia",
+            "img": "src/assets/img/body/api/homeFeatures/maGiamGia.png",
+            "title": "Mã giảm giá"
+        }
+    ],
+    "products": [
+        {
+            "id": 1,
+            "name": "áo thun",
+            "images": [
+                "src/assets/img/body/api/products/ao/160_ao_thun.jpg",
+                "src/assets/img/body/api/products/ao/ao-thun-soc.jpeg"
+            ],
+            "decription": "áo thun thoái mát màu dải chất lượng cao",
+            "category": { "id": 3, "name": "Áo" },
+            "events": ["src/assets/img/body/events/25.1.png", "src/assets/img/body/events/xtra.png"],
+            "favourite": true,
+            "shopTag": "SeoThinhHanh",
+            "voucher": 10,
+            "label": true,
+            "price": 13720,
+            "sales": 40000,
+            "star": 4.8,
+            "comboPromotion": "Mua 2 & giảm 5%",
+            "shippingTime": "Nhận trong 31 th01",
+            "freeShip": true,
+            "productColor": ["red", "green", "black", "blue"],
+            "likes": 28
+        },
+        {
+            "id": 2,
+            "name": "áo polo nam",
+            "images": [
+                "src/assets/img/body/api/products/ao/ao-polo-nam-den.jpeg",
+                "src/assets/img/body/api/products/ao/ao-polo-nam-trang(2).jpeg",
+                "src/assets/img/body/api/products/ao/ao-polo-trang-nam.jpeg",
+                "src/assets/img/body/api/products/ao/ao-polo-nam.webp"
+            ],
+            "decription": "áo polo nam thoái mát màu dải chất lượng cao",
+            "category": { "id": 3, "name": "Áo" },
+            "events": [
+                "src/assets/img/body/events/25.1.png",
+                "src/assets/img/body/events/xtra.png",
+                "src/assets/img/body/events/sieure.png"
+            ],
+            "favourite": true,
+            "shopTag": "SeoThoiTrang",
+            "voucher": 25,
+            "label": true,
+            "price": 99000,
+            "sales": 60000,
+            "star": 4.9,
+            "comboPromotion": "Mua 2 & giảm 5%",
+            "shippingTime": "Nhận từ 31 th01 - 30 th02",
+            "freeShip": true,
+            "productColor": ["red", "green", "black", "blue"],
+            "likes": 1000
+        },
+        {
+            "id": 3,
+            "name": "áo sơ mi nam",
+            "images": [
+                "src/assets/img/body/api/products/ao/ao-so-mi.jpeg",
+                "src/assets/img/body/api/products/ao/ao-so-mi(2).jpeg",
+                "src/assets/img/body/api/products/ao/ao-so-mi(3).jpeg"
+            ],
+            "decription": "áo sơ mi nam, nam tính màu dải chất lượng cao",
+            "category": { "id": 3, "name": "Áo" },
+            "events": ["src/assets/img/body/events/xtra.png", "src/assets/img/body/events/sieure.png"],
+            "favourite": true,
+            "shopTag": "SeoThoiTrang",
+            "voucher": 5,
+            "label": true,
+            "price": 99000,
+            "sales": 5000,
+            "star": 4.7,
+            "comboPromotion": "Mua 2 & giảm 5%",
+            "shippingTime": "Nhận từ 31 th01 - 30 th02",
+            "freeShip": true,
+            "productColor": ["red", "green", "black", "blue"],
+            "likes": 1500
+        },
+        {
+            "id": 4,
+            "name": "áo thun 3 lỗ nam",
+            "images": [
+                "src/assets/img/body/api/products/ao/ao-ba-lo-3-mau.jpg",
+                "src/assets/img/body/api/products/ao/ao-ba-lo-xanh.jpg",
+                "src/assets/img/body/api/products/ao/ao-ba-lo-den.webp",
+                "src/assets/img/body/api/products/ao/ao-ba-lo-den(2).jpeg",
+                "src/assets/img/body/api/products/ao/ao-ba-lo-trang-den.jpeg"
+            ],
+            "decription": "áo thun 3 lỗ  nam, nam tính màu dải chất lượng cao",
+            "category": { "id": 3, "name": "Áo" },
+            "events": ["src/assets/img/body/events/xtra.png", "src/assets/img/body/events/sieure.png"],
+            "favourite": true,
+            "shopTag": "SeoThoiTrang",
+            "voucher": 5,
+            "label": true,
+            "price": 99000,
+            "sales": 4000,
+            "star": 4.7,
+            "comboPromotion": "Mua 2 & giảm 5%",
+            "shippingTime": "Nhận từ 31 th01 - 30 th02",
+            "freeShip": true,
+            "productColor": ["red", "green", "black", "blue"],
+            "likes": 1000
+        },
+        {
+            "id": 5,
+            "name": "Quần đùi thoái mái mùa hè",
+            "images": [
+                "src/assets/img/body/api/products/quan/quan-dui-hoa.jpeg",
+                "src/assets/img/body/api/products/quan/quan-dui-den.jpeg",
+                "src/assets/img/body/api/products/quan/quan-dui-den(2).jpeg",
+                "src/assets/img/body/api/products/quan/quan-dui-do.jpeg",
+                "src/assets/img/body/api/products/quan/quan-dui-xanh.jpeg",
+                "src/assets/img/body/api/products/quan/quan-dui-xanh(2).jpeg"
+            ],
+            "decription": " quần đùi nam thoát mái mùa hè, nam tính màu dải chất lượng cao",
+            "category": { "id": 4, "name": "quần" },
+            "events": ["src/assets/img/body/events/xtra.png", "src/assets/img/body/events/sieure.png"],
+            "favourite": true,
+            "shopTag": "SeoThoiTrang",
+            "voucher": 5,
+            "label": true,
+            "price": 99000,
+            "sales": 60000,
+            "star": 4.7,
+            "comboPromotion": "Mua 2 & giảm 5%",
+            "shippingTime": "Nhận từ 31 th01 - 30 th02",
+            "freeShip": true,
+            "productColor": ["red", "green", "black", "blue"],
+            "likes": 1500
+        },
+        {
+            "id": 6,
+            "name": "Quần đùi vải kaki thoái mái mùa hè",
+            "images": [
+                "src/assets/img/body/api/products/quan/quan-dui-xam.jpeg",
+                "src/assets/img/body/api/products/quan/quan-dui-trang.jpeg"
+            ],
+            "decription": " quần đùi nam thoát mái mùa hè, nam tính màu dải chất lượng cao",
+            "category": { "id": 4, "name": "quần" },
+            "events": ["src/assets/img/body/events/xtra.png", "src/assets/img/body/events/sieure.png"],
+            "favourite": true,
+            "shopTag": "SeoThoiTrang",
+            "voucher": 5,
+            "label": true,
+            "price": 99000,
+            "sales": 60000,
+            "star": 4.7,
+            "comboPromotion": "Mua 2 & giảm 5%",
+            "shippingTime": "Nhận từ 31 th01 - 30 th02",
+            "freeShip": true,
+            "productColor": ["red", "green", "black", "blue"],
+            "likes": 1500
+        },
+        {
+            "id": 7,
+            "name": "Quần kaki trẻ trung",
+            "images": [
+                "src/assets/img/body/api/products/quan/quan-kaki.png",
+                "src/assets/img/body/api/products/quan/quan-kaki(2).jpg",
+                "src/assets/img/body/api/products/quan/quan-kaki(3).jpeg",
+                "src/assets/img/body/api/products/quan/quan-kaki(4).jpeg"
+            ],
+            "decription": "quần kaki nam, nam tính & chất lượng cao, vải xịn",
+            "category": { "id": 4, "name": "quần" },
+            "events": ["src/assets/img/body/events/xtra.png", "src/assets/img/body/events/sieure.png"],
+            "favourite": true,
+            "shopTag": "SeoThoiTrang",
+            "voucher": 5,
+            "label": true,
+            "price": 99000,
+            "sales": 60000,
+            "star": 4.7,
+            "comboPromotion": "Mua 2 & giảm 5%",
+            "shippingTime": "Nhận từ 31 th01 - 30 th02",
+            "freeShip": true,
+            "productColor": ["red", "green", "black", "blue"],
+            "likes": 1500
+        },
+        {
+            "id": 8,
+            "name": "Quần tây âu đen trẻ trung",
+            "images": [
+                "src/assets/img/body/api/products/quan/quan-au-den.jpeg",
+                "src/assets/img/body/api/products/quan/quan-au-den(2).jpeg",
+                "src/assets/img/body/api/products/quan/quan-au-den(3).jpg",
+                "src/assets/img/body/api/products/quan/quan-au-den(4).jpeg"
+            ],
+            "decription": "quần âu đen nam, nam tính & chất lượng cao, vải xịn",
+            "category": { "id": 4, "name": "quần" },
+            "events": [
+                "src/assets/img/body/events/xtra.png",
+                "src/assets/img/body/events/sieure.png",
+                "src/assets/img/body/events/25.1.png"
+            ],
+            "favourite": true,
+            "shopTag": "SeoThoiTrang",
+            "voucher": 24,
+            "label": true,
+            "price": 99000,
+            "sales": 60000,
+            "star": 4.7,
+            "comboPromotion": "Mua 2 & giảm 5%",
+            "shippingTime": "Nhận từ 31 th01 - 30 th02",
+            "freeShip": true,
+            "productColor": ["red", "green", "black", "blue"],
+            "likes": 1500
+        },
+        {
+            "id": 9,
+            "name": "Quần jean trẻ trung",
+            "images": [
+                "src/assets/img/body/api/products/quan/quan-jean.jpeg",
+                "src/assets/img/body/api/products/quan/quan-jean(2).webp",
+                "src/assets/img/body/api/products/quan/quan-jean(3).jpeg",
+                "src/assets/img/body/api/products/quan/quan-jean(4).jpeg"
+            ],
+            "decription": "quần jean nam, nam tính & chất lượng cao, vải xịn",
+            "category": { "id": 4, "name": "quần" },
+            "events": [
+                "src/assets/img/body/events/xtra.png",
+                "src/assets/img/body/events/sieure.png",
+                "src/assets/img/body/events/25.1.png"
+            ],
+            "favourite": true,
+            "shopTag": "SeoThoiTrang",
+            "voucher": 24,
+            "label": true,
+            "price": 99000,
+            "sales": 60000,
+            "star": 4.7,
+            "comboPromotion": "Mua 2 & giảm 5%",
+            "shippingTime": "Nhận từ 31 th01 - 30 th02",
+            "freeShip": true,
+            "productColor": ["red", "green", "black", "blue"],
+            "likes": 1500
+        },
+        {
+            "id": 10,
+            "name": "Quần thun dài",
+            "images": [
+                "src/assets/img/body/api/products/quan/quan-thun-dai.jpeg",
+                "src/assets/img/body/api/products/quan/quan-thun-dai(2).jpeg",
+                "src/assets/img/body/api/products/quan/quan-thun-dai(3).jpeg",
+                "src/assets/img/body/api/products/quan/quan-thun-dai(4).jpg",
+                "src/assets/img/body/api/products/quan/quan-thun-dai(5).jpeg"
+            ],
+            "decription": "quần thun dài nam, nam tính & chất lượng cao, vải xịn",
+            "category": { "id": 4, "name": "quần" },
+            "events": [
+                "src/assets/img/body/events/xtra.png",
+                "src/assets/img/body/events/sieure.png",
+                "src/assets/img/body/events/25.1.png"
+            ],
+            "favourite": true,
+            "shopTag": "SeoThoiTrang",
+            "voucher": 24,
+            "label": true,
+            "price": 99000,
+            "sales": 60000,
+            "star": 4.7,
+            "comboPromotion": "Mua 2 & giảm 5%",
+            "shippingTime": "Nhận từ 31 th01 - 30 th02",
+            "freeShip": true,
+            "productColor": ["red", "green", "black", "blue"],
+            "likes": 1500
+        },
+        {
+            "id": 11,
+            "name": "Điện Thoại SamSung A23 ",
+            "images": [
+                "src/assets/img/body/api/products/dt/ssA23.jpg",
+                "src/assets/img/body/api/products/dt/ssA23(2).jpeg",
+                "src/assets/img/body/api/products/dt/ssA23(3).jpeg"
+            ],
+            "decription": "Samsung Galaxy A23 (4G) 4GB 128GB Chính hãng - Clickbuy",
+            "category": { "id": 6, "name": "Điện Thoại" },
+            "events": [
+                "src/assets/img/body/events/xtra.png",
+                "src/assets/img/body/events/sieure.png",
+                "src/assets/img/body/events/25.1.png"
+            ],
+            "favourite": true,
+            "shopTag": "SeoPhone",
+            "voucher": 9,
+            "label": true,
+            "price": 15000000,
+            "sales": 1000,
+            "star": 4.9,
+            "comboPromotion": null,
+            "shippingTime": "Nhận từ 31 th01 - 30 th02",
+            "freeShip": true,
+            "productColor": ["red", "green", "black", "blue"],
+            "likes": 4500
+        },
+        {
+            "id": 12,
+            "name": "Điện thoại ip17 Pro Max",
+            "images": [
+                "src/assets/img/body/api/products/dt/ip17.jpeg",
+                "src/assets/img/body/api/products/dt/ip17(2).jpeg",
+                "src/assets/img/body/api/products/dt/ip17(3).jpeg"
+            ],
+            "decription": "Điện thoại ip17 Pro Max 8g ",
+            "category": { "id": 6, "name": "Điện thoại" },
+            "events": [
+                "src/assets/img/body/events/xtra.png",
+                "src/assets/img/body/events/sieure.png",
+                "src/assets/img/body/events/25.1.png"
+            ],
+            "favourite": true,
+            "shopTag": "SeoPhone",
+            "voucher": 9,
+            "label": true,
+            "price": 3000000,
+            "sales": 60000,
+            "star": 5,
+            "comboPromotion": null,
+            "shippingTime": "Nhận từ 31 th01 - 30 th02",
+            "freeShip": true,
+            "productColor": ["red", "green", "black", "blue"],
+            "likes": 1500
+        },
+        {
+            "id": 13,
+            "name": "Điện Thoại OppoA5",
+            "images": [
+                "src/assets/img/body/api/products/dt/oppoA5.jpg",
+                "src/assets/img/body/api/products/dt/oppoA5(2).jpeg",
+                "src/assets/img/body/api/products/dt/oppoA5(3).jpeg",
+                "src/assets/img/body/api/products/dt/oppoA3s.webp"
+            ],
+            "decription": "Điện Thoại OppoA5 chính hãng 8g",
+            "category": { "id": 6, "name": "Điện Thoại" },
+            "events": [
+                "src/assets/img/body/events/xtra.png",
+                "src/assets/img/body/events/sieure.png",
+                "src/assets/img/body/events/25.1.png"
+            ],
+            "favourite": true,
+            "shopTag": "SeoPhone",
+            "voucher": 9,
+            "label": true,
+            "price": 15000000,
+            "sales": 60000,
+            "star": 4.7,
+            "comboPromotion": "Mua 2 & giảm 5%",
+            "shippingTime": "Nhận từ 31 th01 - 30 th02",
+            "freeShip": true,
+            "productColor": ["red", "green", "black", "blue"],
+            "likes": 1500
+        },
+        {
+            "id": 14,
+            "name": "Điện Thoại realme 7i",
+            "images": [
+                "src/assets/img/body/api/products/dt/realme.jpg",
+                "src/assets/img/body/api/products/dt/realme(2).jpeg",
+                "src/assets/img/body/api/products/dt/realme(3).jpeg",
+                "src/assets/img/body/api/products/dt/realme(4).jpeg"
+            ],
+            "decription": "Điện thoại realme 7i 8g mạnh mẽ",
+            "category": { "id": 6, "name": "Điện Thoại" },
+            "events": [
+                "src/assets/img/body/events/xtra.png",
+                "src/assets/img/body/events/sieure.png",
+                "src/assets/img/body/events/25.1.png"
+            ],
+            "favourite": true,
+            "shopTag": "SeoPhone",
+            "voucher": 24,
+            "label": true,
+            "price": 1000000,
+            "sales": 60000,
+            "star": 4.5,
+            "comboPromotion": null,
+            "shippingTime": "Nhận từ 31 th01 - 30 th02",
+            "freeShip": true,
+            "productColor": ["red", "green", "black", "blue"],
+            "likes": 1500
+        },
+        {
+            "id": 15,
+            "name": "Điện Thoại redmi 15C",
+            "images": [
+                "src/assets/img/body/api/products/dt/redmi.jpeg",
+                "src/assets/img/body/api/products/dt/redmi.webp",
+                "src/assets/img/body/api/products/dt/redmi(2).jpeg"
+            ],
+            "decription": "Điện thoại redmi 15C 8g mạnh mẽ",
+            "category": { "id": 6, "name": "Điện Thoại" },
+            "events": [
+                "src/assets/img/body/events/xtra.png",
+                "src/assets/img/body/events/sieure.png",
+                "src/assets/img/body/events/25.1.png"
+            ],
+            "favourite": true,
+            "shopTag": "SeoPhone",
+            "voucher": 24,
+            "label": true,
+            "price": 1000000,
+            "sales": 60000,
+            "star": 4.5,
+            "comboPromotion": null,
+            "shippingTime": "Nhận từ 31 th01 - 30 th02",
+            "freeShip": true,
+            "productColor": ["red", "green", "black", "blue"],
+            "likes": 1500
+        },
+        {
+            "id": 16,
+            "name": "Điện Thoại redmi note 14 pro max",
+            "images": ["src/assets/img/body/api/products/dt/redmi-note-14-pro.jpg"],
+            "decription": "Điện thoại redmi 15C 8g mạnh mẽ",
+            "category": { "id": 6, "name": "Điện Thoại" },
+            "events": [
+                "src/assets/img/body/events/xtra.png",
+                "src/assets/img/body/events/sieure.png",
+                "src/assets/img/body/events/25.1.png"
+            ],
+            "favourite": true,
+            "shopTag": "SeoPhone",
+            "voucher": 24,
+            "label": true,
+            "price": 1000000,
+            "sales": 60000,
+            "star": 4.5,
+            "comboPromotion": null,
+            "shippingTime": "Nhận từ 31 th01 - 30 th02",
+            "freeShip": true,
+            "productColor": ["red", "green", "black", "blue"],
+            "likes": 1500
+        },
+        {
+            "id": 17,
+            "name": "Ốp Điện Thoại SamSung A12 ",
+            "images": [
+                "src/assets/img/body/api/products/op-dt/op-ss-a12.jpeg",
+                "src/assets/img/body/api/products/op-dt/op-ss-a12(2).jpeg",
+                "src/assets/img/body/api/products/op-dt/op-ss-a12(3).jpg"
+            ],
+            "decription": "ỐP Điện thoại SamSung A12 đẹp đẽ",
+            "category": { "id": 7, "name": "Phụ kiện Điện Thoại" },
+            "events": [
+                "src/assets/img/body/events/xtra.png",
+                "src/assets/img/body/events/sieure.png",
+                "src/assets/img/body/events/25.1.png"
+            ],
+            "favourite": true,
+            "shopTag": "SeoPhone",
+            "voucher": 24,
+            "label": true,
+            "price": 59000,
+            "sales": 60000,
+            "star": 4.5,
+            "comboPromotion": null,
+            "shippingTime": "Nhận từ 31 th01 - 30 th02",
+            "freeShip": true,
+            "productColor": ["red", "green", "black", "blue"],
+            "likes": 1500
+        },
+        {
+            "id": 18,
+            "name": "Ốp Điện Thoại SamSung A23 ",
+            "images": [
+                "src/assets/img/body/api/products/op-dt/op-ss-a23.jpg",
+                "src/assets/img/body/api/products/op-dt/op-ss-a53-a73-a33-a23.jpg"
+            ],
+            "decription": "ỐP Điện thoại SamSung A23 đẹp đẽ",
+            "category": { "id": 7, "name": "Phụ kiện Điện Thoại" },
+            "events": [
+                "src/assets/img/body/events/xtra.png",
+                "src/assets/img/body/events/sieure.png",
+                "src/assets/img/body/events/25.1.png"
+            ],
+            "favourite": true,
+            "shopTag": "SeoPhone",
+            "voucher": 24,
+            "label": true,
+            "price": 59000,
+            "sales": 60000,
+            "star": 4.5,
+            "comboPromotion": null,
+            "shippingTime": "Nhận từ 31 th01 - 30 th02",
+            "freeShip": true,
+            "productColor": ["red", "green", "black", "blue"],
+            "likes": 1500
+        },
+        {
+            "id": 18,
+            "name": "Ốp Điện Thoại SamSung s20 ",
+            "images": [
+                "src/assets/img/body/api/products/op-dt/op-ss-s20.jpg",
+                "src/assets/img/body/api/products/op-dt/op-ss-s20(2).jpg"
+            ],
+            "decription": "ỐP Điện thoại SamSung s20 đẹp đẽ",
+            "category": { "id": 7, "name": "Phụ kiện Điện Thoại" },
+            "events": [
+                "src/assets/img/body/events/xtra.png",
+                "src/assets/img/body/events/sieure.png",
+                "src/assets/img/body/events/25.1.png"
+            ],
+            "favourite": true,
+            "shopTag": "SeoPhone",
+            "voucher": 24,
+            "label": true,
+            "price": 59000,
+            "sales": 60000,
+            "star": 4.5,
+            "comboPromotion": null,
+            "shippingTime": "Nhận từ 31 th01 - 30 th02",
+            "freeShip": true,
+            "productColor": ["red", "green", "black", "blue"],
+            "likes": 1500
+        },
+        {
+            "id": 19,
+            "name": "Pin dự phòng Polymer ",
+            "images": [
+                "src/assets/img/body/api/products/pinDuPhong/pin-du-phong-polymer.jpeg",
+                "src/assets/img/body/api/products/pinDuPhong/pin-du-phong-polymer(2).jpg",
+                "src/assets/img/body/api/products/pinDuPhong/pin-du-phong-polymer(3).jpeg",
+                "src/assets/img/body/api/products/pinDuPhong/pin-du-phong-polymer(4).jpeg"
+            ],
+            "decription": "Pin dự phòng Polymer 1000mhz",
+            "category": { "id": 7, "name": "Phụ kiện Điện Thoại" },
+            "events": [
+                "src/assets/img/body/events/xtra.png",
+                "src/assets/img/body/events/sieure.png",
+                "src/assets/img/body/events/25.1.png"
+            ],
+            "favourite": true,
+            "shopTag": "SeoPhone",
+            "voucher": 24,
+            "label": true,
+            "price": 59000,
+            "sales": 60000,
+            "star": 4.5,
+            "comboPromotion": null,
+            "shippingTime": "Nhận từ 31 th01 - 30 th02",
+            "freeShip": true,
+            "productColor": ["red", "green", "black", "blue"],
+            "likes": 1500
+        },
+        {
+            "id": 20,
+            "name": "Giá Đỡ Điện Thoại chất lương cao",
+            "images": [
+                "src/assets/img/body/api/products/giaDodt/gia-do.jpeg",
+                "src/assets/img/body/api/products/giaDodt/gia-do(2).jpeg",
+                "src/assets/img/body/api/products/giaDodt/gia-do(3).jpeg",
+                "src/assets/img/body/api/products/giaDodt/gia-do(4).jpeg"
+            ],
+            "decription": "Giá đỡ điện thoại bằng kim loại",
+            "category": { "id": 7, "name": "Phụ kiện Điện Thoại" },
+            "events": [
+                "src/assets/img/body/events/xtra.png",
+                "src/assets/img/body/events/sieure.png",
+                "src/assets/img/body/events/25.1.png"
+            ],
+            "favourite": true,
+            "shopTag": "SeoPhone",
+            "voucher": 24,
+            "label": true,
+            "price": 59000,
+            "sales": 60000,
+            "star": 4.5,
+            "comboPromotion": null,
+            "shippingTime": "Nhận từ 31 th01 - 30 th02",
+            "freeShip": true,
+            "productColor": ["red", "green", "black", "blue"],
+            "likes": 1500
+        },
+        {
+            "id": 21,
+            "name": "Quạt Tản nhiệt điện thoại thoái mát",
+            "images": [
+                "src/assets/img/body/api/products/quat-tan/quat-tan.jpg",
+                "src/assets/img/body/api/products/quat-tan/quat-tan(2).jpeg",
+                "src/assets/img/body/api/products/quat-tan/quat-tan(3).jpeg",
+                "src/assets/img/body/api/products/quat-tan/quat-tan(4).jpeg"
+            ],
+            "decription": "Quạt tản nhiệt điện thoại chính hãng",
+            "category": { "id": 7, "name": "Phụ kiện Điện Thoại" },
+            "events": [
+                "src/assets/img/body/events/xtra.png",
+                "src/assets/img/body/events/sieure.png",
+                "src/assets/img/body/events/25.1.png"
+            ],
+            "favourite": true,
+            "shopTag": "SeoPhone",
+            "voucher": 24,
+            "label": true,
+            "price": 59000,
+            "sales": 60000,
+            "star": 4.5,
+            "comboPromotion": null,
+            "shippingTime": "Nhận từ 31 th01 - 30 th02",
+            "freeShip": true,
+            "productColor": ["red", "green", "black", "blue"],
+            "likes": 1500
+        },
+        {
+            "id": 22,
+            "name": "Thẻ nhớ điện thoại, thẻ nhớ chính hãng chất lượng cao",
+            "images": [
+                "src/assets/img/body/api/products/the-nho/the-nho.jpg",
+                "src/assets/img/body/api/products/the-nho/the-nho(2).jpeg",
+                "src/assets/img/body/api/products/the-nho/the-nho(3).jpeg",
+                "src/assets/img/body/api/products/the-nho/the-nho(4).jpeg"
+            ],
+            "decription": "Thẻ nhớ điện thoại 4g, 8g, 16g, ...",
+            "category": { "id": 7, "name": "Phụ kiện Điện Thoại" },
+            "events": [
+                "src/assets/img/body/events/xtra.png",
+                "src/assets/img/body/events/sieure.png",
+                "src/assets/img/body/events/25.1.png"
+            ],
+            "favourite": true,
+            "shopTag": "SeoPhone",
+            "voucher": 24,
+            "label": true,
+            "price": 59000,
+            "sales": 60000,
+            "star": 4.5,
+            "comboPromotion": null,
+            "shippingTime": "Nhận từ 31 th01 - 30 th02",
+            "freeShip": true,
+            "productColor": ["red", "green", "black", "blue"],
+            "likes": 1500
+        },
+        {
+            "id": 23,
+            "name": "Loa và tai nghe thiết bị nghe nhạc không dây, có dây",
+            "images": [
+                "src/assets/img/body/api/products/loa&tai-nghe/loa-tai-nghe.jpeg",
+                "src/assets/img/body/api/products/loa&tai-nghe/loa-tai-nghe(2).jpg",
+                "src/assets/img/body/api/products/loa&tai-nghe/loa-tai-nghe(3).jpeg",
+                "src/assets/img/body/api/products/loa&tai-nghe/loa-tai-nghe(4).jpg"
+            ],
+            "decription": "thiết bị điện tử nghe nhạc không dây, có dây chất lượng cao ",
+            "category": { "id": 9, "name": "Tai nghe và loa" },
+            "events": ["src/assets/img/body/events/xtra.png", "src/assets/img/body/events/sieure.png"],
+            "favourite": true,
+            "shopTag": "SeoPhone",
+            "voucher": 24,
+            "label": true,
+            "price": 59000,
+            "sales": 60000,
+            "star": 4.5,
+            "comboPromotion": null,
+            "shippingTime": "Nhận từ 31 th01 - 30 th02",
+            "freeShip": true,
+            "productColor": ["red", "green", "black", "blue"],
+            "likes": 1500
+        },
+        {
+            "id": 24,
+            "name": "Bóng đèn led thông minh, thiết bị điện tử gia dụng",
+            "images": [
+                "src/assets/img/body/api/products/thiet-bi-thong-minh/bong-den-thong-minh.jpg",
+                "src/assets/img/body/api/products/thiet-bi-thong-minh/bong-den-thong-minh(2).jpeg",
+                "src/assets/img/body/api/products/thiet-bi-thong-minh/bong-den-thong-minh(3).jpeg",
+                "src/assets/img/body/api/products/thiet-bi-thong-minh/bong-den-thong-minh(4).jpeg"
+            ],
+            "decription": "Bóng đèn led thông minh, nhiều màu ",
+            "category": { "id": 10, "name": "Thiết bị thông minh" },
+            "events": ["src/assets/img/body/events/xtra.png", "src/assets/img/body/events/sieure.png"],
+            "favourite": true,
+            "shopTag": "SeoPhone",
+            "voucher": 24,
+            "label": true,
+            "price": 59000,
+            "sales": 60000,
+            "star": 4.5,
+            "comboPromotion": null,
+            "shippingTime": "Nhận từ 31 th01 - 30 th02",
+            "freeShip": true,
+            "productColor": ["red", "green", "black", "blue"],
+            "likes": 1500
+        },
+        {
+            "id": 25,
+            "name": "Ổ cắm thông minh bảo về  trẻ em ",
+            "images": [
+                "src/assets/img/body/api/products/thiet-bi-thong-minh/o-cam-thong-minh.jpeg",
+                "src/assets/img/body/api/products/thiet-bi-thong-minh/o-cam-thong-minh(2).jpeg",
+                "src/assets/img/body/api/products/thiet-bi-thong-minh/o-cam-thong-minh(3).jpeg",
+                "src/assets/img/body/api/products/thiet-bi-thong-minh/o-cam-thong-minh(4).jpeg"
+            ],
+            "decription": "Ổ cắm thông minh màu trắng dễ  nhìn",
+            "category": { "id": 10, "name": "Thiết bị thông minh" },
+            "events": ["src/assets/img/body/events/xtra.png", "src/assets/img/body/events/sieure.png"],
+            "favourite": true,
+            "shopTag": "SeoPhone",
+            "voucher": 24,
+            "label": true,
+            "price": 59000,
+            "sales": 60000,
+            "star": 4.5,
+            "comboPromotion": null,
+            "shippingTime": "Nhận từ 31 th01 - 30 th02",
+            "freeShip": true,
+            "productColor": ["red", "green", "black", "blue"],
+            "likes": 1500
+        },
+        {
+            "id": 26,
+            "name": "Cảm biến rò rỉ gas thông minh ",
+            "images": [
+                "src/assets/img/body/api/products/thiet-bi-thong-minh/cam-bien-ro-ri-gas.jpg",
+                "src/assets/img/body/api/products/thiet-bi-thong-minh/cam-bien-ro-ri-gas(2).jpeg",
+                "src/assets/img/body/api/products/thiet-bi-thong-minh/cam-bien-ro-ri-gas(3).jpeg",
+                "src/assets/img/body/api/products/thiet-bi-thong-minh/cam-bien-ro-ri-gas(4).jpeg"
+            ],
+            "decription": "Cảm biến rò rỉ ga thông minh tránh tai nạn, bảo vệ người thân ",
+            "category": { "id": 10, "name": "Thiết bị thông minh" },
+            "events": ["src/assets/img/body/events/xtra.png", "src/assets/img/body/events/sieure.png"],
+            "favourite": true,
+            "shopTag": "SeoPhone",
+            "voucher": 24,
+            "label": true,
+            "price": 59000,
+            "sales": 60000,
+            "star": 4.5,
+            "comboPromotion": null,
+            "shippingTime": "Nhận từ 31 th01 - 30 th02",
+            "freeShip": true,
+            "productColor": ["red", "green", "black", "blue"],
+            "likes": 1500
+        },
+        {
+            "id": 27,
+            "name": "Công tắc điện thông minh",
+            "images": [
+                "src/assets/img/body/api/products/thiet-bi-thong-minh/cong-tac-dien-thong-minh.png",
+                "src/assets/img/body/api/products/thiet-bi-thong-minh/cong-tac-dien-thong-minh(2).jpeg",
+                "src/assets/img/body/api/products/thiet-bi-thong-minh/cong-tac-dien-thong-minh(3).jpeg"
+            ],
+            "decription": "Công tắc điện thông minh tránh tai nạn, bảo vệ người thân ",
+            "category": { "id": 10, "name": "Thiết bị thông minh" },
+            "events": ["src/assets/img/body/events/xtra.png", "src/assets/img/body/events/sieure.png"],
+            "favourite": true,
+            "shopTag": "SeoPhone",
+            "voucher": 24,
+            "label": true,
+            "price": 59000,
+            "sales": 60000,
+            "star": 4.5,
+            "comboPromotion": null,
+            "shippingTime": "Nhận từ 31 th01 - 30 th02",
+            "freeShip": true,
+            "productColor": ["red", "green", "black", "blue"],
+            "likes": 1500
+        },
+        {
+            "id": 28,
+            "name": " Cầu dao thông minh",
+            "images": [
+                "src/assets/img/body/api/products/thiet-bi-thong-minh/cau-dao-thong-minh.jpeg",
+                "src/assets/img/body/api/products/thiet-bi-thong-minh/cau-dao-thong-minh(2).jpeg",
+                "src/assets/img/body/api/products/thiet-bi-thong-minh/cau-dao-thong-minh(3).webp",
+                "src/assets/img/body/api/products/thiet-bi-thong-minh/cau-dao-thong-minh(4).jpeg"
+            ],
+            "decription": "Cầu dao thông minh tránh tai nạn, bảo vệ người thân ",
+            "category": { "id": 10, "name": "Thiết bị thông minh" },
+            "events": ["src/assets/img/body/events/xtra.png", "src/assets/img/body/events/sieure.png"],
+            "favourite": true,
+            "shopTag": "SeoPhone",
+            "voucher": 24,
+            "label": true,
+            "price": 59000,
+            "sales": 60000,
+            "star": 4.5,
+            "comboPromotion": null,
+            "shippingTime": "Nhận từ 31 th01 - 30 th02",
+            "freeShip": true,
+            "productColor": ["red", "green", "black", "blue"],
+            "likes": 1500
+        }
+    ],
+    "categories": [
+        { "id": 1, "name": "Đời sống", "parentId": null },
+        {
+            "id": 2,
+            "name": "Thời trang Nam",
+            "parentId": 1,
+            "image": "src/assets/img/body/api/category/thoiTrangNam.webp"
+        },
+        { "id": 3, "name": "Áo", "parentId": 2 },
+        { "id": 4, "name": "Quần", "parentId": 2 },
+        {
+            "id": 5,
+            "name": "Điện Thoại & Phụ Kiện",
+            "parentId": 1,
+            "image": "src/assets/img/body/api/category/dienThoai&PhuKien.webp"
+        },
+        { "id": 6, "name": "Điện Thoại", "parentId": 5 },
+        { "id": 7, "name": "Phụ Kiện Điện Thoại", "parentId": 5 },
+        {
+            "id": 8,
+            "name": "Thiết Bị Điện Tử",
+            "parentId": 1,
+            "image": "src/assets/img/body/api/category/thietBiDienTu.webp"
+        },
+        { "id": 9, "name": "Tai Nghe & Loa", "parentId": 8 },
+        { "id": 10, "name": "Thiết Bị Thông Minh", "parentId": 8 },
+
+        {
+            "id": 11,
+            "name": "Máy Tính & Laptop",
+            "parentId": 1,
+            "image": "src/assets/img/body/api/category/mayTinhVaLaptop.webp"
+        },
+        { "id": 12, "name": "Laptop", "parentId": 11 },
+        { "id": 13, "name": "Linh Kiện Máy Tính", "parentId": 11 },
+
+        {
+            "id": 14,
+            "name": "Máy Ảnh & Máy Quay Phim",
+            "parentId": 1,
+            "image": "src/assets/img/body/api/category/mayAnhVaMayQuayPhim.webp"
+        },
+        { "id": 15, "name": "Máy Ảnh", "parentId": 14 },
+        { "id": 16, "name": "Máy Quay Phim", "parentId": 14 },
+
+        { "id": 17, "name": "Đồng Hồ", "parentId": 1, "image": "src/assets/img/body/api/category/dongHo.webp" },
+        { "id": 18, "name": "Đồng Hồ Nam", "parentId": 17 },
+        { "id": 19, "name": "Đồng Hồ Thông Minh", "parentId": 17 },
+
+        {
+            "id": 20,
+            "name": "Giày Dép Nam",
+            "parentId": 1,
+            "image": "src/assets/img/body/api/category/giayDepNam.webp"
+        },
+        { "id": 21, "name": "Giày Thể Thao", "parentId": 20 },
+        { "id": 22, "name": "Giày Tây", "parentId": 20 },
+
+        {
+            "id": 23,
+            "name": "Thiết Bị Điện Gia Dụng",
+            "parentId": 1,
+            "image": "src/assets/img/body/api/category/thietBiDienGiaDung.webp"
+        },
+        { "id": 24, "name": "Đồ Gia Dụng Nhà Bếp", "parentId": 23 },
+        { "id": 25, "name": "Thiết Bị Chăm Sóc Nhà Cửa", "parentId": 23 },
+
+        {
+            "id": 26,
+            "name": "Thể Thao & Du Lịch",
+            "parentId": 1,
+            "image": "src/assets/img/body/api/category/theThaoVaDuLich.webp"
+        },
+        { "id": 27, "name": "Dụng Cụ Thể Thao", "parentId": 26 },
+        { "id": 28, "name": "Đồ Du Lịch", "parentId": 26 },
+
+        {
+            "id": 29,
+            "name": "Ô Tô & Xe Máy & Xe Đạp",
+            "parentId": 1,
+            "image": "src/assets/img/body/api/category/oTo&XeMay&XeDap.webp"
+        },
+        { "id": 30, "name": "Phụ Tùng Xe", "parentId": 29 },
+        { "id": 31, "name": "Phụ Kiện Xe", "parentId": 29 },
+
+        {
+            "id": 32,
+            "name": "Balo & Túi Ví Nam",
+            "parentId": 1,
+            "image": "src/assets/img/body/api/category/balo&TuiViNam.webp"
+        },
+        { "id": 33, "name": "Balo Nam", "parentId": 32 },
+        { "id": 34, "name": "Ví Nam", "parentId": 32 },
+
+        { "id": 35, "name": "Đồ Chơi", "parentId": 1, "image": "src/assets/img/body/api/category/doChoi.webp" },
+        { "id": 36, "name": "Đồ Chơi Trẻ Em", "parentId": 35 },
+        { "id": 37, "name": "Đồ Chơi Công Nghệ", "parentId": 35 },
+
+        {
+            "id": 38,
+            "name": "Chăm Sóc Thú Cưng",
+            "parentId": 1,
+            "image": "src/assets/img/body/api/category/chamSocThuCung.webp"
+        },
+        { "id": 39, "name": "Thức Ăn Thú Cưng", "parentId": 38 },
+        { "id": 40, "name": "Phụ Kiện Thú Cưng", "parentId": 38 },
+
+        {
+            "id": 41,
+            "name": "Dụng Cụ & Thiết Bị Tiện Ích",
+            "parentId": 1,
+            "image": "src/assets/img/body/api/category/dungCuVaThietBiTienIch.webp"
+        },
+        { "id": 42, "name": "Dụng Cụ Gia Đình", "parentId": 41 },
+        { "id": 43, "name": "Thiết Bị Sửa Chữa", "parentId": 41 },
+
+        {
+            "id": 44,
+            "name": "Thời Trang Nữ",
+            "parentId": 1,
+            "image": "src/assets/img/body/api/category/thoiTrangNu.webp"
+        },
+        { "id": 45, "name": "Áo Nữ", "parentId": 44 },
+        { "id": 46, "name": "Quần & Váy Nữ", "parentId": 44 },
+
+        { "id": 47, "name": "Mẹ & Bé", "parentId": 1, "image": "src/assets/img/body/api/category/meVaBe.webp" },
+        { "id": 48, "name": "Đồ Cho Bé", "parentId": 47 },
+        { "id": 49, "name": "Đồ Cho Mẹ", "parentId": 47 },
+
+        {
+            "id": 50,
+            "name": "Nhà Cửa & Đời Sống",
+            "parentId": 1,
+            "image": "src/assets/img/body/api/category/nhaCuaVaDoiSong.webp"
+        },
+        { "id": 51, "name": "Đồ Trang Trí Nhà Cửa", "parentId": 50 },
+        { "id": 52, "name": "Đồ Dùng Sinh Hoạt", "parentId": 50 },
+
+        { "id": 53, "name": "Sắc Đẹp ", "parentId": 1, "image": "src/assets/img/body/api/category/sacDep.webp" },
+        { "id": 54, "name": "Chăm Sóc Da", "parentId": 53 },
+        { "id": 55, "name": "Trang Điểm", "parentId": 53 },
+
+        { "id": 56, "name": "Sức Khỏe", "parentId": 1, "image": "src/assets/img/body/api/category/sucKhoe.webp" },
+        { "id": 57, "name": "Thực Phẩm Chức Năng", "parentId": 56 },
+        { "id": 58, "name": "Dụng Cụ Y Tế", "parentId": 56 },
+
+        { "id": 59, "name": "Giày Dép Nữ", "parentId": 1, "image": "src/assets/img/body/api/category/giayDepNu.webp" },
+        { "id": 60, "name": "Giày Cao Gót", "parentId": 59 },
+        { "id": 61, "name": "Giày Thể Thao Nữ", "parentId": 59 },
+
+        { "id": 62, "name": "Túi Ví Nữ", "parentId": 1, "image": "src/assets/img/body/api/category/tuiViNu.webp" },
+        { "id": 63, "name": "Túi Xách Nữ", "parentId": 62 },
+        { "id": 64, "name": "Ví Nữ", "parentId": 62 },
+
+        {
+            "id": 65,
+            "name": "Phụ Kiện & Trang Sức Nữ",
+            "parentId": 1,
+            "image": "src/assets/img/body/api/category/phuKienVaTrangSuc.webp"
+        },
+        { "id": 66, "name": "Trang Sức", "parentId": 65 },
+        { "id": 67, "name": "Phụ Kiện Thời Trang", "parentId": 65 },
+
+        {
+            "id": 68,
+            "name": "Bách Hóa Online",
+            "parentId": 1,
+            "image": "src/assets/img/body/api/category/bachHoaOnline.webp"
+        },
+        { "id": 69, "name": "Đồ Tiêu Dùng", "parentId": 68 },
+        { "id": 70, "name": "Thực Phẩm Khô", "parentId": 68 },
+
+        {
+            "id": 71,
+            "name": "Nhà Sách online",
+            "parentId": 1,
+            "image": "src/assets/img/body/api/category/nhaSachOnline.webp"
+        },
+        { "id": 72, "name": "Sách Kỹ Năng", "parentId": 71 },
+        { "id": 73, "name": "Sách Giáo Khoa", "parentId": 71 },
+
+        {
+            "id": 74,
+            "name": "Thời Trang Trẻ Em",
+            "parentId": 1,
+            "image": "src/assets/img/body/api/category/thoiTrangTreEm.webp"
+        },
+        { "id": 75, "name": "Quần Áo Bé Trai", "parentId": 74 },
+        { "id": 76, "name": "Quần Áo Bé Gái", "parentId": 74 },
+
+        {
+            "id": 77,
+            "name": "Giặt Giũ & Chăm Sóc Nhà Cửa",
+            "parentId": 1,
+            "image": "src/assets/img/body/api/category/giatGiuVaChamSocNhaCua.webp"
+        },
+        { "id": 78, "name": "Nước Giặt & Tẩy Rửa", "parentId": 77 },
+        { "id": 79, "name": "Dụng Cụ Vệ Sinh", "parentId": 77 },
+
+        {
+            "id": 80,
+            "name": "Voucher & Dịch Vụ",
+            "parentId": 1,
+            "image": "src/assets/img/body/api/category/voucherVaDichVu.webp"
+        },
+        { "id": 81, "name": "Voucher Ăn Uống", "parentId": 80 },
+        { "id": 82, "name": "Voucher Mua Sắm", "parentId": 80 }
+    ],
+    "shops": [
+        {
+            "id": 1,
+            "shopName": "shopMai.vn",
+            "online": "Online 5 phút trước",
+            "products": 100,
+            "followers": 245,
+            "following": 2,
+            "rating": 4.7,
+            "reviewCount": 3200,
+            "chatResponseRate": 96,
+            "chatResponseTime": "Trong vài giờ",
+            "joined": "28 Tháng Trước"
+        },
+        {
+            "id": 2,
+            "shopName": "Anna_Jewelry",
+            "online": "Online 12 phút trước",
+            "products": 86,
+            "followers": 180,
+            "following": 5,
+            "rating": 4.5,
+            "reviewCount": 2100,
+            "chatResponseRate": 93,
+            "chatResponseTime": "Trong ngày",
+            "joined": "14 Tháng Trước"
+        },
+        {
+            "id": 3,
+            "shopName": "MinhSilver.925",
+            "online": "Online 2 phút trước",
+            "products": 142,
+            "followers": 520,
+            "following": 1,
+            "rating": 4.8,
+            "reviewCount": 6100,
+            "chatResponseRate": 98,
+            "chatResponseTime": "Trong vài phút",
+            "joined": "36 Tháng Trước"
+        },
+        {
+            "id": 4,
+            "shopName": "Luna_Accessory",
+            "online": "Online 20 phút trước",
+            "products": 64,
+            "followers": 132,
+            "following": 7,
+            "rating": 4.4,
+            "reviewCount": 980,
+            "chatResponseRate": 90,
+            "chatResponseTime": "Trong ngày",
+            "joined": "10 Tháng Trước"
+        },
+        {
+            "id": 5,
+            "shopName": "KhanhJewels",
+            "online": "Online 1 phút trước",
+            "products": 210,
+            "followers": 860,
+            "following": 3,
+            "rating": 4.9,
+            "reviewCount": 10400,
+            "chatResponseRate": 99,
+            "chatResponseTime": "Trong vài phút",
+            "joined": "48 Tháng Trước"
+        },
+        {
+            "id": 6,
+            "shopName": "Bee_Bling",
+            "online": "Online 30 phút trước",
+            "products": 55,
+            "followers": 98,
+            "following": 12,
+            "rating": 4.3,
+            "reviewCount": 650,
+            "chatResponseRate": 88,
+            "chatResponseTime": "Trong ngày",
+            "joined": "6 Tháng Trước"
+        },
+        {
+            "id": 7,
+            "shopName": "TinaSilverStore",
+            "online": "Online 8 phút trước",
+            "products": 175,
+            "followers": 430,
+            "following": 4,
+            "rating": 4.6,
+            "reviewCount": 3900,
+            "chatResponseRate": 95,
+            "chatResponseTime": "Trong vài giờ",
+            "joined": "30 Tháng Trước"
+        },
+        {
+            "id": 8,
+            "shopName": "PhuKien_925",
+            "online": "Online 15 phút trước",
+            "products": 92,
+            "followers": 210,
+            "following": 6,
+            "rating": 4.5,
+            "reviewCount": 1800,
+            "chatResponseRate": 94,
+            "chatResponseTime": "Trong ngày",
+            "joined": "18 Tháng Trước"
+        },
+        {
+            "id": 9,
+            "shopName": "GemBox.vn",
+            "online": "Online 3 phút trước",
+            "products": 134,
+            "followers": 610,
+            "following": 2,
+            "rating": 4.8,
+            "reviewCount": 7200,
+            "chatResponseRate": 97,
+            "chatResponseTime": "Trong vài phút",
+            "joined": "40 Tháng Trước"
+        },
+        {
+            "id": 10,
+            "shopName": "CoolMan_Accessory",
+            "online": "Online 25 phút trước",
+            "products": 78,
+            "followers": 155,
+            "following": 9,
+            "rating": 4.4,
+            "reviewCount": 1100,
+            "chatResponseRate": 91,
+            "chatResponseTime": "Trong ngày",
+            "joined": "12 Tháng Trước"
+        }
+    ]
+}
