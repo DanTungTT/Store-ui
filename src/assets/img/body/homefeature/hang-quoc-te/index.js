@@ -10,8 +10,12 @@ import dealColored from "./dealColored.webp"
 import dealWithoutColor from "./dealWithoutColor.webp"
 import riengChoBanColored from "./riengChoBanColored.webp"
 import riengChoBanWithoutBanColor from "./riengChoBanWithoutColor.webp"
+import bannerImg from "./banner.webp";
+import firstPay from "./firstPay.webp";
+import promotion from "./promotion.png";
+import promotionFirstPay from "./promotionFirstPay.webp";
 
-
+export {bannerImg, firstPay, promotion, promotionFirstPay}
 export const  menuBar = [
     {
         id: 1,
