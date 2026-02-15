@@ -3,6 +3,7 @@ import { faFacebook, faInstagram, faGoogle, faAppStore, faGooglePay } from "@for
 import {
     faAngleUp,
     faAngleDown,
+    faAngleRight,
     faQrcode,
     faEye,
     faEyeSlash,
@@ -15,6 +16,8 @@ import {
     faUserAstronaut,
     faRightFromBracket,
     faList,
+    faCartShopping,
+    faBolt,
 } from "@fortawesome/free-solid-svg-icons";
 
 const UseIcon = ({ icon, ...props }) => {
@@ -26,6 +29,7 @@ export {
     faInstagram,
     faGoogle,
     faAngleUp,
+    faAngleRight,
     faQrcode,
     faEye,
     faEyeSlash,
@@ -41,4 +45,6 @@ export {
     faUserAstronaut,
     faRightFromBracket,
     faList,
+    faCartShopping,
+    faBolt,
 };

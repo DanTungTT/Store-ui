@@ -13,9 +13,11 @@
     /* global variable */
 
     /* color */
-    --secondary-textColor: #fff;
+    --secondary-textColor-: #fff;
     --primary-color-: #ee4d2d;
-    --bg-banner-: #fff;
+    --secondary-color-: #ffeee8;
+    --bg-normal-: #fff;
+    --shadow-hover-: 0 0 3px #333;
 
     /* unit */
     --default-fontSize-: 1.5rem;
@@ -31,6 +33,7 @@ html {
     font-family: sans-serif;
     font-size: 62.5%;
     color: var(--primary-textColor-);
+    scroll-behavior: smooth;
 }
 * {
     user-select: none;
@@ -60,11 +63,18 @@ html {
         background-color: #ffeee8;
         border: 1px solid var(--primary-color-);
     }
+
 }
 
 @layer utilities {
     .bg-primary {
         background-color: var(--primary-color-);
+    }
+    .bg-secondary {
+        background-color: var(--secondary-color-);
+    }
+    .bg-normal {
+        background-color: var(--bg-normal-);
     }
     .border-primary {
         border-color: var(--primary-color-);
@@ -74,9 +84,6 @@ html {
     }
     .text-primaryColor {
         color: var(--primary-textColor-);
-    }
-    .text-secondary {
-        color: var(--secondary-textColor-);
     }
     .text-secondaryColor {
         color: var(--secondary-textColor-);

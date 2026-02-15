@@ -1,3 +1,9 @@
 export  { default as Input } from "./Input";
 export  { default as Button } from "./Button";
 export  { default as SearchInput } from "./SearchInnput";
+export  { default as  Favourite } from "./Favourite";
+export  { default as  Voucher } from "./Voucher";
+export  { default as  VoucherFlashSale } from "./VoucherFlashSale";
+export  { default as  EventImgs } from "./EventImgs";
+export  { default as  ShopTag } from "./ShopTag";
+export  { default as  ButtonBuy } from "./ButtonBuy";

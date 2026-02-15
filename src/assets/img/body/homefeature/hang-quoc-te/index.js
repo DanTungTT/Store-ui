@@ -14,37 +14,45 @@ import bannerImg from "./banner.webp";
 import firstPay from "./firstPay.webp";
 import promotion from "./promotion.png";
 import promotionFirstPay from "./promotionFirstPay.webp";
+import voucherXtra from "./voucherXtra.webp";
+import voucherXtra1 from "./voucherXtra1.png";
 
-export {bannerImg, firstPay, promotion, promotionFirstPay}
+export {bannerImg, firstPay, promotion, promotionFirstPay, voucherXtra, voucherXtra1}
 export const  menuBar = [
     {
         id: 1,
         imgNonActive: flashSaleWithoutColor,
-        imgActive: flashSaleColored
+        imgActive: flashSaleColored,
+        a: "#flashSale"
     },
     {
         id: 2,
         imgNonActive: voucherWithoutColor,
-        imgActive: voucherColored 
+        imgActive: voucherColored,
+        a: "#voucher"
     },
     { 
         id: 3,
         imgNonActive: dongGiaWithoutColor,
-        imgActive: dongGiaColored 
+        imgActive: dongGiaColored,
+        a: "#dongGia"
     },
     {
         id: 4,
         imgNonActive: xemLiveWithoutColor,
-        imgActive: xemLiveColored 
+        imgActive: xemLiveColored,
+        a: "#xemLive"
     },
     {
         id: 5,
         imgNonActive: dealWithoutColor,
-        imgActive: dealColored 
+        imgActive: dealColored, 
+        a: "#deal"
     },
     {
         id: 6,
         imgNonActive: riengChoBanWithoutBanColor,
-        imgActive: riengChoBanColored 
+        imgActive: riengChoBanColored,
+        a: "#riengChoBan"
     }
 ]

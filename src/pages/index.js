@@ -8,7 +8,7 @@ export { default as Register } from "./header/register/Register"
 
 // body
 
-export {default as HangQuocTe } from "./home/homeFeature/HangQuocTe"
+export {default as HangQuocTe } from "./home/homeFeature/hangQuocTe/HangQuocTe"
 export {default as DealHot} from "./home/homeFeature/DealHot"
 export {default as KhachHangThanThiet} from "./home/homeFeature/KhachHangThanThiet"
 export {default as MaGiamGia} from "./home/homeFeature/MaGiamGia"
