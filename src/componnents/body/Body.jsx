@@ -19,7 +19,7 @@ const Body = () => {
         return (
             <>
                 {images.map((img, index) => (
-                    <img src={img} />
+                    <img key={index} src={img} />
                 ))}
             </>
         );
@@ -39,9 +39,15 @@ const Body = () => {
                     </div>
                 </div>
                 <div className="h-[10rem] col-span-12"></div>
-                {checkImg.map((item, index) => {
-                    return getImg(item.images);
-                })}
+                <ul className="flex flex-wrap">
+                    {checkImg.map((item, index) => {
+                        return (
+                            <li className="flex" key={item.id}>
+                                {getImg(item.images)}
+                            </li>
+                        );
+                    })}
+                </ul>
 
                 {/* <Sidebar></Sidebar>
                 <Content></Content> */}

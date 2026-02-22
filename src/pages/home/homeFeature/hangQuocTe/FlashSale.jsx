@@ -1,17 +1,17 @@
-import ProductList from "~/componnents/feature/product/ProductList";
-import ProductFlashSale from "~/componnents/feature/product/ProductFlashSale";
+import { ProductList } from "~/componnents/feature/product";
+import { ProductFlashSale } from "~/componnents/feature/product";
 
 import useFetch from "~/hooks/projectHooks/useFetch";
 const FlashSale = () => {
     const data = useFetch("/products");
-    const products = data.filter((product, index) => product.voucher > 30 && product.voucher < 70);
+    const products = data.filter((product) => product.voucher > 30);
     return (
         <>
             <div>
-                <ProductList>
+                <ProductList flashSale>
                     {products.map((product, index) => {
                         return (
-                            <li>
+                            <li key={product.id}>
                                 <ProductFlashSale {...product} />
                             </li>
                         );

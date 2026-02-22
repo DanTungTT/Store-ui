@@ -5,7 +5,7 @@ const EventImgs = ({ imgList, w }) => {
                 <ul className="flex">
                     {Array.from(imgList).map((img, index) => {
                         return (
-                            <li>
+                            <li key={index}>
                                 <img src={img} width={w} alt="ảnh mô tả sự kiện voucher" />
                             </li>
                         );

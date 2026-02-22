@@ -16,8 +16,11 @@ import promotion from "./promotion.png";
 import promotionFirstPay from "./promotionFirstPay.webp";
 import voucherXtra from "./voucherXtra.webp";
 import voucherXtra1 from "./voucherXtra1.png";
+import dongGia from "./dongGia.webp";
+import moTaDongGia from "./moTaDongGia.webp";
+import deal3Dong from "./deal3Dong.webp";
 
-export {bannerImg, firstPay, promotion, promotionFirstPay, voucherXtra, voucherXtra1}
+export {bannerImg, firstPay, promotion, promotionFirstPay, voucherXtra, voucherXtra1, dongGia, moTaDongGia, deal3Dong}
 export const  menuBar = [
     {
         id: 1,

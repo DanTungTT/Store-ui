@@ -1,6 +1,7 @@
 import { DefaultLayout } from "~/layout";
 import MenuBar from "./MenuBar";
 import FlashSale from "./FlashSale";
+import SamePriceProducts from "./SamePriceProducts";
 import { Button } from "~/componnents/ui";
 import {
     bannerImg,
@@ -9,6 +10,9 @@ import {
     promotionFirstPay,
     voucherXtra,
     voucherXtra1,
+    dongGia,
+    moTaDongGia,
+    deal3Dong,
 } from "~/assets/img/body/homefeature/hang-quoc-te";
 const HangQuocTe = () => {
     return (
@@ -77,6 +81,21 @@ const HangQuocTe = () => {
                                     </div>
                                 </div>
                             </div>
+                        </div>
+                    </section>
+                    {/* đồng giá */}
+                    <section id="dongGia" className="scroll-mt-85">
+                        <div>
+                            <img src={dongGia} alt="ảnh siêu deal đồng giá" />
+                            <img
+                                src={moTaDongGia}
+                                alt="Số lượng có hạn. Sản phẩm sẽ trở về giá cũ khi chương trình hết khuyến mãi "
+                            />
+                            <img src={deal3Dong} alt="nhãn dán 3 đồng " />
+                        </div>
+                        {/* products list */}
+                        <div>
+                            <SamePriceProducts />
                         </div>
                     </section>
                 </main>
