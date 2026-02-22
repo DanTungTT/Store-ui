@@ -63,7 +63,15 @@ const ProductList = ({ children, flashSale }) => {
                     onScroll={(e) => handleScroll(e)}
                     className="overflow-x-scroll [&::-webkit-scrollbar]:hidden scroll-smooth"
                 >
-                    <ul className="flex  p-2  transition-all duration-300 ">{children}</ul>
+                    <ul className="flex items-center p-2 transition-all duration-300 ">
+                        {children}
+                        <li className="px-20 flex flex-col items-center justify-center cursor-pointer">
+                            <span className="rounded-[50%] h-10 w-10 border border-primary primaryColor flex items-center justify-center">
+                                <UseIcon icon={faAngleRight} />
+                            </span>
+                            <div className="w-32 mt-2 primaryColor">Xem Tất Cả</div>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </>

@@ -37,11 +37,11 @@ const HangQuocTe = () => {
                     <span className="text-[2rem] p-10">Sản phẩm sẽ về với giá cũ khi hết số lượng khuyến mãi</span>
 
                     {/* flash sale */}
-                    <section id="flashSale" className="scroll-mt-200">
+                    <section data-index="0" id="flashSale" className="scroll-mt-200">
                         <FlashSale />
                     </section>
                     {/* voucher xtra  */}
-                    <section id="voucher" className="scroll-mt-130">
+                    <section data-index="1" id="voucher" className="scroll-mt-130">
                         <img src={voucherXtra} alt="ảnh voucher xtra giảm tới 20%" />
                         <div className="flex justify-evenly p-10">
                             <div className="flex">
@@ -84,7 +84,7 @@ const HangQuocTe = () => {
                         </div>
                     </section>
                     {/* đồng giá */}
-                    <section id="dongGia" className="scroll-mt-85">
+                    <section data-index="2" id="dongGia" className="scroll-mt-85">
                         <div>
                             <img src={dongGia} alt="ảnh siêu deal đồng giá" />
                             <img
