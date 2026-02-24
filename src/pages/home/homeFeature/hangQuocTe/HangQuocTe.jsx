@@ -2,6 +2,7 @@ import { DefaultLayout } from "~/layout";
 import MenuBar from "./MenuBar";
 import FlashSale from "./FlashSale";
 import SamePriceProducts from "./SamePriceProducts";
+import DealSupperCheap from "./DealSupperCheap";
 import { Button } from "~/componnents/ui";
 import {
     bannerImg,
@@ -20,7 +21,9 @@ import {
     sanDealGiaRe,
     mua1Duoc2,
     quaMua1Duoc2,
+    dealGiaRe,
 } from "~/assets/img/body/homeFeatures/hang-quoc-te";
+import WatchLiveStream from "./WatchLiveStream";
 const HangQuocTe = () => {
     return (
         <>
@@ -127,6 +130,17 @@ const HangQuocTe = () => {
                             <img src={mua1Duoc2} alt="ảnh mô tả mua 1 được 2 " />
                             <img src={quaMua1Duoc2} alt="ảnh mô tả quà  mua 1 được 2 " />
                             <img src={moTaDongGia} alt="giá sẽ trở về  gốc khi chương trình hết khuyến mãi" />
+                        </div>
+                        <div>
+                            <WatchLiveStream />
+                        </div>
+                    </section>
+                    <section data-index="4" id="deal" className="scroll-mt-85">
+                        <div>
+                            <img src={dealGiaRe} alt="ảnh mô tả deal giá siêu rẻ" />
+                        </div>
+                        <div>
+                            <DealSupperCheap />
                         </div>
                     </section>
                 </main>

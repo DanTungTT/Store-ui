@@ -26,13 +26,15 @@ import xemLiveLich from "./xemLiveLich.png";
 import sanDealGiaRe from "./sanDealGiaRe.webp";
 import mua1Duoc2 from "./mua1Duoc2.webp";
 import quaMua1Duoc2 from "./quaMua1Duoc2.webp";
+import dealGiaRe from "./dealGiaRe.webp";
 
 export {bannerImg, firstPay, promotion, 
         promotionFirstPay, voucherXtra,
         voucherXtra1, dongGia, moTaDongGia, 
         deal3Dong, deal9Dong, deal29Dong, 
         xemLiveSanDealSoc, xemLiveLich,
-        sanDealGiaRe, mua1Duoc2, quaMua1Duoc2}
+        sanDealGiaRe, mua1Duoc2, quaMua1Duoc2,
+       dealGiaRe}
 export const  menuBar = [
     {
         id: 1,

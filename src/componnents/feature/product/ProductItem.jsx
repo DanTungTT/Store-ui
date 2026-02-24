@@ -6,11 +6,11 @@ import formatVND from "../formatVND";
 const ProductItem = ({ name, images, favourite, voucher, events, shopTag, price }) => {
     return (
         <>
-            <div className="w-[15rem] h-[26.5rem] mx-2 cursor-pointer hover:shadow-[0_0_.5rem_#333] hover:-translate-y-2 p-1 transition-all duration-200 ">
+            <div className="min-w-[15rem] h-[26.5rem] mx-2 cursor-pointer hover:shadow-[0_0_.5rem_#333] hover:-translate-y-2 p-1 transition-all duration-200 ">
                 <div className="h-[15rem] max-w-[15rem] flex justify-center items-center overflow-hidden rounded-[.6rem] relative">
                     <img src={images[0]} width={200} className="object-center " />
                     {!!voucher && <Voucher value={voucher} />}
-                    {events && <EventImgs imgList={events} />}
+                    {events && <EventImgs imgList={events} w={30} />}
                 </div>
                 <div className="line-clamp-2 m-2 min-h-[4rem]">
                     <h1>

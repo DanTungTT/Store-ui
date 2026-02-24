@@ -1,11 +1,14 @@
 import { useEffect, useLayoutEffect, useRef, useState } from "react";
+import clsx from "clsx";
 import { UseIcon, faAngleRight, faAngleLeft } from "~/assets/icon";
 
-const ProductList = ({ children, flashSale }) => {
+const ProductList = ({ children, flashSale = null, categories, setSelectedCategory }) => {
     const ref = useRef();
+    const activeRef = useRef();
 
     const [minWidth, setMinWidth] = useState(true);
     const [maxWidth, setMaxWidth] = useState(false);
+    const [indexActive, setIndexActive] = useState(0);
 
     const handleScroll = (e) => {
         setMinWidth(ref.current.scrollLeft === 0);
@@ -21,7 +24,11 @@ const ProductList = ({ children, flashSale }) => {
         if (ref.current.clientWidth + ref.current.scrollLeft >= ref.current.scrollWidth) setMaxWidth(true);
         setMinWidth(false);
     };
-
+    useEffect(() => {
+        if (categories) {
+            activeRef.current.style.translate = `${activeRef.current.offsetWidth * indexActive}px`;
+        }
+    }, [indexActive]);
     return (
         <>
             <div className="rounded-2xl min-h-[34.5rem] w-full border border-[#c0bfbf] p-5 m-10 relative ">
@@ -32,6 +39,37 @@ const ProductList = ({ children, flashSale }) => {
                         Xem Thêm <UseIcon icon={faAngleRight} />
                     </span>
                 </div>
+                {/* category  */}
+                {categories && (
+                    <div>
+                        <ul className="flex justify-evenly relative w-full [&>li]:h-20 my-5">
+                            <li
+                                ref={activeRef}
+                                className="bg-primary absolute w-1/5 left-0 transition-translate duration-300"
+                            ></li>
+                            {categories.map((category, index) => (
+                                <li
+                                    onClick={() => {
+                                        setSelectedCategory(category);
+                                    }}
+                                    key={index}
+                                    className="font-bold text-[1.6rem] bg-gray-50  w-1/5 flex justify-center items-center"
+                                >
+                                    <span
+                                        onClick={() => setIndexActive(index)}
+                                        className={clsx(
+                                            "relative z-1 h-full w-full  flex items-center justify-center",
+                                            indexActive === index && "text-secondaryColor",
+                                        )}
+                                    >
+                                        #{category}
+                                    </span>
+                                </li>
+                            ))}
+                        </ul>
+                    </div>
+                )}
+
                 {/* prev & next list products */}
                 {!minWidth && (
                     <span
