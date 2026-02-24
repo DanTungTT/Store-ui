@@ -19,8 +19,20 @@ import voucherXtra1 from "./voucherXtra1.png";
 import dongGia from "./dongGia.webp";
 import moTaDongGia from "./moTaDongGia.webp";
 import deal3Dong from "./deal3Dong.webp";
+import deal9Dong from "./deal9Dong.webp";
+import deal29Dong from "./deal29Dong.webp";
+import xemLiveSanDealSoc from "./xemLiveSanDealSoc.webp";
+import xemLiveLich from "./xemLiveLich.png";
+import sanDealGiaRe from "./sanDealGiaRe.webp";
+import mua1Duoc2 from "./mua1Duoc2.webp";
+import quaMua1Duoc2 from "./quaMua1Duoc2.webp";
 
-export {bannerImg, firstPay, promotion, promotionFirstPay, voucherXtra, voucherXtra1, dongGia, moTaDongGia, deal3Dong}
+export {bannerImg, firstPay, promotion, 
+        promotionFirstPay, voucherXtra,
+        voucherXtra1, dongGia, moTaDongGia, 
+        deal3Dong, deal9Dong, deal29Dong, 
+        xemLiveSanDealSoc, xemLiveLich,
+        sanDealGiaRe, mua1Duoc2, quaMua1Duoc2}
 export const  menuBar = [
     {
         id: 1,

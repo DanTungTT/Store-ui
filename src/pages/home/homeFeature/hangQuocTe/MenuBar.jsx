@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-import { menuBar } from "~/assets/img/body/homefeature/hang-quoc-te";
+import { menuBar } from "~/assets/img/body/homeFeatures/hang-quoc-te";
 
 const MenuBar = () => {
     const [isActive, setIsActive] = useState(0);
@@ -9,16 +9,15 @@ const MenuBar = () => {
         const sections = document.querySelectorAll("section");
         const observer = new IntersectionObserver(
             (entries) => {
-                entries.forEach((entry, index) => {
+                entries.forEach((entry) => {
                     if (entry.isIntersecting) {
                         const index = entry.target.dataset.index;
                         setIsActive(Number(index));
                     }
                 });
             },
-            { threshold: 0.8 },
+            { threshold: 0.3 },
         );
-
         sections.forEach((section) => observer.observe(section));
     }, []);
     return (

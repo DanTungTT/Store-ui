@@ -1,8 +1,15 @@
 import { ProductList, ProductItem } from "~/componnents/feature/product";
 import useFetch from "~/hooks/projectHooks/useFetch";
-const SamePriceProducts = () => {
+import getFinalPrice from "~/componnents/feature/getFinalPrice";
+const SamePriceProducts = ({ priceLimit }) => {
     const data = useFetch("/products");
-    const products = data.filter((product) => product.price >= 3000 && product.price <= 9000);
+
+    const products = data.filter((product) => {
+        return priceLimit.length > 1
+            ? getFinalPrice(product) >= priceLimit[0] && getFinalPrice(product) <= priceLimit[1]
+            : getFinalPrice(product) >= priceLimit[0];
+    });
+
     return (
         <>
             <ProductList>

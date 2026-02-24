@@ -1,54 +1,12 @@
 {
-    "homeFeatures": [
-        {
-            "id": 1,
-            "react-router": "/hang-quoc-te",
-            "img": "src/assets/img/body/api/homeFeatures/hangQuocTe.png",
-            "title": "Hàng Quốc Tế"
-        },
-        {
-            "id": 2,
-            "react-router": "/seo-xu-li",
-            "img": "src/assets/img/body/api/homeFeatures/seoXuLi.png",
-            "title": "Seo Xử lí"
-        },
-
-        {
-            "id": 3,
-            "react-router": "/deal-hot",
-            "img": "src/assets/img/body/api/homeFeatures/flashSeo.png",
-            "title": "Deal Hot Giờ vàng"
-        },
-        {
-            "id": 4,
-            "react-router": "/seo-style",
-            "img": "src/assets/img/body/api/homeFeatures/seoStyle.png",
-            "title": "Seo Style Voucher 30%"
-        },
-        {
-            "id": 5,
-            "react-router": "/khach-hang-than-thiet",
-            "img": "src/assets/img/body/api/homeFeatures/khachHangThanThiet.png",
-            "title": "Khách hàng thân thiết"
-        },
-        {
-            "id": 6,
-            "react-router": "/ma-giam-gia",
-            "img": "src/assets/img/body/api/homeFeatures/maGiamGia.png",
-            "title": "Mã giảm giá"
-        }
-    ],
     "products": [
         {
             "id": 1,
             "name": "áo thun",
-            "images": [
-                "src/assets/img/body/api/products/ao/160_ao_thun.jpg",
-                "src/assets/img/body/api/products/ao/ao-thun-soc.jpeg"
-            ],
+            "images": ["src/assets/api/products/ao/160_ao_thun.jpg", "src/assets/api/products/ao/ao-thun-soc.jpeg"],
             "decription": "áo thun thoái mát màu dải chất lượng cao",
             "category": { "id": 3, "name": "Áo" },
-            "events": ["src/assets/img/body/api/events/25.1.png", "src/assets/img/body/api/events/xtra.png"],
+            "events": ["src/assets/api/events/25.1.png", "src/assets/api/events/xtra.png"],
             "favourite": true,
             "shopTag": "SeoThinhHanh",
             "voucher": 10,
@@ -67,17 +25,17 @@
             "id": 2,
             "name": "áo polo nam",
             "images": [
-                "src/assets/img/body/api/products/ao/ao-polo-nam-den.jpeg",
-                "src/assets/img/body/api/products/ao/ao-polo-nam-trang(2).jpeg",
-                "src/assets/img/body/api/products/ao/ao-polo-trang-nam.jpeg",
-                "src/assets/img/body/api/products/ao/ao-polo-nam.webp"
+                "src/assets/api/products/ao/ao-polo-nam-den.jpeg",
+                "src/assets/api/products/ao/ao-polo-nam-trang(2).jpeg",
+                "src/assets/api/products/ao/ao-polo-trang-nam.jpeg",
+                "src/assets/api/products/ao/ao-polo-nam.webp"
             ],
             "decription": "áo polo nam thoái mát màu dải chất lượng cao",
             "category": { "id": 3, "name": "Áo" },
             "events": [
-                "src/assets/img/body/api/events/25.1.png",
-                "src/assets/img/body/api/events/xtra.png",
-                "src/assets/img/body/api/events/sieure.png"
+                "src/assets/api/events/25.1.png",
+                "src/assets/api/events/xtra.png",
+                "src/assets/api/events/sieure.png"
             ],
             "favourite": true,
             "shopTag": "SeoThoiTrang",
@@ -97,18 +55,18 @@
             "id": 3,
             "name": "áo sơ mi nam",
             "images": [
-                "src/assets/img/body/api/products/ao/ao-so-mi.jpeg",
-                "src/assets/img/body/api/products/ao/ao-so-mi(2).jpeg",
-                "src/assets/img/body/api/products/ao/ao-so-mi(3).jpeg"
+                "src/assets/api/products/ao/ao-so-mi.jpeg",
+                "src/assets/api/products/ao/ao-so-mi(2).jpeg",
+                "src/assets/api/products/ao/ao-so-mi(3).jpeg"
             ],
             "decription": "áo sơ mi nam, nam tính màu dải chất lượng cao",
             "category": { "id": 3, "name": "Áo" },
-            "events": ["src/assets/img/body/api/events/xtra.png", "src/assets/img/body/api/events/sieure.png"],
+            "events": ["src/assets/api/events/xtra.png", "src/assets/api/events/sieure.png"],
             "favourite": true,
             "shopTag": "SeoThoiTrang",
             "voucher": 50,
             "label": true,
-            "price": 99000,
+            "price": 9900,
             "sales": 5000,
             "star": 4.7,
             "comboPromotion": "Mua 2 & giảm 5%",
@@ -121,20 +79,20 @@
             "id": 4,
             "name": "áo thun 3 lỗ nam",
             "images": [
-                "src/assets/img/body/api/products/ao/ao-ba-lo-3-mau.jpg",
-                "src/assets/img/body/api/products/ao/ao-ba-lo-xanh.jpg",
-                "src/assets/img/body/api/products/ao/ao-ba-lo-den.webp",
-                "src/assets/img/body/api/products/ao/ao-ba-lo-den(2).jpeg",
-                "src/assets/img/body/api/products/ao/ao-ba-lo-trang-den.jpeg"
+                "src/assets/api/products/ao/ao-ba-lo-3-mau.jpg",
+                "src/assets/api/products/ao/ao-ba-lo-xanh.jpg",
+                "src/assets/api/products/ao/ao-ba-lo-den.webp",
+                "src/assets/api/products/ao/ao-ba-lo-den(2).jpeg",
+                "src/assets/api/products/ao/ao-ba-lo-trang-den.jpeg"
             ],
             "decription": "áo thun 3 lỗ  nam, nam tính màu dải chất lượng cao",
             "category": { "id": 3, "name": "Áo" },
-            "events": ["src/assets/img/body/api/events/xtra.png", "src/assets/img/body/api/events/sieure.png"],
+            "events": ["src/assets/api/events/xtra.png", "src/assets/api/events/sieure.png"],
             "favourite": true,
             "shopTag": "SeoThoiTrang",
             "voucher": 50,
             "label": true,
-            "price": 99000,
+            "price": 9000,
             "sales": 4000,
             "star": 4.7,
             "comboPromotion": "Mua 2 & giảm 5%",
@@ -147,21 +105,21 @@
             "id": 5,
             "name": "Quần đùi thoái mái mùa hè",
             "images": [
-                "src/assets/img/body/api/products/quan/quan-dui-hoa.jpeg",
-                "src/assets/img/body/api/products/quan/quan-dui-den.jpeg",
-                "src/assets/img/body/api/products/quan/quan-dui-den(2).jpeg",
-                "src/assets/img/body/api/products/quan/quan-dui-do.jpeg",
-                "src/assets/img/body/api/products/quan/quan-dui-xanh.jpeg",
-                "src/assets/img/body/api/products/quan/quan-dui-xanh(2).jpeg"
+                "src/assets/api/products/quan/quan-dui-hoa.jpeg",
+                "src/assets/api/products/quan/quan-dui-den.jpeg",
+                "src/assets/api/products/quan/quan-dui-den(2).jpeg",
+                "src/assets/api/products/quan/quan-dui-do.jpeg",
+                "src/assets/api/products/quan/quan-dui-xanh.jpeg",
+                "src/assets/api/products/quan/quan-dui-xanh(2).jpeg"
             ],
             "decription": " quần đùi nam thoát mái mùa hè, nam tính màu dải chất lượng cao",
             "category": { "id": 4, "name": "quần" },
-            "events": ["src/assets/img/body/api/events/xtra.png", "src/assets/img/body/api/events/sieure.png"],
+            "events": ["src/assets/api/events/xtra.png", "src/assets/api/events/sieure.png"],
             "favourite": true,
             "shopTag": "SeoThoiTrang",
             "voucher": 50,
             "label": true,
-            "price": 99000,
+            "price": 10000,
             "sales": 60000,
             "star": 4.7,
             "comboPromotion": "Mua 2 & giảm 5%",
@@ -174,12 +132,12 @@
             "id": 6,
             "name": "Quần đùi vải kaki thoái mái mùa hè",
             "images": [
-                "src/assets/img/body/api/products/quan/quan-dui-xam.jpeg",
-                "src/assets/img/body/api/products/quan/quan-dui-trang.jpeg"
+                "src/assets/api/products/quan/quan-dui-xam.jpeg",
+                "src/assets/api/products/quan/quan-dui-trang.jpeg"
             ],
             "decription": " quần đùi nam thoát mái mùa hè, nam tính màu dải chất lượng cao",
             "category": { "id": 4, "name": "quần" },
-            "events": ["src/assets/img/body/api/events/xtra.png", "src/assets/img/body/api/events/sieure.png"],
+            "events": ["src/assets/api/events/xtra.png", "src/assets/api/events/sieure.png"],
             "favourite": true,
             "shopTag": "SeoThoiTrang",
             "voucher": 50,
@@ -197,14 +155,14 @@
             "id": 7,
             "name": "Quần kaki trẻ trung",
             "images": [
-                "src/assets/img/body/api/products/quan/quan-kaki.png",
-                "src/assets/img/body/api/products/quan/quan-kaki(2).jpg",
-                "src/assets/img/body/api/products/quan/quan-kaki(3).jpeg",
-                "src/assets/img/body/api/products/quan/quan-kaki(4).jpeg"
+                "src/assets/api/products/quan/quan-kaki.png",
+                "src/assets/api/products/quan/quan-kaki(2).jpg",
+                "src/assets/api/products/quan/quan-kaki(3).jpeg",
+                "src/assets/api/products/quan/quan-kaki(4).jpeg"
             ],
             "decription": "quần kaki nam, nam tính & chất lượng cao, vải xịn",
             "category": { "id": 4, "name": "quần" },
-            "events": ["src/assets/img/body/api/events/xtra.png", "src/assets/img/body/api/events/sieure.png"],
+            "events": ["src/assets/api/events/xtra.png", "src/assets/api/events/sieure.png"],
             "favourite": true,
             "shopTag": "SeoThoiTrang",
             "voucher": 50,
@@ -222,17 +180,17 @@
             "id": 8,
             "name": "Quần tây âu đen trẻ trung",
             "images": [
-                "src/assets/img/body/api/products/quan/quan-au-den.jpeg",
-                "src/assets/img/body/api/products/quan/quan-au-den(2).jpeg",
-                "src/assets/img/body/api/products/quan/quan-au-den(3).jpg",
-                "src/assets/img/body/api/products/quan/quan-au-den(4).jpeg"
+                "src/assets/api/products/quan/quan-au-den.jpeg",
+                "src/assets/api/products/quan/quan-au-den(2).jpeg",
+                "src/assets/api/products/quan/quan-au-den(3).jpg",
+                "src/assets/api/products/quan/quan-au-den(4).jpeg"
             ],
             "decription": "quần âu đen nam, nam tính & chất lượng cao, vải xịn",
             "category": { "id": 4, "name": "quần" },
             "events": [
-                "src/assets/img/body/api/events/xtra.png",
-                "src/assets/img/body/api/events/sieure.png",
-                "src/assets/img/body/api/events/25.1.png"
+                "src/assets/api/events/xtra.png",
+                "src/assets/api/events/sieure.png",
+                "src/assets/api/events/25.1.png"
             ],
             "favourite": true,
             "shopTag": "SeoThoiTrang",
@@ -251,17 +209,17 @@
             "id": 9,
             "name": "Quần jean trẻ trung",
             "images": [
-                "src/assets/img/body/api/products/quan/quan-jean.jpeg",
-                "src/assets/img/body/api/products/quan/quan-jean(2).webp",
-                "src/assets/img/body/api/products/quan/quan-jean(3).jpeg",
-                "src/assets/img/body/api/products/quan/quan-jean(4).jpeg"
+                "src/assets/api/products/quan/quan-jean.jpeg",
+                "src/assets/api/products/quan/quan-jean(2).webp",
+                "src/assets/api/products/quan/quan-jean(3).jpeg",
+                "src/assets/api/products/quan/quan-jean(4).jpeg"
             ],
             "decription": "quần jean nam, nam tính & chất lượng cao, vải xịn",
             "category": { "id": 4, "name": "quần" },
             "events": [
-                "src/assets/img/body/api/events/xtra.png",
-                "src/assets/img/body/api/events/sieure.png",
-                "src/assets/img/body/api/events/25.1.png"
+                "src/assets/api/events/xtra.png",
+                "src/assets/api/events/sieure.png",
+                "src/assets/api/events/25.1.png"
             ],
             "favourite": true,
             "shopTag": "SeoThoiTrang",
@@ -280,18 +238,18 @@
             "id": 10,
             "name": "Quần thun dài",
             "images": [
-                "src/assets/img/body/api/products/quan/quan-thun-dai.jpeg",
-                "src/assets/img/body/api/products/quan/quan-thun-dai(2).jpeg",
-                "src/assets/img/body/api/products/quan/quan-thun-dai(3).jpeg",
-                "src/assets/img/body/api/products/quan/quan-thun-dai(4).jpg",
-                "src/assets/img/body/api/products/quan/quan-thun-dai(5).jpeg"
+                "src/assets/api/products/quan/quan-thun-dai.jpeg",
+                "src/assets/api/products/quan/quan-thun-dai(2).jpeg",
+                "src/assets/api/products/quan/quan-thun-dai(3).jpeg",
+                "src/assets/api/products/quan/quan-thun-dai(4).jpg",
+                "src/assets/api/products/quan/quan-thun-dai(5).jpeg"
             ],
             "decription": "quần thun dài nam, nam tính & chất lượng cao, vải xịn",
             "category": { "id": 4, "name": "quần" },
             "events": [
-                "src/assets/img/body/api/events/xtra.png",
-                "src/assets/img/body/api/events/sieure.png",
-                "src/assets/img/body/api/events/25.1.png"
+                "src/assets/api/events/xtra.png",
+                "src/assets/api/events/sieure.png",
+                "src/assets/api/events/25.1.png"
             ],
             "favourite": true,
             "shopTag": "SeoThoiTrang",
@@ -310,16 +268,16 @@
             "id": 11,
             "name": "Điện Thoại SamSung A23 ",
             "images": [
-                "src/assets/img/body/api/products/dt/ssA23.jpg",
-                "src/assets/img/body/api/products/dt/ssA23(2).jpeg",
-                "src/assets/img/body/api/products/dt/ssA23(3).jpeg"
+                "src/assets/api/products/dt/ssA23.jpg",
+                "src/assets/api/products/dt/ssA23(2).jpeg",
+                "src/assets/api/products/dt/ssA23(3).jpeg"
             ],
             "decription": "Samsung Galaxy A23 (4G) 4GB 128GB Chính hãng - Clickbuy",
             "category": { "id": 6, "name": "Điện Thoại" },
             "events": [
-                "src/assets/img/body/api/events/xtra.png",
-                "src/assets/img/body/api/events/sieure.png",
-                "src/assets/img/body/api/events/25.1.png"
+                "src/assets/api/events/xtra.png",
+                "src/assets/api/events/sieure.png",
+                "src/assets/api/events/25.1.png"
             ],
             "favourite": true,
             "shopTag": "SeoPhone",
@@ -338,16 +296,16 @@
             "id": 12,
             "name": "Điện thoại ip17 Pro Max",
             "images": [
-                "src/assets/img/body/api/products/dt/ip17.jpeg",
-                "src/assets/img/body/api/products/dt/ip17(2).jpeg",
-                "src/assets/img/body/api/products/dt/ip17(3).jpeg"
+                "src/assets/api/products/dt/ip17.jpeg",
+                "src/assets/api/products/dt/ip17(2).jpeg",
+                "src/assets/api/products/dt/ip17(3).jpeg"
             ],
             "decription": "Điện thoại ip17 Pro Max 8g ",
             "category": { "id": 6, "name": "Điện thoại" },
             "events": [
-                "src/assets/img/body/api/events/xtra.png",
-                "src/assets/img/body/api/events/sieure.png",
-                "src/assets/img/body/api/events/25.1.png"
+                "src/assets/api/events/xtra.png",
+                "src/assets/api/events/sieure.png",
+                "src/assets/api/events/25.1.png"
             ],
             "favourite": true,
             "shopTag": "SeoPhone",
@@ -366,17 +324,17 @@
             "id": 13,
             "name": "Điện Thoại OppoA5",
             "images": [
-                "src/assets/img/body/api/products/dt/oppoA5.jpg",
-                "src/assets/img/body/api/products/dt/oppoA5(2).jpeg",
-                "src/assets/img/body/api/products/dt/oppoA5(3).jpeg",
-                "src/assets/img/body/api/products/dt/oppoA3s.webp"
+                "src/assets/api/products/dt/oppoA5.jpg",
+                "src/assets/api/products/dt/oppoA5(2).jpeg",
+                "src/assets/api/products/dt/oppoA5(3).jpeg",
+                "src/assets/api/products/dt/oppoA3s.webp"
             ],
             "decription": "Điện Thoại OppoA5 chính hãng 8g",
             "category": { "id": 6, "name": "Điện Thoại" },
             "events": [
-                "src/assets/img/body/api/events/xtra.png",
-                "src/assets/img/body/api/events/sieure.png",
-                "src/assets/img/body/api/events/25.1.png"
+                "src/assets/api/events/xtra.png",
+                "src/assets/api/events/sieure.png",
+                "src/assets/api/events/25.1.png"
             ],
             "favourite": true,
             "shopTag": "SeoPhone",
@@ -395,17 +353,17 @@
             "id": 14,
             "name": "Điện Thoại realme 7i",
             "images": [
-                "src/assets/img/body/api/products/dt/realme.jpg",
-                "src/assets/img/body/api/products/dt/realme(2).jpeg",
-                "src/assets/img/body/api/products/dt/realme(3).jpeg",
-                "src/assets/img/body/api/products/dt/realme(4).jpeg"
+                "src/assets/api/products/dt/realme.jpg",
+                "src/assets/api/products/dt/realme(2).jpeg",
+                "src/assets/api/products/dt/realme(3).jpeg",
+                "src/assets/api/products/dt/realme(4).jpeg"
             ],
             "decription": "Điện thoại realme 7i 8g mạnh mẽ",
             "category": { "id": 6, "name": "Điện Thoại" },
             "events": [
-                "src/assets/img/body/api/events/xtra.png",
-                "src/assets/img/body/api/events/sieure.png",
-                "src/assets/img/body/api/events/25.1.png"
+                "src/assets/api/events/xtra.png",
+                "src/assets/api/events/sieure.png",
+                "src/assets/api/events/25.1.png"
             ],
             "favourite": true,
             "shopTag": "SeoPhone",
@@ -424,16 +382,16 @@
             "id": 15,
             "name": "Điện Thoại redmi 15C",
             "images": [
-                "src/assets/img/body/api/products/dt/redmi.jpeg",
-                "src/assets/img/body/api/products/dt/redmi.webp",
-                "src/assets/img/body/api/products/dt/redmi(2).jpeg"
+                "src/assets/api/products/dt/redmi.jpeg",
+                "src/assets/api/products/dt/redmi.webp",
+                "src/assets/api/products/dt/redmi(2).jpeg"
             ],
             "decription": "Điện thoại redmi 15C 8g mạnh mẽ",
             "category": { "id": 6, "name": "Điện Thoại" },
             "events": [
-                "src/assets/img/body/api/events/xtra.png",
-                "src/assets/img/body/api/events/sieure.png",
-                "src/assets/img/body/api/events/25.1.png"
+                "src/assets/api/events/xtra.png",
+                "src/assets/api/events/sieure.png",
+                "src/assets/api/events/25.1.png"
             ],
             "favourite": true,
             "shopTag": "SeoPhone",
@@ -451,13 +409,13 @@
         {
             "id": 16,
             "name": "Điện Thoại redmi note 14 pro max",
-            "images": ["src/assets/img/body/api/products/dt/redmi-note-14-pro.jpg"],
+            "images": ["src/assets/api/products/dt/redmi-note-14-pro.jpg"],
             "decription": "Điện thoại redmi 15C 8g mạnh mẽ",
             "category": { "id": 6, "name": "Điện Thoại" },
             "events": [
-                "src/assets/img/body/api/events/xtra.png",
-                "src/assets/img/body/api/events/sieure.png",
-                "src/assets/img/body/api/events/25.1.png"
+                "src/assets/api/events/xtra.png",
+                "src/assets/api/events/sieure.png",
+                "src/assets/api/events/25.1.png"
             ],
             "favourite": true,
             "shopTag": "SeoPhone",
@@ -476,16 +434,16 @@
             "id": 17,
             "name": "Ốp Điện Thoại SamSung A12 ",
             "images": [
-                "src/assets/img/body/api/products/op-dt/op-ss-a12.jpeg",
-                "src/assets/img/body/api/products/op-dt/op-ss-a12(2).jpeg",
-                "src/assets/img/body/api/products/op-dt/op-ss-a12(3).jpg"
+                "src/assets/api/products/op-dt/op-ss-a12.jpeg",
+                "src/assets/api/products/op-dt/op-ss-a12(2).jpeg",
+                "src/assets/api/products/op-dt/op-ss-a12(3).jpg"
             ],
             "decription": "ỐP Điện thoại SamSung A12 đẹp đẽ",
             "category": { "id": 7, "name": "Phụ kiện Điện Thoại" },
             "events": [
-                "src/assets/img/body/api/events/xtra.png",
-                "src/assets/img/body/api/events/sieure.png",
-                "src/assets/img/body/api/events/25.1.png"
+                "src/assets/api/events/xtra.png",
+                "src/assets/api/events/sieure.png",
+                "src/assets/api/events/25.1.png"
             ],
             "favourite": true,
             "shopTag": "SeoPhone",
@@ -504,15 +462,15 @@
             "id": 18,
             "name": "Ốp Điện Thoại SamSung A23 ",
             "images": [
-                "src/assets/img/body/api/products/op-dt/op-ss-a23.jpg",
-                "src/assets/img/body/api/products/op-dt/op-ss-a53-a73-a33-a23.jpg"
+                "src/assets/api/products/op-dt/op-ss-a23.jpg",
+                "src/assets/api/products/op-dt/op-ss-a53-a73-a33-a23.jpg"
             ],
             "decription": "ỐP Điện thoại SamSung A23 đẹp đẽ",
             "category": { "id": 7, "name": "Phụ kiện Điện Thoại" },
             "events": [
-                "src/assets/img/body/api/events/xtra.png",
-                "src/assets/img/body/api/events/sieure.png",
-                "src/assets/img/body/api/events/25.1.png"
+                "src/assets/api/events/xtra.png",
+                "src/assets/api/events/sieure.png",
+                "src/assets/api/events/25.1.png"
             ],
             "favourite": true,
             "shopTag": "SeoPhone",
@@ -530,16 +488,13 @@
         {
             "id": 102,
             "name": "Ốp Điện Thoại SamSung s20 ",
-            "images": [
-                "src/assets/img/body/api/products/op-dt/op-ss-s20.jpg",
-                "src/assets/img/body/api/products/op-dt/op-ss-s20(2).jpg"
-            ],
+            "images": ["src/assets/api/products/op-dt/op-ss-s20.jpg", "src/assets/api/products/op-dt/op-ss-s20(2).jpg"],
             "decription": "ỐP Điện thoại SamSung s20 đẹp đẽ",
             "category": { "id": 7, "name": "Phụ kiện Điện Thoại" },
             "events": [
-                "src/assets/img/body/api/events/xtra.png",
-                "src/assets/img/body/api/events/sieure.png",
-                "src/assets/img/body/api/events/25.1.png"
+                "src/assets/api/events/xtra.png",
+                "src/assets/api/events/sieure.png",
+                "src/assets/api/events/25.1.png"
             ],
             "favourite": true,
             "shopTag": "SeoPhone",
@@ -558,17 +513,17 @@
             "id": 19,
             "name": "Pin dự phòng Polymer ",
             "images": [
-                "src/assets/img/body/api/products/pinDuPhong/pin-du-phong-polymer.jpeg",
-                "src/assets/img/body/api/products/pinDuPhong/pin-du-phong-polymer(2).jpg",
-                "src/assets/img/body/api/products/pinDuPhong/pin-du-phong-polymer(3).jpeg",
-                "src/assets/img/body/api/products/pinDuPhong/pin-du-phong-polymer(4).jpeg"
+                "src/assets/api/products/pinDuPhong/pin-du-phong-polymer.jpeg",
+                "src/assets/api/products/pinDuPhong/pin-du-phong-polymer(2).jpg",
+                "src/assets/api/products/pinDuPhong/pin-du-phong-polymer(3).jpeg",
+                "src/assets/api/products/pinDuPhong/pin-du-phong-polymer(4).jpeg"
             ],
             "decription": "Pin dự phòng Polymer 1000mhz",
             "category": { "id": 7, "name": "Phụ kiện Điện Thoại" },
             "events": [
-                "src/assets/img/body/api/events/xtra.png",
-                "src/assets/img/body/api/events/sieure.png",
-                "src/assets/img/body/api/events/25.1.png"
+                "src/assets/api/events/xtra.png",
+                "src/assets/api/events/sieure.png",
+                "src/assets/api/events/25.1.png"
             ],
             "favourite": true,
             "shopTag": "SeoPhone",
@@ -587,17 +542,17 @@
             "id": 20,
             "name": "Giá Đỡ Điện Thoại chất lương cao",
             "images": [
-                "src/assets/img/body/api/products/giaDodt/gia-do.jpeg",
-                "src/assets/img/body/api/products/giaDodt/gia-do(2).jpeg",
-                "src/assets/img/body/api/products/giaDodt/gia-do(3).jpeg",
-                "src/assets/img/body/api/products/giaDodt/gia-do(4).jpeg"
+                "src/assets/api/products/giaDodt/gia-do.jpeg",
+                "src/assets/api/products/giaDodt/gia-do(2).jpeg",
+                "src/assets/api/products/giaDodt/gia-do(3).jpeg",
+                "src/assets/api/products/giaDodt/gia-do(4).jpeg"
             ],
             "decription": "Giá đỡ điện thoại bằng kim loại",
             "category": { "id": 7, "name": "Phụ kiện Điện Thoại" },
             "events": [
-                "src/assets/img/body/api/events/xtra.png",
-                "src/assets/img/body/api/events/sieure.png",
-                "src/assets/img/body/api/events/25.1.png"
+                "src/assets/api/events/xtra.png",
+                "src/assets/api/events/sieure.png",
+                "src/assets/api/events/25.1.png"
             ],
             "favourite": true,
             "shopTag": "SeoPhone",
@@ -616,17 +571,17 @@
             "id": 21,
             "name": "Quạt Tản nhiệt điện thoại thoái mát",
             "images": [
-                "src/assets/img/body/api/products/quat-tan/quat-tan.jpg",
-                "src/assets/img/body/api/products/quat-tan/quat-tan(2).jpeg",
-                "src/assets/img/body/api/products/quat-tan/quat-tan(3).jpeg",
-                "src/assets/img/body/api/products/quat-tan/quat-tan(4).jpeg"
+                "src/assets/api/products/quat-tan/quat-tan.jpg",
+                "src/assets/api/products/quat-tan/quat-tan(2).jpeg",
+                "src/assets/api/products/quat-tan/quat-tan(3).jpeg",
+                "src/assets/api/products/quat-tan/quat-tan(4).jpeg"
             ],
             "decription": "Quạt tản nhiệt điện thoại chính hãng",
             "category": { "id": 7, "name": "Phụ kiện Điện Thoại" },
             "events": [
-                "src/assets/img/body/api/events/xtra.png",
-                "src/assets/img/body/api/events/sieure.png",
-                "src/assets/img/body/api/events/25.1.png"
+                "src/assets/api/events/xtra.png",
+                "src/assets/api/events/sieure.png",
+                "src/assets/api/events/25.1.png"
             ],
             "favourite": true,
             "shopTag": "SeoPhone",
@@ -645,17 +600,17 @@
             "id": 22,
             "name": "Thẻ nhớ điện thoại, thẻ nhớ chính hãng chất lượng cao",
             "images": [
-                "src/assets/img/body/api/products/the-nho/the-nho.jpg",
-                "src/assets/img/body/api/products/the-nho/the-nho(2).jpeg",
-                "src/assets/img/body/api/products/the-nho/the-nho(3).jpeg",
-                "src/assets/img/body/api/products/the-nho/the-nho(4).jpeg"
+                "src/assets/api/products/the-nho/the-nho.jpg",
+                "src/assets/api/products/the-nho/the-nho(2).jpeg",
+                "src/assets/api/products/the-nho/the-nho(3).jpeg",
+                "src/assets/api/products/the-nho/the-nho(4).jpeg"
             ],
             "decription": "Thẻ nhớ điện thoại 4g, 8g, 16g, ...",
             "category": { "id": 7, "name": "Phụ kiện Điện Thoại" },
             "events": [
-                "src/assets/img/body/api/events/xtra.png",
-                "src/assets/img/body/api/events/sieure.png",
-                "src/assets/img/body/api/events/25.1.png"
+                "src/assets/api/events/xtra.png",
+                "src/assets/api/events/sieure.png",
+                "src/assets/api/events/25.1.png"
             ],
             "favourite": true,
             "shopTag": "SeoPhone",
@@ -674,14 +629,14 @@
             "id": 23,
             "name": "Loa và tai nghe thiết bị nghe nhạc không dây, có dây",
             "images": [
-                "src/assets/img/body/api/products/loa&tai-nghe/loa-tai-nghe.jpeg",
-                "src/assets/img/body/api/products/loa&tai-nghe/loa-tai-nghe(2).jpg",
-                "src/assets/img/body/api/products/loa&tai-nghe/loa-tai-nghe(3).jpeg",
-                "src/assets/img/body/api/products/loa&tai-nghe/loa-tai-nghe(4).jpg"
+                "src/assets/api/products/loa&tai-nghe/loa-tai-nghe.jpeg",
+                "src/assets/api/products/loa&tai-nghe/loa-tai-nghe(2).jpg",
+                "src/assets/api/products/loa&tai-nghe/loa-tai-nghe(3).jpeg",
+                "src/assets/api/products/loa&tai-nghe/loa-tai-nghe(4).jpg"
             ],
             "decription": "thiết bị điện tử nghe nhạc không dây, có dây chất lượng cao ",
             "category": { "id": 9, "name": "Tai nghe và loa" },
-            "events": ["src/assets/img/body/api/events/xtra.png", "src/assets/img/body/api/events/sieure.png"],
+            "events": ["src/assets/api/events/xtra.png", "src/assets/api/events/sieure.png"],
             "favourite": true,
             "shopTag": "SeoPhone",
             "voucher": 24,
@@ -699,14 +654,14 @@
             "id": 24,
             "name": "Bóng đèn led thông minh, thiết bị điện tử gia dụng",
             "images": [
-                "src/assets/img/body/api/products/thiet-bi-thong-minh/bong-den-thong-minh.jpg",
-                "src/assets/img/body/api/products/thiet-bi-thong-minh/bong-den-thong-minh(2).jpeg",
-                "src/assets/img/body/api/products/thiet-bi-thong-minh/bong-den-thong-minh(3).jpeg",
-                "src/assets/img/body/api/products/thiet-bi-thong-minh/bong-den-thong-minh(4).jpeg"
+                "src/assets/api/products/thiet-bi-thong-minh/bong-den-thong-minh.jpg",
+                "src/assets/api/products/thiet-bi-thong-minh/bong-den-thong-minh(2).jpeg",
+                "src/assets/api/products/thiet-bi-thong-minh/bong-den-thong-minh(3).jpeg",
+                "src/assets/api/products/thiet-bi-thong-minh/bong-den-thong-minh(4).jpeg"
             ],
             "decription": "Bóng đèn led thông minh, nhiều màu ",
             "category": { "id": 10, "name": "Thiết bị thông minh" },
-            "events": ["src/assets/img/body/api/events/xtra.png", "src/assets/img/body/api/events/sieure.png"],
+            "events": ["src/assets/api/events/xtra.png", "src/assets/api/events/sieure.png"],
             "favourite": true,
             "shopTag": "SeoPhone",
             "voucher": 24,
@@ -724,14 +679,14 @@
             "id": 25,
             "name": "Ổ cắm thông minh bảo về  trẻ em ",
             "images": [
-                "src/assets/img/body/api/products/thiet-bi-thong-minh/o-cam-thong-minh.jpeg",
-                "src/assets/img/body/api/products/thiet-bi-thong-minh/o-cam-thong-minh(2).jpeg",
-                "src/assets/img/body/api/products/thiet-bi-thong-minh/o-cam-thong-minh(3).jpeg",
-                "src/assets/img/body/api/products/thiet-bi-thong-minh/o-cam-thong-minh(4).jpeg"
+                "src/assets/api/products/thiet-bi-thong-minh/o-cam-thong-minh.jpeg",
+                "src/assets/api/products/thiet-bi-thong-minh/o-cam-thong-minh(2).jpeg",
+                "src/assets/api/products/thiet-bi-thong-minh/o-cam-thong-minh(3).jpeg",
+                "src/assets/api/products/thiet-bi-thong-minh/o-cam-thong-minh(4).jpeg"
             ],
             "decription": "Ổ cắm thông minh màu trắng dễ  nhìn",
             "category": { "id": 10, "name": "Thiết bị thông minh" },
-            "events": ["src/assets/img/body/api/events/xtra.png", "src/assets/img/body/api/events/sieure.png"],
+            "events": ["src/assets/api/events/xtra.png", "src/assets/api/events/sieure.png"],
             "favourite": true,
             "shopTag": "SeoPhone",
             "voucher": 24,
@@ -749,14 +704,14 @@
             "id": 26,
             "name": "Cảm biến rò rỉ gas thông minh ",
             "images": [
-                "src/assets/img/body/api/products/thiet-bi-thong-minh/cam-bien-ro-ri-gas.jpg",
-                "src/assets/img/body/api/products/thiet-bi-thong-minh/cam-bien-ro-ri-gas(2).jpeg",
-                "src/assets/img/body/api/products/thiet-bi-thong-minh/cam-bien-ro-ri-gas(3).jpeg",
-                "src/assets/img/body/api/products/thiet-bi-thong-minh/cam-bien-ro-ri-gas(4).jpeg"
+                "src/assets/api/products/thiet-bi-thong-minh/cam-bien-ro-ri-gas.jpg",
+                "src/assets/api/products/thiet-bi-thong-minh/cam-bien-ro-ri-gas(2).jpeg",
+                "src/assets/api/products/thiet-bi-thong-minh/cam-bien-ro-ri-gas(3).jpeg",
+                "src/assets/api/products/thiet-bi-thong-minh/cam-bien-ro-ri-gas(4).jpeg"
             ],
             "decription": "Cảm biến rò rỉ ga thông minh tránh tai nạn, bảo vệ người thân ",
             "category": { "id": 10, "name": "Thiết bị thông minh" },
-            "events": ["src/assets/img/body/api/events/xtra.png", "src/assets/img/body/api/events/sieure.png"],
+            "events": ["src/assets/api/events/xtra.png", "src/assets/api/events/sieure.png"],
             "favourite": true,
             "shopTag": "SeoPhone",
             "voucher": 24,
@@ -774,13 +729,13 @@
             "id": 27,
             "name": "Công tắc điện thông minh",
             "images": [
-                "src/assets/img/body/api/products/thiet-bi-thong-minh/cong-tac-dien-thong-minh.png",
-                "src/assets/img/body/api/products/thiet-bi-thong-minh/cong-tac-dien-thong-minh(2).jpeg",
-                "src/assets/img/body/api/products/thiet-bi-thong-minh/cong-tac-dien-thong-minh(3).jpeg"
+                "src/assets/api/products/thiet-bi-thong-minh/cong-tac-dien-thong-minh.png",
+                "src/assets/api/products/thiet-bi-thong-minh/cong-tac-dien-thong-minh(2).jpeg",
+                "src/assets/api/products/thiet-bi-thong-minh/cong-tac-dien-thong-minh(3).jpeg"
             ],
             "decription": "Công tắc điện thông minh tránh tai nạn, bảo vệ người thân ",
             "category": { "id": 10, "name": "Thiết bị thông minh" },
-            "events": ["src/assets/img/body/api/events/xtra.png", "src/assets/img/body/api/events/sieure.png"],
+            "events": ["src/assets/api/events/xtra.png", "src/assets/api/events/sieure.png"],
             "favourite": true,
             "shopTag": "SeoPhone",
             "voucher": 24,
@@ -798,14 +753,14 @@
             "id": 28,
             "name": " Cầu dao thông minh",
             "images": [
-                "src/assets/img/body/api/products/thiet-bi-thong-minh/cau-dao-thong-minh.jpeg",
-                "src/assets/img/body/api/products/thiet-bi-thong-minh/cau-dao-thong-minh(2).jpeg",
-                "src/assets/img/body/api/products/thiet-bi-thong-minh/cau-dao-thong-minh(3).webp",
-                "src/assets/img/body/api/products/thiet-bi-thong-minh/cau-dao-thong-minh(4).jpeg"
+                "src/assets/api/products/thiet-bi-thong-minh/cau-dao-thong-minh.jpeg",
+                "src/assets/api/products/thiet-bi-thong-minh/cau-dao-thong-minh(2).jpeg",
+                "src/assets/api/products/thiet-bi-thong-minh/cau-dao-thong-minh(3).webp",
+                "src/assets/api/products/thiet-bi-thong-minh/cau-dao-thong-minh(4).jpeg"
             ],
             "decription": "Cầu dao thông minh tránh tai nạn, bảo vệ người thân ",
             "category": { "id": 10, "name": "Thiết bị thông minh" },
-            "events": ["src/assets/img/body/api/events/xtra.png", "src/assets/img/body/api/events/sieure.png"],
+            "events": ["src/assets/api/events/xtra.png", "src/assets/api/events/sieure.png"],
             "favourite": true,
             "shopTag": "SeoPhone",
             "voucher": 24,
@@ -822,10 +777,10 @@
         {
             "id": 29,
             "name": "Pc mini văn phòng: chip i5-6500, ram 8g, ssd 256g, card onboard ",
-            "images": ["src/assets/img/body/api/products/pc&laptop/pc-mini-van-phong.webp"],
+            "images": ["src/assets/api/products/pc&laptop/pc-mini-van-phong.webp"],
             "decription": "Pc mini văn phòng cho nhu cầu học tập và làm việc",
             "category": { "id": 12, "name": "Laptop & pc" },
-            "events": ["src/assets/img/body/api/events/xtra.png", "src/assets/img/body/api/events/sieure.png"],
+            "events": ["src/assets/api/events/xtra.png", "src/assets/api/events/sieure.png"],
             "favourite": true,
             "shopTag": "SeoPhone",
             "voucher": 24,
@@ -842,10 +797,10 @@
         {
             "id": 30,
             "name": "PC văn phòng : chip i5-12th, ram 16g, ssd 512gb, card onboard",
-            "images": ["src/assets/img/body/api/products/pc&laptop/pc-van-phong.jpeg"],
+            "images": ["src/assets/api/products/pc&laptop/pc-van-phong.jpeg"],
             "decription": "PC văn phòng cấu hình mạnh mẽ cho công việc học tập",
             "category": { "id": 12, "name": "Laptop & pc" },
-            "events": ["src/assets/img/body/api/events/xtra.png", "src/assets/img/body/api/events/sieure.png"],
+            "events": ["src/assets/api/events/xtra.png", "src/assets/api/events/sieure.png"],
             "favourite": true,
             "shopTag": "SeoPhone",
             "voucher": 24,
@@ -862,10 +817,10 @@
         {
             "id": 31,
             "name": "PC văn phòng : chip i5-13th, ram 16g, ssd 512gb, card onboard",
-            "images": ["src/assets/img/body/api/products/pc&laptop/pc-van-phong(2).jpeg"],
+            "images": ["src/assets/api/products/pc&laptop/pc-van-phong(2).jpeg"],
             "decription": "PC văn phòng cấu hình mạnh mẽ cho công việc học tập",
             "category": { "id": 12, "name": "Laptop & pc" },
-            "events": ["src/assets/img/body/api/events/xtra.png", "src/assets/img/body/api/events/sieure.png"],
+            "events": ["src/assets/api/events/xtra.png", "src/assets/api/events/sieure.png"],
             "favourite": true,
             "shopTag": "SeoPhone",
             "voucher": 24,
@@ -882,10 +837,10 @@
         {
             "id": 32,
             "name": "PC văn phòng : chip i5-13th, ram 32g, ssd 512gb, card onboard",
-            "images": ["src/assets/img/body/api/products/pc&laptop/pc-van-phong(3).jpeg"],
+            "images": ["src/assets/api/products/pc&laptop/pc-van-phong(3).jpeg"],
             "decription": "PC văn phòng cấu hình mạnh mẽ cho công việc học tập chạy máy ảo",
             "category": { "id": 12, "name": "Laptop & pc" },
-            "events": ["src/assets/img/body/api/events/xtra.png", "src/assets/img/body/api/events/sieure.png"],
+            "events": ["src/assets/api/events/xtra.png", "src/assets/api/events/sieure.png"],
             "favourite": true,
             "shopTag": "SeoPhone",
             "voucher": 24,
@@ -902,10 +857,10 @@
         {
             "id": 33,
             "name": "PC văn phòng : chip r5 5000 seri, ram 32g, ssd 512gb, card onboard",
-            "images": ["src/assets/img/body/api/products/pc&laptop/pc-van-phong(4).jpeg"],
+            "images": ["src/assets/api/products/pc&laptop/pc-van-phong(4).jpeg"],
             "decription": "PC văn phòng cấu hình mạnh mẽ cho công việc học tập chạy máy ảo",
             "category": { "id": 12, "name": "Laptop & pc" },
-            "events": ["src/assets/img/body/api/events/xtra.png", "src/assets/img/body/api/events/sieure.png"],
+            "events": ["src/assets/api/events/xtra.png", "src/assets/api/events/sieure.png"],
             "favourite": true,
             "shopTag": "SeoPhone",
             "voucher": 24,
@@ -922,10 +877,10 @@
         {
             "id": 34,
             "name": "PC văn phòng : chip i5-13th, ram 32g, ssd 512gb, card onboard",
-            "images": ["src/assets/img/body/api/products/pc&laptop/pc-van-phong(5).jpeg"],
+            "images": ["src/assets/api/products/pc&laptop/pc-van-phong(5).jpeg"],
             "decription": "PC văn phòng cấu hình mạnh mẽ cho công việc học tập chạy máy ảo",
             "category": { "id": 12, "name": "Laptop & pc" },
-            "events": ["src/assets/img/body/api/events/xtra.png", "src/assets/img/body/api/events/sieure.png"],
+            "events": ["src/assets/api/events/xtra.png", "src/assets/api/events/sieure.png"],
             "favourite": true,
             "shopTag": "SeoPhone",
             "voucher": 24,
@@ -942,10 +897,10 @@
         {
             "id": 35,
             "name": "PC văn phòng : chip i5-13th, ram 32g, ssd 512gb, card onboard",
-            "images": ["src/assets/img/body/api/products/pc&laptop/pc-van-phong(6).jpeg"],
+            "images": ["src/assets/api/products/pc&laptop/pc-van-phong(6).jpeg"],
             "decription": "PC văn phòng cấu hình mạnh mẽ cho công việc học tập chạy máy ảo",
             "category": { "id": 12, "name": "Laptop & pc" },
-            "events": ["src/assets/img/body/api/events/xtra.png", "src/assets/img/body/api/events/sieure.png"],
+            "events": ["src/assets/api/events/xtra.png", "src/assets/api/events/sieure.png"],
             "favourite": true,
             "shopTag": "SeoPhone",
             "voucher": 24,
@@ -962,13 +917,13 @@
         {
             "id": 36,
             "name": "PC chơi game với cấu hình mạnh mẽ : chip i5-13400H, ram 32g, ssd 512gb, card rtx 2050ti",
-            "images": ["src/assets/img/body/api/products/pc&laptop/pc.jpg"],
+            "images": ["src/assets/api/products/pc&laptop/pc.jpg"],
             "decription": "PC gaming cấu hình mạnh mẽ cho công việc học tập chạy máy ảo, chơi game fps, đồ họa ",
             "category": { "id": 12, "name": "Laptop & pc" },
             "events": [
-                "src/assets/img/body/api/events/xtra.png",
-                "src/assets/img/body/api/events/sieure.png",
-                "src/assets/img/body/api/events/25.1.png"
+                "src/assets/api/events/xtra.png",
+                "src/assets/api/events/sieure.png",
+                "src/assets/api/events/25.1.png"
             ],
             "favourite": true,
             "shopTag": "SeoPhone",
@@ -986,10 +941,10 @@
         {
             "id": 37,
             "name": "PC gaming chơi game mạnh mẽ không giật lag : chip i7-13400F, ram 32g, ssd 512gb, card rtx 3050ti",
-            "images": ["src/assets/img/body/api/products/pc&laptop/pc(2).jpeg"],
+            "images": ["src/assets/api/products/pc&laptop/pc(2).jpeg"],
             "decription": "PC chơi game, cấu hình mạnh mẽ cho công việc học tập chạy máy ảo, chơi game AAA, game fps, đồ họa nặng đô",
             "category": { "id": 12, "name": "Laptop & pc" },
-            "events": ["src/assets/img/body/api/events/xtra.png", "src/assets/img/body/api/events/sieure.png"],
+            "events": ["src/assets/api/events/xtra.png", "src/assets/api/events/sieure.png"],
             "favourite": true,
             "shopTag": "SeoPhone",
             "voucher": 24,
@@ -1006,10 +961,10 @@
         {
             "id": 38,
             "name": "PC chơi game cấu hình mạnh mẽ giá cả hợp lí : chip r5-7735HS, ram 32g, ssd 512gb, RTX 2050 super",
-            "images": ["src/assets/img/body/api/products/pc&laptop/pc(3).jpeg"],
+            "images": ["src/assets/api/products/pc&laptop/pc(3).jpeg"],
             "decription": "PC gaming cấu hình mạnh mẽ cho công việc học tập chạy máy ảo, chơi game AAA, fps, đồ  họa",
             "category": { "id": 12, "name": "Laptop & pc" },
-            "events": ["src/assets/img/body/api/events/xtra.png", "src/assets/img/body/api/events/sieure.png"],
+            "events": ["src/assets/api/events/xtra.png", "src/assets/api/events/sieure.png"],
             "favourite": true,
             "shopTag": "SeoPhone",
             "voucher": 24,
@@ -1026,10 +981,10 @@
         {
             "id": 39,
             "name": "PC chơi game  cấu hình mạnh mẽ : chip r5-7535HS, ram 32g, ssd 512gb, card RTX 3050ti",
-            "images": ["src/assets/img/body/api/products/pc&laptop/pc(4).webp"],
+            "images": ["src/assets/api/products/pc&laptop/pc(4).webp"],
             "decription": "PC gaming cấu hình mạnh mẽ cho công việc học tập chạy máy ảo",
             "category": { "id": 12, "name": "Laptop & pc" },
-            "events": ["src/assets/img/body/api/events/xtra.png", "src/assets/img/body/api/events/sieure.png"],
+            "events": ["src/assets/api/events/xtra.png", "src/assets/api/events/sieure.png"],
             "favourite": true,
             "shopTag": "SeoPhone",
             "voucher": 24,
@@ -1046,10 +1001,10 @@
         {
             "id": 40,
             "name": "Laptop Dell Latitude 5400 (i5-8365U/ Ram 8GB/ SSD 256GB/ 14″ FHD)",
-            "images": ["src/assets/img/body/api/products/pc&laptop/laptop-van-phong.png"],
+            "images": ["src/assets/api/products/pc&laptop/laptop-van-phong.png"],
             "decription": "Laptop Dell chính hãng, xách tay",
             "category": { "id": 12, "name": "Laptop & pc" },
-            "events": ["src/assets/img/body/api/events/xtra.png", "src/assets/img/body/api/events/sieure.png"],
+            "events": ["src/assets/api/events/xtra.png", "src/assets/api/events/sieure.png"],
             "favourite": true,
             "shopTag": "SeoPhone",
             "voucher": 24,
@@ -1066,10 +1021,10 @@
         {
             "id": 41,
             "name": "Laptop Dell Inspiron 5430 i5 1340P/16GB/512GB/2GB",
-            "images": ["src/assets/img/body/api/products/pc&laptop/laptop-van-phong(2).jpg"],
+            "images": ["src/assets/api/products/pc&laptop/laptop-van-phong(2).jpg"],
             "decription": "Laptop Dell chính hãng, xách tay",
             "category": { "id": 12, "name": "Laptop & pc" },
-            "events": ["src/assets/img/body/api/events/xtra.png", "src/assets/img/body/api/events/sieure.png"],
+            "events": ["src/assets/api/events/xtra.png", "src/assets/api/events/sieure.png"],
             "favourite": true,
             "shopTag": "SeoPhone",
             "voucher": 24,
@@ -1086,10 +1041,10 @@
         {
             "id": 42,
             "name": " Laptop Dell Inspiron 3520 N3520-i5U165W11BLU-FP",
-            "images": ["src/assets/img/body/api/products/pc&laptop/laptop-van-phong(3).webp"],
+            "images": ["src/assets/api/products/pc&laptop/laptop-van-phong(3).webp"],
             "decription": "Laptop Dell chính hãng, xách tay",
             "category": { "id": 12, "name": "Laptop & pc" },
-            "events": ["src/assets/img/body/api/events/xtra.png", "src/assets/img/body/api/events/sieure.png"],
+            "events": ["src/assets/api/events/xtra.png", "src/assets/api/events/sieure.png"],
             "favourite": true,
             "shopTag": "SeoPhone",
             "voucher": 24,
@@ -1106,10 +1061,10 @@
         {
             "id": 43,
             "name": " Laptop Dell Inspiron 15 3530 i5 1335U/8GB/512GB/120Hz",
-            "images": ["src/assets/img/body/api/products/pc&laptop/laptop-van-phong(4).jpg"],
+            "images": ["src/assets/api/products/pc&laptop/laptop-van-phong(4).jpg"],
             "decription": "Laptop Dell chính hãng, xách tay",
             "category": { "id": 12, "name": "Laptop & pc" },
-            "events": ["src/assets/img/body/api/events/xtra.png", "src/assets/img/body/api/events/sieure.png"],
+            "events": ["src/assets/api/events/xtra.png", "src/assets/api/events/sieure.png"],
             "favourite": true,
             "shopTag": "SeoPhone",
             "voucher": 24,
@@ -1126,10 +1081,10 @@
         {
             "id": 44,
             "name": "  Laptop Dell Inspiron 15 3530 i7 1355U (N3530-i7U161W11BLU-FP) - Chính hãng, mua trả chậm ",
-            "images": ["src/assets/img/body/api/products/pc&laptop/laptop-van-phong(5).jpg"],
+            "images": ["src/assets/api/products/pc&laptop/laptop-van-phong(5).jpg"],
             "decription": "Laptop Dell chính hãng, xách tay",
             "category": { "id": 12, "name": "Laptop & pc" },
-            "events": ["src/assets/img/body/api/events/xtra.png", "src/assets/img/body/api/events/sieure.png"],
+            "events": ["src/assets/api/events/xtra.png", "src/assets/api/events/sieure.png"],
             "favourite": true,
             "shopTag": "SeoPhone",
             "voucher": 24,
@@ -1146,10 +1101,10 @@
         {
             "id": 45,
             "name": "Laptop Lenovo IdeaPad Slim 5 15IRU9 83D0000EVN | Core 5 120U",
-            "images": ["src/assets/img/body/api/products/pc&laptop/laptop-van-phong(6).webp"],
+            "images": ["src/assets/api/products/pc&laptop/laptop-van-phong(6).webp"],
             "decription": "Laptop lenovo chính hãng, xách tay",
             "category": { "id": 12, "name": "Laptop & pc" },
-            "events": ["src/assets/img/body/api/events/xtra.png", "src/assets/img/body/api/events/sieure.png"],
+            "events": ["src/assets/api/events/xtra.png", "src/assets/api/events/sieure.png"],
             "favourite": true,
             "shopTag": "SeoPhone",
             "voucher": 24,
@@ -1166,10 +1121,10 @@
         {
             "id": 46,
             "name": "Laptop Lenovo IdeaPad Slim 5 15IRU9 83D0000EVN | Core 5 120U",
-            "images": ["src/assets/img/body/api/products/pc&laptop/laptop-van-phong(6).webp"],
+            "images": ["src/assets/api/products/pc&laptop/laptop-van-phong(6).webp"],
             "decription": "Laptop lenovo chính hãng, xách tay",
             "category": { "id": 12, "name": "Laptop & pc" },
-            "events": ["src/assets/img/body/api/events/xtra.png", "src/assets/img/body/api/events/sieure.png"],
+            "events": ["src/assets/api/events/xtra.png", "src/assets/api/events/sieure.png"],
             "favourite": true,
             "shopTag": "SeoPhone",
             "voucher": 24,
@@ -1186,10 +1141,10 @@
         {
             "id": 47,
             "name": "Lenovo Ideapad 5 Pro 16ARH7 Rẻ Nhất - BH Chính Hãng 36 Tháng",
-            "images": ["src/assets/img/body/api/products/pc&laptop/laptop-van-phong(7).jpg"],
+            "images": ["src/assets/api/products/pc&laptop/laptop-van-phong(7).jpg"],
             "decription": "Laptop lenovo chính hãng, xách tay",
             "category": { "id": 12, "name": "Laptop & pc" },
-            "events": ["src/assets/img/body/api/events/xtra.png", "src/assets/img/body/api/events/sieure.png"],
+            "events": ["src/assets/api/events/xtra.png", "src/assets/api/events/sieure.png"],
             "favourite": true,
             "shopTag": "SeoPhone",
             "voucher": 24,
@@ -1206,10 +1161,10 @@
         {
             "id": 48,
             "name": " Laptop Lenovo Ideapad 5 Pro 16ARH7 R5 6600HS/ 16GB/ 512GB/ GeForce GTX 1650 4G/ 16.0 2.5K/ Win 11 - Red LapTop",
-            "images": ["src/assets/img/body/api/products/pc&laptop/laptop-van-phong(8).jpeg"],
+            "images": ["src/assets/api/products/pc&laptop/laptop-van-phong(8).jpeg"],
             "decription": "Laptop lenovo chính hãng, xách tay",
             "category": { "id": 12, "name": "Laptop & pc" },
-            "events": ["src/assets/img/body/api/events/xtra.png", "src/assets/img/body/api/events/sieure.png"],
+            "events": ["src/assets/api/events/xtra.png", "src/assets/api/events/sieure.png"],
             "favourite": true,
             "shopTag": "SeoPhone",
             "voucher": 24,
@@ -1226,10 +1181,10 @@
         {
             "id": 49,
             "name": "  New 100%] Lenovo IdeaPad Slim 5 2024 (Ryzen 7 8745H, AMD 780M, 16GB, 512GB, 14 inch FHD IPS 100% SRGB) - (Xiaoxin 14 AHP9) * Laptop360 - Số 1 về Bảo Hành và Sau Bán Hàng ",
-            "images": ["src/assets/img/body/api/products/pc&laptop/laptop-van-phong(9).jpg"],
+            "images": ["src/assets/api/products/pc&laptop/laptop-van-phong(9).jpg"],
             "decription": "Laptop lenovo chính hãng, xách tay",
             "category": { "id": 12, "name": "Laptop & pc" },
-            "events": ["src/assets/img/body/api/events/xtra.png", "src/assets/img/body/api/events/sieure.png"],
+            "events": ["src/assets/api/events/xtra.png", "src/assets/api/events/sieure.png"],
             "favourite": true,
             "shopTag": "SeoPhone",
             "voucher": 24,
@@ -1246,10 +1201,10 @@
         {
             "id": 50,
             "name": "laptop lenovo v14 g4 iru 83a0000nvn (xám)|laptop chính hãng",
-            "images": ["src/assets/img/body/api/products/pc&laptop/laptop-van-phong(10).png"],
+            "images": ["src/assets/api/products/pc&laptop/laptop-van-phong(10).png"],
             "decription": "laptop lenovo chính hãng, xách tay",
             "category": { "id": 12, "name": "laptop & pc" },
-            "events": ["src/assets/img/body/api/events/xtra.png", "src/assets/img/body/api/events/sieure.png"],
+            "events": ["src/assets/api/events/xtra.png", "src/assets/api/events/sieure.png"],
             "favourite": true,
             "shoptag": "seophone",
             "voucher": 24,
@@ -1266,10 +1221,10 @@
         {
             "id": 51,
             "name": "Lenovo Thinkbook 14 Laptop văn phòng giá rẻ | Laptop World",
-            "images": ["src/assets/img/body/api/products/pc&laptop/laptop-van-phong(11).jpg"],
+            "images": ["src/assets/api/products/pc&laptop/laptop-van-phong(11).jpg"],
             "decription": "laptop lenovo chính hãng, xách tay",
             "category": { "id": 12, "name": "laptop & pc" },
-            "events": ["src/assets/img/body/api/events/xtra.png", "src/assets/img/body/api/events/sieure.png"],
+            "events": ["src/assets/api/events/xtra.png", "src/assets/api/events/sieure.png"],
             "favourite": true,
             "shoptag": "seophone",
             "voucher": 24,
@@ -1286,10 +1241,10 @@
         {
             "id": 52,
             "name": "Laptop Gaming Lenovo Chính Hãng | Hiệu Năng Khủng, Giá Tốt Tại An Khang Computer",
-            "images": ["src/assets/img/body/api/products/pc&laptop/laptop-gaming.jpg"],
+            "images": ["src/assets/api/products/pc&laptop/laptop-gaming.jpg"],
             "decription": "laptop lenovo chính hãng, xách tay",
             "category": { "id": 12, "name": "laptop & pc" },
-            "events": ["src/assets/img/body/api/events/xtra.png", "src/assets/img/body/api/events/sieure.png"],
+            "events": ["src/assets/api/events/xtra.png", "src/assets/api/events/sieure.png"],
             "favourite": true,
             "shoptag": "seophone",
             "voucher": 24,
@@ -1306,10 +1261,10 @@
         {
             "id": 53,
             "name": "Laptop Gaming MSI Thin 15 B13UCX-2080VN chính hãng - MemoryZone",
-            "images": ["src/assets/img/body/api/products/pc&laptop/laptop-gaming(2).webp"],
+            "images": ["src/assets/api/products/pc&laptop/laptop-gaming(2).webp"],
             "decription": "laptop lenovo chính hãng, xách tay",
             "category": { "id": 12, "name": "laptop & pc" },
-            "events": ["src/assets/img/body/api/events/xtra.png", "src/assets/img/body/api/events/sieure.png"],
+            "events": ["src/assets/api/events/xtra.png", "src/assets/api/events/sieure.png"],
             "favourite": true,
             "shoptag": "seophone",
             "voucher": 24,
@@ -1326,10 +1281,10 @@
         {
             "id": 54,
             "name": "Laptop ASUS TUF Gaming A15 FA507NUR-LP101W | Giá rẻ, trả góp 0%",
-            "images": ["src/assets/img/body/api/products/pc&laptop/laptop-gaming(3).webp"],
+            "images": ["src/assets/api/products/pc&laptop/laptop-gaming(3).webp"],
             "decription": "laptop lenovo chính hãng, xách tay",
             "category": { "id": 12, "name": "laptop & pc" },
-            "events": ["src/assets/img/body/api/events/xtra.png", "src/assets/img/body/api/events/sieure.png"],
+            "events": ["src/assets/api/events/xtra.png", "src/assets/api/events/sieure.png"],
             "favourite": true,
             "shoptag": "seophone",
             "voucher": 24,
@@ -1346,10 +1301,10 @@
         {
             "id": 55,
             "name": "Asus TUF Gaming A15 FA507UV-LP187W R7-8845HS 16GB RTX4060 15.6'' Jaege – Challenger Singapore",
-            "images": ["src/assets/img/body/api/products/pc&laptop/laptop-gaming(4).webp"],
+            "images": ["src/assets/api/products/pc&laptop/laptop-gaming(4).webp"],
             "decription": "laptop lenovo chính hãng, xách tay",
             "category": { "id": 12, "name": "laptop & pc" },
-            "events": ["src/assets/img/body/api/events/xtra.png", "src/assets/img/body/api/events/sieure.png"],
+            "events": ["src/assets/api/events/xtra.png", "src/assets/api/events/sieure.png"],
             "favourite": true,
             "shoptag": "seophone",
             "voucher": 24,
@@ -1366,10 +1321,10 @@
         {
             "id": 56,
             "name": "Laptop gaming Acer Nitro V ANV15 51 78BG",
-            "images": ["src/assets/img/body/api/products/pc&laptop/laptop-gaming(5).png"],
+            "images": ["src/assets/api/products/pc&laptop/laptop-gaming(5).png"],
             "decription": "laptop lenovo chính hãng, xách tay",
             "category": { "id": 12, "name": "laptop & pc" },
-            "events": ["src/assets/img/body/api/events/xtra.png", "src/assets/img/body/api/events/sieure.png"],
+            "events": ["src/assets/api/events/xtra.png", "src/assets/api/events/sieure.png"],
             "favourite": true,
             "shoptag": "seophone",
             "voucher": 24,
@@ -1386,10 +1341,10 @@
         {
             "id": 57,
             "name": "Laptop Acer Gaming | Laptop chơi game giá rẻ, giảm đến 10 triệu - 02/2026",
-            "images": ["src/assets/img/body/api/products/pc&laptop/laptop-gaming(6).jpg"],
+            "images": ["src/assets/api/products/pc&laptop/laptop-gaming(6).jpg"],
             "decription": "laptop lenovo chính hãng, xách tay",
             "category": { "id": 12, "name": "laptop & pc" },
-            "events": ["src/assets/img/body/api/events/xtra.png", "src/assets/img/body/api/events/sieure.png"],
+            "events": ["src/assets/api/events/xtra.png", "src/assets/api/events/sieure.png"],
             "favourite": true,
             "shoptag": "seophone",
             "voucher": 24,
@@ -1406,10 +1361,10 @@
         {
             "id": 58,
             "name": "Acer Gaming Nitro V ANV15-51 i5 13420H / 16GB / 512GB / RTX 2050 4GB / 15.6 inch FHD",
-            "images": ["src/assets/img/body/api/products/pc&laptop/laptop-gaming(7).jpg"],
+            "images": ["src/assets/api/products/pc&laptop/laptop-gaming(7).jpg"],
             "decription": "laptop lenovo chính hãng, xách tay",
             "category": { "id": 12, "name": "laptop & pc" },
-            "events": ["src/assets/img/body/api/events/xtra.png", "src/assets/img/body/api/events/sieure.png"],
+            "events": ["src/assets/api/events/xtra.png", "src/assets/api/events/sieure.png"],
             "favourite": true,
             "shoptag": "seophone",
             "voucher": 24,
@@ -1426,10 +1381,10 @@
         {
             "id": 59,
             "name": "Acer Nitro V ANV15-51-58AN NH.QNASV.001 CHÍNH HÃNG CHỈ 19 TRIỆU",
-            "images": ["src/assets/img/body/api/products/pc&laptop/laptop-gaming(8).jpg"],
+            "images": ["src/assets/api/products/pc&laptop/laptop-gaming(8).jpg"],
             "decription": "laptop lenovo chính hãng, xách tay",
             "category": { "id": 12, "name": "laptop & pc" },
-            "events": ["src/assets/img/body/api/events/xtra.png", "src/assets/img/body/api/events/sieure.png"],
+            "events": ["src/assets/api/events/xtra.png", "src/assets/api/events/sieure.png"],
             "favourite": true,
             "shoptag": "seophone",
             "voucher": 24,
@@ -1446,10 +1401,10 @@
         {
             "id": 60,
             "name": "Laptop Acer Nitro V ANV15-51-73UU | CPU i7 13620H/16GB/512GB",
-            "images": ["src/assets/img/body/api/products/pc&laptop/laptop-gaming(9).jpeg"],
+            "images": ["src/assets/api/products/pc&laptop/laptop-gaming(9).jpeg"],
             "decription": "laptop lenovo chính hãng, xách tay",
             "category": { "id": 12, "name": "laptop & pc" },
-            "events": ["src/assets/img/body/api/events/xtra.png", "src/assets/img/body/api/events/sieure.png"],
+            "events": ["src/assets/api/events/xtra.png", "src/assets/api/events/sieure.png"],
             "favourite": true,
             "shoptag": "seophone",
             "voucher": 24,
@@ -1466,10 +1421,10 @@
         {
             "id": 61,
             "name": "Laptop Lenovo Ideapad Gaming 3 15ACH6 R5 (82K2027PVN) - Chính hãng, mua trả chậm",
-            "images": ["src/assets/img/body/api/products/pc&laptop/laptop-gaming(10).png"],
+            "images": ["src/assets/api/products/pc&laptop/laptop-gaming(10).png"],
             "decription": "laptop lenovo chính hãng, xách tay",
             "category": { "id": 12, "name": "laptop & pc" },
-            "events": ["src/assets/img/body/api/events/xtra.png", "src/assets/img/body/api/events/sieure.png"],
+            "events": ["src/assets/api/events/xtra.png", "src/assets/api/events/sieure.png"],
             "favourite": true,
             "shoptag": "seophone",
             "voucher": 24,
@@ -1486,10 +1441,10 @@
         {
             "id": 62,
             "name": "Lenovo IdeaPad Gaming 3 Ryzen 5 5600H 16GB 256GB 3050 ti FHD",
-            "images": ["src/assets/img/body/api/products/pc&laptop/laptop-gaming(11).webp"],
+            "images": ["src/assets/api/products/pc&laptop/laptop-gaming(11).webp"],
             "decription": "laptop lenovo chính hãng, xách tay",
             "category": { "id": 12, "name": "laptop & pc" },
-            "events": ["src/assets/img/body/api/events/xtra.png", "src/assets/img/body/api/events/sieure.png"],
+            "events": ["src/assets/api/events/xtra.png", "src/assets/api/events/sieure.png"],
             "favourite": true,
             "shoptag": "seophone",
             "voucher": 24,
@@ -1506,10 +1461,10 @@
         {
             "id": 63,
             "name": "Laptop Lenovo Ideapad Gaming 3 15ACH6 82K201XCUS - Cũ Đẹp | Giá rẻ",
-            "images": ["src/assets/img/body/api/products/pc&laptop/laptop-gaming(12).webp"],
+            "images": ["src/assets/api/products/pc&laptop/laptop-gaming(12).webp"],
             "decription": "laptop lenovo chính hãng, xách tay",
             "category": { "id": 12, "name": "laptop & pc" },
-            "events": ["src/assets/img/body/api/events/xtra.png", "src/assets/img/body/api/events/sieure.png"],
+            "events": ["src/assets/api/events/xtra.png", "src/assets/api/events/sieure.png"],
             "favourite": true,
             "shoptag": "seophone",
             "voucher": 24,
@@ -1526,10 +1481,10 @@
         {
             "id": 64,
             "name": "Laptop Gaming Lenovo Legion 9 16IRX9 83G0001AVN | Giá ưu đãi tại Xgear",
-            "images": ["src/assets/img/body/api/products/pc&laptop/laptop-gaming(13).png"],
+            "images": ["src/assets/api/products/pc&laptop/laptop-gaming(13).png"],
             "decription": "laptop lenovo chính hãng, xách tay",
             "category": { "id": 12, "name": "laptop & pc" },
-            "events": ["src/assets/img/body/api/events/xtra.png", "src/assets/img/body/api/events/sieure.png"],
+            "events": ["src/assets/api/events/xtra.png", "src/assets/api/events/sieure.png"],
             "favourite": true,
             "shoptag": "seophone",
             "voucher": 24,
@@ -1546,10 +1501,10 @@
         {
             "id": 65,
             "name": "Laptop Lenovo Legion Pro 7 16IAX10H 83F500JGVN | Giá rẻ, trả góp 0%",
-            "images": ["src/assets/img/body/api/products/pc&laptop/laptop-gaming(14).webp"],
+            "images": ["src/assets/api/products/pc&laptop/laptop-gaming(14).webp"],
             "decription": "laptop lenovo chính hãng, xách tay",
             "category": { "id": 12, "name": "laptop & pc" },
-            "events": ["src/assets/img/body/api/events/xtra.png", "src/assets/img/body/api/events/sieure.png"],
+            "events": ["src/assets/api/events/xtra.png", "src/assets/api/events/sieure.png"],
             "favourite": true,
             "shoptag": "seophone",
             "voucher": 24,
@@ -1566,10 +1521,10 @@
         {
             "id": 66,
             "name": "Gigabyte Z790 AORUS XTREME X",
-            "images": ["src/assets/img/body/api/products/linh-kien-may-tinh/main.webp"],
+            "images": ["src/assets/api/products/linh-kien-may-tinh/main.webp"],
             "decription": "Mainboard cao cấp Intel Z790 (E-ATX, gaming/pro).",
             "category": { "id": 13, "name": "Linh Kiện Máy Tính" },
-            "events": ["src/assets/img/body/api/events/xtra.png", "src/assets/img/body/api/events/sieure.png"],
+            "events": ["src/assets/api/events/xtra.png", "src/assets/api/events/sieure.png"],
             "favourite": true,
             "shoptag": "seophone",
             "voucher": 24,
@@ -1586,10 +1541,10 @@
         {
             "id": 67,
             "name": "Asus ROG Crosshair X870E Hero",
-            "images": ["src/assets/img/body/api/products/linh-kien-may-tinh/main(2).jpg"],
+            "images": ["src/assets/api/products/linh-kien-may-tinh/main(2).jpg"],
             "decription": "Mainboard AMD X870E (AM5, cao cấp).",
             "category": { "id": 13, "name": "Linh Kiện Máy Tính" },
-            "events": ["src/assets/img/body/api/events/xtra.png", "src/assets/img/body/api/events/sieure.png"],
+            "events": ["src/assets/api/events/xtra.png", "src/assets/api/events/sieure.png"],
             "favourite": true,
             "shoptag": "seophone",
             "voucher": 24,
@@ -1606,10 +1561,10 @@
         {
             "id": 68,
             "name": "Xgear Gigabyte H610M‑H V2 DDR4",
-            "images": ["src/assets/img/body/api/products/linh-kien-may-tinh/main(3).jpg"],
+            "images": ["src/assets/api/products/linh-kien-may-tinh/main(3).jpg"],
             "decription": "Mainboard Intel H610M (DDR4, phổ thông).",
             "category": { "id": 13, "name": "Linh Kiện Máy Tính" },
-            "events": ["src/assets/img/body/api/events/xtra.png", "src/assets/img/body/api/events/sieure.png"],
+            "events": ["src/assets/api/events/xtra.png", "src/assets/api/events/sieure.png"],
             "favourite": true,
             "shoptag": "seophone",
             "voucher": 24,
@@ -1626,10 +1581,10 @@
         {
             "id": 69,
             "name": "Colorful BATTLE‑AX B760M‑D PRO DDR4",
-            "images": ["src/assets/img/body/api/products/linh-kien-may-tinh/main(4).jpeg"],
+            "images": ["src/assets/api/products/linh-kien-may-tinh/main(4).jpeg"],
             "decription": "Mainboard Intel B760M (DDR4, tầm trung).",
             "category": { "id": 13, "name": "Linh Kiện Máy Tính" },
-            "events": ["src/assets/img/body/api/events/xtra.png", "src/assets/img/body/api/events/sieure.png"],
+            "events": ["src/assets/api/events/xtra.png", "src/assets/api/events/sieure.png"],
             "favourite": true,
             "shoptag": "seophone",
             "voucher": 24,
@@ -1646,10 +1601,10 @@
         {
             "id": 70,
             "name": "Colorful BATTLE‑AX B760M‑K D5 V20",
-            "images": ["src/assets/img/body/api/products/linh-kien-may-tinh/main(5).jpeg"],
+            "images": ["src/assets/api/products/linh-kien-may-tinh/main(5).jpeg"],
             "decription": "Mainboard Intel B760M (DDR5, tầm trung).",
             "category": { "id": 13, "name": "Linh Kiện Máy Tính" },
-            "events": ["src/assets/img/body/api/events/xtra.png", "src/assets/img/body/api/events/sieure.png"],
+            "events": ["src/assets/api/events/xtra.png", "src/assets/api/events/sieure.png"],
             "favourite": true,
             "shoptag": "seophone",
             "voucher": 24,
@@ -1666,10 +1621,10 @@
         {
             "id": 71,
             "name": "Asus PRIME B760M-K D4",
-            "images": ["src/assets/img/body/api/products/linh-kien-may-tinh/main(6).jpeg"],
+            "images": ["src/assets/api/products/linh-kien-may-tinh/main(6).jpeg"],
             "decription": "Mainboard Intel B760M (DDR4, phổ thông). ",
             "category": { "id": 13, "name": "Linh Kiện Máy Tính" },
-            "events": ["src/assets/img/body/api/events/xtra.png", "src/assets/img/body/api/events/sieure.png"],
+            "events": ["src/assets/api/events/xtra.png", "src/assets/api/events/sieure.png"],
             "favourite": true,
             "shoptag": "seophone",
             "voucher": 24,
@@ -1686,10 +1641,10 @@
         {
             "id": 72,
             "name": "Kingston Fury Beast DDR4 16GB 3200MHz",
-            "images": ["src/assets/img/body/api/products/linh-kien-may-tinh/ram.jpg"],
+            "images": ["src/assets/api/products/linh-kien-may-tinh/ram.jpg"],
             "decription": "RAM DDR4 phổ thông, ổn định cho gaming và làm việc.",
             "category": { "id": 13, "name": "Linh Kiện Máy Tính" },
-            "events": ["src/assets/img/body/api/events/xtra.png", "src/assets/img/body/api/events/sieure.png"],
+            "events": ["src/assets/api/events/xtra.png", "src/assets/api/events/sieure.png"],
             "favourite": true,
             "shoptag": "seophone",
             "voucher": 24,
@@ -1706,10 +1661,10 @@
         {
             "id": 73,
             "name": "Kingston Fury Beast RGB DDR4 16GB 3200MHz",
-            "images": ["src/assets/img/body/api/products/linh-kien-may-tinh/ram(2).jpeg"],
+            "images": ["src/assets/api/products/linh-kien-may-tinh/ram(2).jpeg"],
             "decription": "DDR4 có RGB, hiệu năng tốt, build đẹp.",
             "category": { "id": 13, "name": "Linh Kiện Máy Tính" },
-            "events": ["src/assets/img/body/api/events/xtra.png", "src/assets/img/body/api/events/sieure.png"],
+            "events": ["src/assets/api/events/xtra.png", "src/assets/api/events/sieure.png"],
             "favourite": true,
             "shoptag": "seophone",
             "voucher": 24,
@@ -1726,10 +1681,10 @@
         {
             "id": 74,
             "name": "Corsair Vengeance LPX DDR4 16GB 3200MHz",
-            "images": ["src/assets/img/body/api/products/linh-kien-may-tinh/ram(3).jpeg"],
+            "images": ["src/assets/api/products/linh-kien-may-tinh/ram(3).jpeg"],
             "decription": "DDR4 low-profile, bền, tương thích cao.",
             "category": { "id": 13, "name": "Linh Kiện Máy Tính" },
-            "events": ["src/assets/img/body/api/events/xtra.png", "src/assets/img/body/api/events/sieure.png"],
+            "events": ["src/assets/api/events/xtra.png", "src/assets/api/events/sieure.png"],
             "favourite": true,
             "shoptag": "seophone",
             "voucher": 24,
@@ -1746,10 +1701,10 @@
         {
             "id": 75,
             "name": "G.Skill Ripjaws V DDR4 16GB 3600MHz",
-            "images": ["src/assets/img/body/api/products/linh-kien-may-tinh/ram(4).jpg"],
+            "images": ["src/assets/api/products/linh-kien-may-tinh/ram(4).jpg"],
             "decription": "DDR4 bus cao, hợp CPU AMD/Intel.",
             "category": { "id": 13, "name": "Linh Kiện Máy Tính" },
-            "events": ["src/assets/img/body/api/events/xtra.png", "src/assets/img/body/api/events/sieure.png"],
+            "events": ["src/assets/api/events/xtra.png", "src/assets/api/events/sieure.png"],
             "favourite": true,
             "shoptag": "seophone",
             "voucher": 24,
@@ -1766,10 +1721,10 @@
         {
             "id": 76,
             "name": "ADATA XPG D50 DDR4 16GB 3200MHz",
-            "images": ["src/assets/img/body/api/products/linh-kien-may-tinh/ram(5).jpeg"],
+            "images": ["src/assets/api/products/linh-kien-may-tinh/ram(5).jpeg"],
             "decription": "DDR4 RGB, giá/hiệu năng tốt.",
             "category": { "id": 13, "name": "Linh Kiện Máy Tính" },
-            "events": ["src/assets/img/body/api/events/xtra.png", "src/assets/img/body/api/events/sieure.png"],
+            "events": ["src/assets/api/events/xtra.png", "src/assets/api/events/sieure.png"],
             "favourite": true,
             "shoptag": "seophone",
             "voucher": 24,
@@ -1786,10 +1741,10 @@
         {
             "id": 77,
             "name": "Kingston Fury Beast DDR5 16GB 5600MHz",
-            "images": ["src/assets/img/body/api/products/linh-kien-may-tinh/ram(6).jpeg"],
+            "images": ["src/assets/api/products/linh-kien-may-tinh/ram(6).jpeg"],
             "decription": "DDR5 cho nền tảng mới, tốc độ cao.",
             "category": { "id": 13, "name": "Linh Kiện Máy Tính" },
-            "events": ["src/assets/img/body/api/events/xtra.png", "src/assets/img/body/api/events/sieure.png"],
+            "events": ["src/assets/api/events/xtra.png", "src/assets/api/events/sieure.png"],
             "favourite": true,
             "shoptag": "seophone",
             "voucher": 24,
@@ -1806,10 +1761,10 @@
         {
             "id": 78,
             "name": "Corsair Vengeance DDR5 32GB 6000MHz",
-            "images": ["src/assets/img/body/api/products/linh-kien-may-tinh/ram(7).jpeg"],
+            "images": ["src/assets/api/products/linh-kien-may-tinh/ram(7).jpeg"],
             "decription": "DDR5 dung lượng lớn cho gaming/creator.",
             "category": { "id": 13, "name": "Linh Kiện Máy Tính" },
-            "events": ["src/assets/img/body/api/events/xtra.png", "src/assets/img/body/api/events/sieure.png"],
+            "events": ["src/assets/api/events/xtra.png", "src/assets/api/events/sieure.png"],
             "favourite": true,
             "shoptag": "seophone",
             "voucher": 24,
@@ -1826,10 +1781,10 @@
         {
             "id": 79,
             "name": "G.Skill Trident Z5 RGB DDR5 32GB",
-            "images": ["src/assets/img/body/api/products/linh-kien-may-tinh/ram(8).jpeg"],
+            "images": ["src/assets/api/products/linh-kien-may-tinh/ram(8).jpeg"],
             "decription": "DDR5 cao cấp, hiệu năng + thẩm mỹ.",
             "category": { "id": 13, "name": "Linh Kiện Máy Tính" },
-            "events": ["src/assets/img/body/api/events/xtra.png", "src/assets/img/body/api/events/sieure.png"],
+            "events": ["src/assets/api/events/xtra.png", "src/assets/api/events/sieure.png"],
             "favourite": true,
             "shoptag": "seophone",
             "voucher": 24,
@@ -1846,10 +1801,10 @@
         {
             "id": 80,
             "name": "TeamGroup T-Create Expert DDR5 32GB",
-            "images": ["src/assets/img/body/api/products/linh-kien-may-tinh/ram(9).jpeg"],
+            "images": ["src/assets/api/products/linh-kien-may-tinh/ram(9).jpeg"],
             "decription": "DDR5 thiên về làm việc, ổn định, không RGB.",
             "category": { "id": 13, "name": "Linh Kiện Máy Tính" },
-            "events": ["src/assets/img/body/api/events/xtra.png", "src/assets/img/body/api/events/sieure.png"],
+            "events": ["src/assets/api/events/xtra.png", "src/assets/api/events/sieure.png"],
             "favourite": true,
             "shoptag": "seophone",
             "voucher": 24,
@@ -1866,10 +1821,10 @@
         {
             "id": 81,
             "name": "Crucial DDR5 16GB 5600MHz",
-            "images": ["src/assets/img/body/api/products/linh-kien-may-tinh/ram(10).jpeg"],
+            "images": ["src/assets/api/products/linh-kien-may-tinh/ram(10).jpeg"],
             "decription": "DDR5 phổ thông, tương thích tốt, dễ nâng cấp",
             "category": { "id": 13, "name": "Linh Kiện Máy Tính" },
-            "events": ["src/assets/img/body/api/events/xtra.png", "src/assets/img/body/api/events/sieure.png"],
+            "events": ["src/assets/api/events/xtra.png", "src/assets/api/events/sieure.png"],
             "favourite": true,
             "shoptag": "seophone",
             "voucher": 24,
@@ -1886,10 +1841,10 @@
         {
             "id": 82,
             "name": "Intel Core i3-12100F",
-            "images": ["src/assets/img/body/api/products/linh-kien-may-tinh/chip.jpg"],
+            "images": ["src/assets/api/products/linh-kien-may-tinh/chip.jpg"],
             "decription": "CPU 4 nhân 8 luồng, hiệu năng mạnh trong tầm giá, hợp PC phổ thông.",
             "category": { "id": 13, "name": "Linh Kiện Máy Tính" },
-            "events": ["src/assets/img/body/api/events/xtra.png", "src/assets/img/body/api/events/sieure.png"],
+            "events": ["src/assets/api/events/xtra.png", "src/assets/api/events/sieure.png"],
             "favourite": true,
             "shoptag": "seophone",
             "voucher": 24,
@@ -1906,10 +1861,10 @@
         {
             "id": 83,
             "name": "Intel Core i5-12400F",
-            "images": ["src/assets/img/body/api/products/linh-kien-may-tinh/chip(2).jpg"],
+            "images": ["src/assets/api/products/linh-kien-may-tinh/chip(2).jpg"],
             "decription": "6 nhân 12 luồng, cân tốt gaming và làm việc.",
             "category": { "id": 13, "name": "Linh Kiện Máy Tính" },
-            "events": ["src/assets/img/body/api/events/xtra.png", "src/assets/img/body/api/events/sieure.png"],
+            "events": ["src/assets/api/events/xtra.png", "src/assets/api/events/sieure.png"],
             "favourite": true,
             "shoptag": "seophone",
             "voucher": 24,
@@ -1926,10 +1881,10 @@
         {
             "id": 84,
             "name": "Intel Core i5-13600K",
-            "images": ["src/assets/img/body/api/products/linh-kien-may-tinh/chip(3).jpeg"],
+            "images": ["src/assets/api/products/linh-kien-may-tinh/chip(3).jpeg"],
             "decription": "CPU tầm trung-cao, hiệu năng rất mạnh cho gaming và đa nhiệm.",
             "category": { "id": 13, "name": "Linh Kiện Máy Tính" },
-            "events": ["src/assets/img/body/api/events/xtra.png", "src/assets/img/body/api/events/sieure.png"],
+            "events": ["src/assets/api/events/xtra.png", "src/assets/api/events/sieure.png"],
             "favourite": true,
             "shoptag": "seophone",
             "voucher": 24,
@@ -1946,10 +1901,10 @@
         {
             "id": 85,
             "name": "Intel Core i7-14700K",
-            "images": ["src/assets/img/body/api/products/linh-kien-may-tinh/chip(4).jpeg"],
+            "images": ["src/assets/api/products/linh-kien-may-tinh/chip(4).jpeg"],
             "decription": "CPU cao cấp, nhiều nhân luồng, phù hợp workstation.",
             "category": { "id": 13, "name": "Linh Kiện Máy Tính" },
-            "events": ["src/assets/img/body/api/events/xtra.png", "src/assets/img/body/api/events/sieure.png"],
+            "events": ["src/assets/api/events/xtra.png", "src/assets/api/events/sieure.png"],
             "favourite": true,
             "shoptag": "seophone",
             "voucher": 24,
@@ -1966,10 +1921,10 @@
         {
             "id": 86,
             "name": "Intel Core i9-14900K",
-            "images": ["src/assets/img/body/api/products/linh-kien-may-tinh/chip(5).jpeg"],
+            "images": ["src/assets/api/products/linh-kien-may-tinh/chip(5).jpeg"],
             "decription": "CPU đầu bảng Intel, hiệu năng tối đa cho tác vụ nặng.",
             "category": { "id": 13, "name": "Linh Kiện Máy Tính" },
-            "events": ["src/assets/img/body/api/events/xtra.png", "src/assets/img/body/api/events/sieure.png"],
+            "events": ["src/assets/api/events/xtra.png", "src/assets/api/events/sieure.png"],
             "favourite": true,
             "shoptag": "seophone",
             "voucher": 24,
@@ -1986,10 +1941,10 @@
         {
             "id": 87,
             "name": "AMD Ryzen 5 5600",
-            "images": ["src/assets/img/body/api/products/linh-kien-may-tinh/chip(6).jpg"],
+            "images": ["src/assets/api/products/linh-kien-may-tinh/chip(6).jpg"],
             "decription": "6 nhân 12 luồng, giá tốt, hiệu năng ổn định cho gaming.",
             "category": { "id": 13, "name": "Linh Kiện Máy Tính" },
-            "events": ["src/assets/img/body/api/events/xtra.png", "src/assets/img/body/api/events/sieure.png"],
+            "events": ["src/assets/api/events/xtra.png", "src/assets/api/events/sieure.png"],
             "favourite": true,
             "shoptag": "seophone",
             "voucher": 24,
@@ -2006,10 +1961,10 @@
         {
             "id": 88,
             "name": "AMD Ryzen 9 7950X",
-            "images": ["src/assets/img/body/api/products/linh-kien-may-tinh/chip(7).webp"],
+            "images": ["src/assets/api/products/linh-kien-may-tinh/chip(7).webp"],
             "decription": "CPU cao cấp 16 nhân 32 luồng, chuyên cho workstation.    ",
             "category": { "id": 13, "name": "Linh Kiện Máy Tính" },
-            "events": ["src/assets/img/body/api/events/xtra.png", "src/assets/img/body/api/events/sieure.png"],
+            "events": ["src/assets/api/events/xtra.png", "src/assets/api/events/sieure.png"],
             "favourite": true,
             "shoptag": "seophone",
             "voucher": 24,
@@ -2026,10 +1981,10 @@
         {
             "id": 89,
             "name": "AMD Ryzen 7 5700X",
-            "images": ["src/assets/img/body/api/products/linh-kien-may-tinh/chip(8).jpg"],
+            "images": ["src/assets/api/products/linh-kien-may-tinh/chip(8).jpg"],
             "decription": "8 nhân 16 luồng, phù hợp vừa chơi game vừa làm việc.",
             "category": { "id": 13, "name": "Linh Kiện Máy Tính" },
-            "events": ["src/assets/img/body/api/events/xtra.png", "src/assets/img/body/api/events/sieure.png"],
+            "events": ["src/assets/api/events/xtra.png", "src/assets/api/events/sieure.png"],
             "favourite": true,
             "shoptag": "seophone",
             "voucher": 24,
@@ -2046,10 +2001,10 @@
         {
             "id": 90,
             "name": "AMD Ryzen 5 7600",
-            "images": ["src/assets/img/body/api/products/linh-kien-may-tinh/chip(9).jpeg"],
+            "images": ["src/assets/api/products/linh-kien-may-tinh/chip(9).jpeg"],
             "decription": "Ryzen thế hệ mới AM5, hiệu năng cao, tiết kiệm điện.",
             "category": { "id": 13, "name": "Linh Kiện Máy Tính" },
-            "events": ["src/assets/img/body/api/events/xtra.png", "src/assets/img/body/api/events/sieure.png"],
+            "events": ["src/assets/api/events/xtra.png", "src/assets/api/events/sieure.png"],
             "favourite": true,
             "shoptag": "seophone",
             "voucher": 24,
@@ -2066,10 +2021,10 @@
         {
             "id": 91,
             "name": "AMD Ryzen 7 7700X",
-            "images": ["src/assets/img/body/api/products/linh-kien-may-tinh/chip(10).jpg"],
+            "images": ["src/assets/api/products/linh-kien-may-tinh/chip(10).jpg"],
             "decription": "– CPU tầm cao AMD, mạnh cho render và gaming.",
             "category": { "id": 13, "name": "Linh Kiện Máy Tính" },
-            "events": ["src/assets/img/body/api/events/xtra.png", "src/assets/img/body/api/events/sieure.png"],
+            "events": ["src/assets/api/events/xtra.png", "src/assets/api/events/sieure.png"],
             "favourite": true,
             "shoptag": "seophone",
             "voucher": 24,
@@ -2086,10 +2041,10 @@
         {
             "id": 92,
             "name": "Samsung 990 Pro SSD",
-            "images": ["src/assets/img/body/api/products/linh-kien-may-tinh/ssd.jpg"],
+            "images": ["src/assets/api/products/linh-kien-may-tinh/ssd.jpg"],
             "decription": "SSD NVMe PCIe Gen4 tốc độ cao (đọc/ghi cực nhanh) – cho PC gaming/ hệ nặng.",
             "category": { "id": 13, "name": "Linh Kiện Máy Tính" },
-            "events": ["src/assets/img/body/api/events/xtra.png", "src/assets/img/body/api/events/sieure.png"],
+            "events": ["src/assets/api/events/xtra.png", "src/assets/api/events/sieure.png"],
             "favourite": true,
             "shoptag": "seophone",
             "voucher": 24,
@@ -2106,10 +2061,10 @@
         {
             "id": 93,
             "name": "Kingston NV3 M.2 PCIe",
-            "images": ["src/assets/img/body/api/products/linh-kien-may-tinh/ssd(2).jpeg"],
+            "images": ["src/assets/api/products/linh-kien-may-tinh/ssd(2).jpeg"],
             "decription": "SSD NVMe PCIe Gen4 phổ thông, giá/hiệu năng tốt cho hệ Windows.",
             "category": { "id": 13, "name": "Linh Kiện Máy Tính" },
-            "events": ["src/assets/img/body/api/events/xtra.png", "src/assets/img/body/api/events/sieure.png"],
+            "events": ["src/assets/api/events/xtra.png", "src/assets/api/events/sieure.png"],
             "favourite": true,
             "shoptag": "seophone",
             "voucher": 24,
@@ -2126,10 +2081,10 @@
         {
             "id": 94,
             "name": "Samsung 870 EVO SATA SSD",
-            "images": ["src/assets/img/body/api/products/linh-kien-may-tinh/ssd(3).jpg"],
+            "images": ["src/assets/api/products/linh-kien-may-tinh/ssd(3).jpg"],
             "decription": "SSD SATA 2.5″ chuẩn classic, ổn định, dùng cho cả máy cũ và mới.",
             "category": { "id": 13, "name": "Linh Kiện Máy Tính" },
-            "events": ["src/assets/img/body/api/events/xtra.png", "src/assets/img/body/api/events/sieure.png"],
+            "events": ["src/assets/api/events/xtra.png", "src/assets/api/events/sieure.png"],
             "favourite": true,
             "shoptag": "seophone",
             "voucher": 24,
@@ -2146,10 +2101,10 @@
         {
             "id": 95,
             "name": "Kingston A400 SATA SSD",
-            "images": ["src/assets/img/body/api/products/linh-kien-may-tinh/ssd(4).jpeg"],
+            "images": ["src/assets/api/products/linh-kien-may-tinh/ssd(4).jpeg"],
             "decription": "SSD SATA phổ thông giá rẻ, nâng tốc khởi động/ứng dụng.",
             "category": { "id": 13, "name": "Linh Kiện Máy Tính" },
-            "events": ["src/assets/img/body/api/events/xtra.png", "src/assets/img/body/api/events/sieure.png"],
+            "events": ["src/assets/api/events/xtra.png", "src/assets/api/events/sieure.png"],
             "favourite": true,
             "shoptag": "seophone",
             "voucher": 24,
@@ -2166,10 +2121,10 @@
         {
             "id": 96,
             "name": "WD Blue SATA SSD",
-            "images": ["src/assets/img/body/api/products/linh-kien-may-tinh/ssd(5).jpeg"],
+            "images": ["src/assets/api/products/linh-kien-may-tinh/ssd(5).jpeg"],
             "decription": "SSD SATA tầm trung, bền bỉ cho PC/laptop.",
             "category": { "id": 13, "name": "Linh Kiện Máy Tính" },
-            "events": ["src/assets/img/body/api/events/xtra.png", "src/assets/img/body/api/events/sieure.png"],
+            "events": ["src/assets/api/events/xtra.png", "src/assets/api/events/sieure.png"],
             "favourite": true,
             "shoptag": "seophone",
             "voucher": 24,
@@ -2186,10 +2141,10 @@
         {
             "id": 97,
             "name": "WD Green SATA SSD",
-            "images": ["src/assets/img/body/api/products/linh-kien-may-tinh/ssd(6).webp"],
+            "images": ["src/assets/api/products/linh-kien-may-tinh/ssd(6).webp"],
             "decription": "SSD SATA tiết kiệm, phù hợp nâng cấp cơ bản",
             "category": { "id": 13, "name": "Linh Kiện Máy Tính" },
-            "events": ["src/assets/img/body/api/events/xtra.png", "src/assets/img/body/api/events/sieure.png"],
+            "events": ["src/assets/api/events/xtra.png", "src/assets/api/events/sieure.png"],
             "favourite": true,
             "shoptag": "seophone",
             "voucher": 24,
@@ -2206,10 +2161,10 @@
         {
             "id": 98,
             "name": "Lexar NM620 M.2 PCIe",
-            "images": ["src/assets/img/body/api/products/linh-kien-may-tinh/ssd(7).jpeg"],
+            "images": ["src/assets/api/products/linh-kien-may-tinh/ssd(7).jpeg"],
             "decription": "SSD NVMe M.2 PCIe Gen3/4 phổ dụng, tốc độ tốt cho hệ chính.",
             "category": { "id": 13, "name": "Linh Kiện Máy Tính" },
-            "events": ["src/assets/img/body/api/events/xtra.png", "src/assets/img/body/api/events/sieure.png"],
+            "events": ["src/assets/api/events/xtra.png", "src/assets/api/events/sieure.png"],
             "favourite": true,
             "shoptag": "seophone",
             "voucher": 24,
@@ -2226,10 +2181,10 @@
         {
             "id": 99,
             "name": "Adata LEGEND 710 NVMe",
-            "images": ["src/assets/img/body/api/products/linh-kien-may-tinh/ssd(8).jpeg"],
+            "images": ["src/assets/api/products/linh-kien-may-tinh/ssd(8).jpeg"],
             "decription": "SSD NVMe M.2 Gen3 x4, giá tốt mà nhanh hơn SATA.",
             "category": { "id": 13, "name": "Linh Kiện Máy Tính" },
-            "events": ["src/assets/img/body/api/events/xtra.png", "src/assets/img/body/api/events/sieure.png"],
+            "events": ["src/assets/api/events/xtra.png", "src/assets/api/events/sieure.png"],
             "favourite": true,
             "shoptag": "seophone",
             "voucher": 24,
@@ -2246,10 +2201,10 @@
         {
             "id": 100,
             "name": "Transcend 2242 NVMe Gen4",
-            "images": ["src/assets/img/body/api/products/linh-kien-may-tinh/ssd(9).jpeg"],
+            "images": ["src/assets/api/products/linh-kien-may-tinh/ssd(9).jpeg"],
             "decription": "SSD NVMe nhỏ gọn (2242), phù hợp laptop/mini PC.",
             "category": { "id": 13, "name": "Linh Kiện Máy Tính" },
-            "events": ["src/assets/img/body/api/events/xtra.png", "src/assets/img/body/api/events/sieure.png"],
+            "events": ["src/assets/api/events/xtra.png", "src/assets/api/events/sieure.png"],
             "favourite": true,
             "shoptag": "seophone",
             "voucher": 24,
@@ -2266,10 +2221,10 @@
         {
             "id": 101,
             "name": "Crucial T705 PCIe Gen5 SSD",
-            "images": ["src/assets/img/body/api/products/linh-kien-may-tinh/ssd(10).jpg"],
+            "images": ["src/assets/api/products/linh-kien-may-tinh/ssd(10).jpg"],
             "decription": "SSD NVMe PCIe Gen5 dung lượng lớn, cực nhanh cho hệ cao cấp.",
             "category": { "id": 13, "name": "Linh Kiện Máy Tính" },
-            "events": ["src/assets/img/body/api/events/xtra.png", "src/assets/img/body/api/events/sieure.png"],
+            "events": ["src/assets/api/events/xtra.png", "src/assets/api/events/sieure.png"],
             "favourite": true,
             "shoptag": "seophone",
             "voucher": 24,
@@ -2291,7 +2246,7 @@
             "id": 2,
             "name": "Thời trang Nam",
             "parentId": 1,
-            "image": "src/assets/img/body/api/category/thoiTrangNam.webp"
+            "image": "src/assets/api/category/thoiTrangNam.webp"
         },
         { "id": 3, "name": "Áo", "parentId": 2 },
         { "id": 4, "name": "Quần", "parentId": 2 },
@@ -2299,7 +2254,7 @@
             "id": 5,
             "name": "Điện Thoại & Phụ Kiện",
             "parentId": 1,
-            "image": "src/assets/img/body/api/category/dienThoai&PhuKien.webp"
+            "image": "src/assets/api/category/dienThoai&PhuKien.webp"
         },
         { "id": 6, "name": "Điện Thoại", "parentId": 5 },
         { "id": 7, "name": "Phụ Kiện Điện Thoại", "parentId": 5 },
@@ -2307,7 +2262,7 @@
             "id": 8,
             "name": "Thiết Bị Điện Tử",
             "parentId": 1,
-            "image": "src/assets/img/body/api/category/thietBiDienTu.webp"
+            "image": "src/assets/api/category/thietBiDienTu.webp"
         },
         { "id": 9, "name": "Tai Nghe & Loa", "parentId": 8 },
         { "id": 10, "name": "Thiết Bị Thông Minh", "parentId": 8 },
@@ -2316,7 +2271,7 @@
             "id": 11,
             "name": "Máy Tính & Laptop",
             "parentId": 1,
-            "image": "src/assets/img/body/api/category/mayTinhVaLaptop.webp"
+            "image": "src/assets/api/category/mayTinhVaLaptop.webp"
         },
         { "id": 12, "name": "Laptop & pc", "parentId": 11 },
         { "id": 13, "name": "Linh Kiện Máy Tính", "parentId": 11 },
@@ -2325,12 +2280,12 @@
             "id": 14,
             "name": "Máy Ảnh & Máy Quay Phim",
             "parentId": 1,
-            "image": "src/assets/img/body/api/category/mayAnhVaMayQuayPhim.webp"
+            "image": "src/assets/api/category/mayAnhVaMayQuayPhim.webp"
         },
         { "id": 15, "name": "Máy Ảnh", "parentId": 14 },
         { "id": 16, "name": "Máy Quay Phim", "parentId": 14 },
 
-        { "id": 17, "name": "Đồng Hồ", "parentId": 1, "image": "src/assets/img/body/api/category/dongHo.webp" },
+        { "id": 17, "name": "Đồng Hồ", "parentId": 1, "image": "src/assets/api/category/dongHo.webp" },
         { "id": 18, "name": "Đồng Hồ Nam", "parentId": 17 },
         { "id": 19, "name": "Đồng Hồ Thông Minh", "parentId": 17 },
 
@@ -2338,7 +2293,7 @@
             "id": 20,
             "name": "Giày Dép Nam",
             "parentId": 1,
-            "image": "src/assets/img/body/api/category/giayDepNam.webp"
+            "image": "src/assets/api/category/giayDepNam.webp"
         },
         { "id": 21, "name": "Giày Thể Thao", "parentId": 20 },
         { "id": 22, "name": "Giày Tây", "parentId": 20 },
@@ -2347,7 +2302,7 @@
             "id": 23,
             "name": "Thiết Bị Điện Gia Dụng",
             "parentId": 1,
-            "image": "src/assets/img/body/api/category/thietBiDienGiaDung.webp"
+            "image": "src/assets/api/category/thietBiDienGiaDung.webp"
         },
         { "id": 24, "name": "Đồ Gia Dụng Nhà Bếp", "parentId": 23 },
         { "id": 25, "name": "Thiết Bị Chăm Sóc Nhà Cửa", "parentId": 23 },
@@ -2356,7 +2311,7 @@
             "id": 26,
             "name": "Thể Thao & Du Lịch",
             "parentId": 1,
-            "image": "src/assets/img/body/api/category/theThaoVaDuLich.webp"
+            "image": "src/assets/api/category/theThaoVaDuLich.webp"
         },
         { "id": 27, "name": "Dụng Cụ Thể Thao", "parentId": 26 },
         { "id": 28, "name": "Đồ Du Lịch", "parentId": 26 },
@@ -2365,7 +2320,7 @@
             "id": 29,
             "name": "Ô Tô & Xe Máy & Xe Đạp",
             "parentId": 1,
-            "image": "src/assets/img/body/api/category/oTo&XeMay&XeDap.webp"
+            "image": "src/assets/api/category/oTo&XeMay&XeDap.webp"
         },
         { "id": 30, "name": "Phụ Tùng Xe", "parentId": 29 },
         { "id": 31, "name": "Phụ Kiện Xe", "parentId": 29 },
@@ -2374,12 +2329,12 @@
             "id": 32,
             "name": "Balo & Túi Ví Nam",
             "parentId": 1,
-            "image": "src/assets/img/body/api/category/balo&TuiViNam.webp"
+            "image": "src/assets/api/category/balo&TuiViNam.webp"
         },
         { "id": 33, "name": "Balo Nam", "parentId": 32 },
         { "id": 34, "name": "Ví Nam", "parentId": 32 },
 
-        { "id": 35, "name": "Đồ Chơi", "parentId": 1, "image": "src/assets/img/body/api/category/doChoi.webp" },
+        { "id": 35, "name": "Đồ Chơi", "parentId": 1, "image": "src/assets/api/category/doChoi.webp" },
         { "id": 36, "name": "Đồ Chơi Trẻ Em", "parentId": 35 },
         { "id": 37, "name": "Đồ Chơi Công Nghệ", "parentId": 35 },
 
@@ -2387,7 +2342,7 @@
             "id": 38,
             "name": "Chăm Sóc Thú Cưng",
             "parentId": 1,
-            "image": "src/assets/img/body/api/category/chamSocThuCung.webp"
+            "image": "src/assets/api/category/chamSocThuCung.webp"
         },
         { "id": 39, "name": "Thức Ăn Thú Cưng", "parentId": 38 },
         { "id": 40, "name": "Phụ Kiện Thú Cưng", "parentId": 38 },
@@ -2396,7 +2351,7 @@
             "id": 41,
             "name": "Dụng Cụ & Thiết Bị Tiện Ích",
             "parentId": 1,
-            "image": "src/assets/img/body/api/category/dungCuVaThietBiTienIch.webp"
+            "image": "src/assets/api/category/dungCuVaThietBiTienIch.webp"
         },
         { "id": 42, "name": "Dụng Cụ Gia Đình", "parentId": 41 },
         { "id": 43, "name": "Thiết Bị Sửa Chữa", "parentId": 41 },
@@ -2405,12 +2360,12 @@
             "id": 44,
             "name": "Thời Trang Nữ",
             "parentId": 1,
-            "image": "src/assets/img/body/api/category/thoiTrangNu.webp"
+            "image": "src/assets/api/category/thoiTrangNu.webp"
         },
         { "id": 45, "name": "Áo Nữ", "parentId": 44 },
         { "id": 46, "name": "Quần & Váy Nữ", "parentId": 44 },
 
-        { "id": 47, "name": "Mẹ & Bé", "parentId": 1, "image": "src/assets/img/body/api/category/meVaBe.webp" },
+        { "id": 47, "name": "Mẹ & Bé", "parentId": 1, "image": "src/assets/api/category/meVaBe.webp" },
         { "id": 48, "name": "Đồ Cho Bé", "parentId": 47 },
         { "id": 49, "name": "Đồ Cho Mẹ", "parentId": 47 },
 
@@ -2418,24 +2373,24 @@
             "id": 50,
             "name": "Nhà Cửa & Đời Sống",
             "parentId": 1,
-            "image": "src/assets/img/body/api/category/nhaCuaVaDoiSong.webp"
+            "image": "src/assets/api/category/nhaCuaVaDoiSong.webp"
         },
         { "id": 51, "name": "Đồ Trang Trí Nhà Cửa", "parentId": 50 },
         { "id": 52, "name": "Đồ Dùng Sinh Hoạt", "parentId": 50 },
 
-        { "id": 53, "name": "Sắc Đẹp ", "parentId": 1, "image": "src/assets/img/body/api/category/sacDep.webp" },
+        { "id": 53, "name": "Sắc Đẹp ", "parentId": 1, "image": "src/assets/api/category/sacDep.webp" },
         { "id": 54, "name": "Chăm Sóc Da", "parentId": 53 },
         { "id": 55, "name": "Trang Điểm", "parentId": 53 },
 
-        { "id": 56, "name": "Sức Khỏe", "parentId": 1, "image": "src/assets/img/body/api/category/sucKhoe.webp" },
+        { "id": 56, "name": "Sức Khỏe", "parentId": 1, "image": "src/assets/api/category/sucKhoe.webp" },
         { "id": 57, "name": "Thực Phẩm Chức Năng", "parentId": 56 },
         { "id": 58, "name": "Dụng Cụ Y Tế", "parentId": 56 },
 
-        { "id": 59, "name": "Giày Dép Nữ", "parentId": 1, "image": "src/assets/img/body/api/category/giayDepNu.webp" },
+        { "id": 59, "name": "Giày Dép Nữ", "parentId": 1, "image": "src/assets/api/category/giayDepNu.webp" },
         { "id": 60, "name": "Giày Cao Gót", "parentId": 59 },
         { "id": 61, "name": "Giày Thể Thao Nữ", "parentId": 59 },
 
-        { "id": 62, "name": "Túi Ví Nữ", "parentId": 1, "image": "src/assets/img/body/api/category/tuiViNu.webp" },
+        { "id": 62, "name": "Túi Ví Nữ", "parentId": 1, "image": "src/assets/api/category/tuiViNu.webp" },
         { "id": 63, "name": "Túi Xách Nữ", "parentId": 62 },
         { "id": 64, "name": "Ví Nữ", "parentId": 62 },
 
@@ -2443,7 +2398,7 @@
             "id": 65,
             "name": "Phụ Kiện & Trang Sức Nữ",
             "parentId": 1,
-            "image": "src/assets/img/body/api/category/phuKienVaTrangSuc.webp"
+            "image": "src/assets/api/category/phuKienVaTrangSuc.webp"
         },
         { "id": 66, "name": "Trang Sức", "parentId": 65 },
         { "id": 67, "name": "Phụ Kiện Thời Trang", "parentId": 65 },
@@ -2452,7 +2407,7 @@
             "id": 68,
             "name": "Bách Hóa Online",
             "parentId": 1,
-            "image": "src/assets/img/body/api/category/bachHoaOnline.webp"
+            "image": "src/assets/api/category/bachHoaOnline.webp"
         },
         { "id": 69, "name": "Đồ Tiêu Dùng", "parentId": 68 },
         { "id": 70, "name": "Thực Phẩm Khô", "parentId": 68 },
@@ -2461,7 +2416,7 @@
             "id": 71,
             "name": "Nhà Sách online",
             "parentId": 1,
-            "image": "src/assets/img/body/api/category/nhaSachOnline.webp"
+            "image": "src/assets/api/category/nhaSachOnline.webp"
         },
         { "id": 72, "name": "Sách Kỹ Năng", "parentId": 71 },
         { "id": 73, "name": "Sách Giáo Khoa", "parentId": 71 },
@@ -2470,7 +2425,7 @@
             "id": 74,
             "name": "Thời Trang Trẻ Em",
             "parentId": 1,
-            "image": "src/assets/img/body/api/category/thoiTrangTreEm.webp"
+            "image": "src/assets/api/category/thoiTrangTreEm.webp"
         },
         { "id": 75, "name": "Quần Áo Bé Trai", "parentId": 74 },
         { "id": 76, "name": "Quần Áo Bé Gái", "parentId": 74 },
@@ -2479,7 +2434,7 @@
             "id": 77,
             "name": "Giặt Giũ & Chăm Sóc Nhà Cửa",
             "parentId": 1,
-            "image": "src/assets/img/body/api/category/giatGiuVaChamSocNhaCua.webp"
+            "image": "src/assets/api/category/giatGiuVaChamSocNhaCua.webp"
         },
         { "id": 78, "name": "Nước Giặt & Tẩy Rửa", "parentId": 77 },
         { "id": 79, "name": "Dụng Cụ Vệ Sinh", "parentId": 77 },
@@ -2488,7 +2443,7 @@
             "id": 80,
             "name": "Voucher & Dịch Vụ",
             "parentId": 1,
-            "image": "src/assets/img/body/api/category/voucherVaDichVu.webp"
+            "image": "src/assets/api/category/voucherVaDichVu.webp"
         },
         { "id": 81, "name": "Voucher Ăn Uống", "parentId": 80 },
         { "id": 82, "name": "Voucher Mua Sắm", "parentId": 80 }

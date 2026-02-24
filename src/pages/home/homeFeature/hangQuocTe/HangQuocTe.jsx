@@ -13,12 +13,19 @@ import {
     dongGia,
     moTaDongGia,
     deal3Dong,
-} from "~/assets/img/body/homefeature/hang-quoc-te";
+    deal9Dong,
+    deal29Dong,
+    xemLiveSanDealSoc,
+    xemLiveLich,
+    sanDealGiaRe,
+    mua1Duoc2,
+    quaMua1Duoc2,
+} from "~/assets/img/body/homeFeatures/hang-quoc-te";
 const HangQuocTe = () => {
     return (
         <>
             <DefaultLayout>
-                <main className="container-page h-[5000px]">
+                <main className="container-page ">
                     <div>
                         <img src={bannerImg} alt="ảnh voucher seo siêu rẻ" />
                     </div>
@@ -95,7 +102,31 @@ const HangQuocTe = () => {
                         </div>
                         {/* products list */}
                         <div>
-                            <SamePriceProducts />
+                            <SamePriceProducts priceLimit={[3000, 9000]} />
+                        </div>
+                        <div>
+                            <img src={deal9Dong} alt="ảnh deal 9 đồng" />
+                        </div>
+
+                        <div>
+                            <SamePriceProducts priceLimit={[9000, 25000]} />
+                        </div>
+
+                        <div>
+                            <img src={deal29Dong} alt="ảnh deal 29 đồng" />
+                        </div>
+                        <div>
+                            <SamePriceProducts priceLimit={[29000]} />
+                        </div>
+                    </section>
+                    <section data-index="3" id="xemLive" className="scroll-mt-85">
+                        <div>
+                            <img src={xemLiveSanDealSoc} alt="ảnh mô tải xem live săn deal sốc" />
+                            <img src={xemLiveLich} alt="ảnh mô tả lịch xem live của seo" />
+                            <img src={sanDealGiaRe} alt="ảnh mô tả săn deal giá rẻ " />
+                            <img src={mua1Duoc2} alt="ảnh mô tả mua 1 được 2 " />
+                            <img src={quaMua1Duoc2} alt="ảnh mô tả quà  mua 1 được 2 " />
+                            <img src={moTaDongGia} alt="giá sẽ trở về  gốc khi chương trình hết khuyến mãi" />
                         </div>
                     </section>
                 </main>
