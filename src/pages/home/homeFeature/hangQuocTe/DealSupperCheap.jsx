@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { ProductList, ProductItem } from "~/componnents/feature/product";
 import useFetch from "~/hooks/projectHooks/useFetch";
+import isInStock from "~/componnents/feature/isInStock";
 
 const categories = [
     "Thời trang nam",
@@ -19,15 +20,15 @@ const DealSupperCheap = () => {
 
     const cateParentId_2 =
         cateFiltered && categories_API.filter((cate) => cate.parentId == cateFiltered[0]?.id && cate);
-    const products = data.filter((product) =>
-        cateParentId_2.some((cate) => product.category?.id == cate.id && product),
+    const products = data.filter(
+        (product) => cateParentId_2.some((cate) => product.category?.id == cate.id && product) && isInStock(product),
     );
 
     return (
         <>
             <ProductList categories={categories} setSelectedCategory={setSelectedCategory}>
                 {products.map((product) => (
-                    <li>
+                    <li key={product.id}>
                         <ProductItem {...product} />
                     </li>
                 ))}

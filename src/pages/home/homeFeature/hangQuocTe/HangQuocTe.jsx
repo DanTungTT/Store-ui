@@ -3,6 +3,9 @@ import MenuBar from "./MenuBar";
 import FlashSale from "./FlashSale";
 import SamePriceProducts from "./SamePriceProducts";
 import DealSupperCheap from "./DealSupperCheap";
+import ProductVoucher20Percent from "./ProductVoucher20Percent";
+import ProductWrapper from "./ProductWrapper";
+import ProductOutOfStock from "./ProductOutOfStock";
 import { Button } from "~/componnents/ui";
 import {
     bannerImg,
@@ -21,7 +24,12 @@ import {
     sanDealGiaRe,
     mua1Duoc2,
     quaMua1Duoc2,
+    shopee,
+    label,
+    voucher20,
     dealGiaRe,
+    shopeeXuLi,
+    shopeeChoice,
 } from "~/assets/img/body/homeFeatures/hang-quoc-te";
 import WatchLiveStream from "./WatchLiveStream";
 const HangQuocTe = () => {
@@ -141,6 +149,27 @@ const HangQuocTe = () => {
                         </div>
                         <div>
                             <DealSupperCheap />
+                        </div>
+                        <div>
+                            <img src={shopee} alt="ảnh mô tải shopee" />
+                            <img src={label} alt="ảnh giới thiệu" />
+                            <img src={voucher20} alt="ảnh mô tải voucher giảm 20 %" />
+                        </div>
+                        <div>
+                            <ProductVoucher20Percent />
+                        </div>
+                        <div>
+                            <img src={shopeeXuLi} alt="ảnh mô tải shopee xử lí" />
+                        </div>
+
+                        <div>
+                            <ProductWrapper />
+                        </div>
+                        <div>
+                            <img src={shopeeChoice} alt="" />
+                        </div>
+                        <div>
+                            <ProductOutOfStock />
                         </div>
                     </section>
                 </main>

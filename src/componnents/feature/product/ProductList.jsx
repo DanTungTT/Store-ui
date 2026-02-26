@@ -44,6 +44,7 @@ const ProductList = ({ children, flashSale = null, categories, setSelectedCatego
                     <div>
                         <ul className="flex justify-evenly relative w-full [&>li]:h-20 my-5">
                             <li
+                                key="a"
                                 ref={activeRef}
                                 className="bg-primary absolute w-1/5 left-0 transition-translate duration-300"
                             ></li>

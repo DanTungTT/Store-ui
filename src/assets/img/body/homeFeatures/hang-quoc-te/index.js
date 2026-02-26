@@ -27,6 +27,11 @@ import sanDealGiaRe from "./sanDealGiaRe.webp";
 import mua1Duoc2 from "./mua1Duoc2.webp";
 import quaMua1Duoc2 from "./quaMua1Duoc2.webp";
 import dealGiaRe from "./dealGiaRe.webp";
+import shopee from "./shopee.webp";
+import label from "./label.webp";
+import voucher20 from "./voucher20.webp";
+import shopeeXuLi from "./shopee-xu-li.webp";
+import shopeeChoice from "./shopeeChoice.webp";
 
 export {bannerImg, firstPay, promotion, 
         promotionFirstPay, voucherXtra,
@@ -34,7 +39,7 @@ export {bannerImg, firstPay, promotion,
         deal3Dong, deal9Dong, deal29Dong, 
         xemLiveSanDealSoc, xemLiveLich,
         sanDealGiaRe, mua1Duoc2, quaMua1Duoc2,
-       dealGiaRe}
+       dealGiaRe, shopee, label, voucher20, shopeeXuLi, shopeeChoice}
 export const  menuBar = [
     {
         id: 1,

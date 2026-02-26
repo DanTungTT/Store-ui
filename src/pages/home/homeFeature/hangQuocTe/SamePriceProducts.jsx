@@ -1,13 +1,14 @@
 import { ProductList, ProductItem } from "~/componnents/feature/product";
 import useFetch from "~/hooks/projectHooks/useFetch";
 import getFinalPrice from "~/componnents/feature/getFinalPrice";
+import isInStock from "~/componnents/feature/isInStock";
 const SamePriceProducts = ({ priceLimit }) => {
     const data = useFetch("/products");
 
     const products = data.filter((product) => {
         return priceLimit.length > 1
             ? getFinalPrice(product) >= priceLimit[0] && getFinalPrice(product) <= priceLimit[1]
-            : getFinalPrice(product) >= priceLimit[0];
+            : getFinalPrice(product) >= priceLimit[0] && isInStock(product);
     });
 
     return (
