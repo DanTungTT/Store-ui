@@ -49,11 +49,11 @@
             "shippingTime": "Nhận từ 31 th01 - 30 th02",
             "freeShip": true,
             "productColor": ["red", "green", "black", "blue"],
-            "likes": 1000
+            "likes": 2192
         },
         {
             "id": 3,
-            "name": "áo sơ mi nam",
+            "name": "áo sơ mi nam - trẻ trung năng động ",
             "images": [
                 "src/assets/api/products/ao/ao-so-mi.jpeg",
                 "src/assets/api/products/ao/ao-so-mi(2).jpeg",
@@ -63,21 +63,22 @@
             "category": { "id": 3, "name": "Áo" },
             "events": ["src/assets/api/events/xtra.png", "src/assets/api/events/sieure.png"],
             "favourite": true,
-            "shopTag": "SeoThoiTrang",
-            "voucher": 50,
+            "shopTag": "shopMai.vn",
+            "voucher": 12,
             "label": true,
-            "price": 9900,
+            "price": 59900,
             "sales": 5000,
+            "quantity": 5500,
             "star": 4.7,
-            "comboPromotion": "Mua 2 & giảm 5%",
+            "comboPromotion": "Mua 2 được miễn phí ship",
             "shippingTime": "Nhận từ 31 th01 - 30 th02",
-            "freeShip": true,
+            "freeShip": false,
             "productColor": ["red", "green", "black", "blue"],
             "likes": 1500
         },
         {
             "id": 4,
-            "name": "áo thun 3 lỗ nam",
+            "name": "áo thun 3 lỗ nam ôm body - thoái mái",
             "images": [
                 "src/assets/api/products/ao/ao-ba-lo-3-mau.jpg",
                 "src/assets/api/products/ao/ao-ba-lo-xanh.jpg",
@@ -89,17 +90,18 @@
             "category": { "id": 3, "name": "Áo" },
             "events": ["src/assets/api/events/xtra.png", "src/assets/api/events/sieure.png"],
             "favourite": true,
-            "shopTag": "SeoThoiTrang",
-            "voucher": 50,
+            "shopTag": "shopMai.vn",
+            "voucher": 11,
             "label": true,
-            "price": 9000,
+            "price": 50000,
             "sales": 4000,
+            "quantity": 5000,
             "star": 4.7,
-            "comboPromotion": "Mua 2 & giảm 5%",
+            "comboPromotion": "Mua 2 giảm 20% phí ship",
             "shippingTime": "Nhận từ 31 th01 - 30 th02",
-            "freeShip": true,
+            "freeShip": false,
             "productColor": ["red", "green", "black", "blue"],
-            "likes": 1000
+            "likes": 900
         },
         {
             "id": 5,
@@ -116,21 +118,22 @@
             "category": { "id": 4, "name": "quần" },
             "events": ["src/assets/api/events/xtra.png", "src/assets/api/events/sieure.png"],
             "favourite": true,
-            "shopTag": "SeoThoiTrang",
-            "voucher": 50,
+            "shopTag": "shopMai.vn",
+            "voucher": 19,
             "label": true,
-            "price": 10000,
-            "sales": 60000,
-            "star": 4.7,
-            "comboPromotion": "Mua 2 & giảm 5%",
+            "price": 70000,
+            "sales": 1920,
+            "quantity": 3000,
+            "star": 3.9,
+            "comboPromotion": "Mua 2 giảm 15% giá ",
             "shippingTime": "Nhận từ 31 th01 - 30 th02",
-            "freeShip": true,
+            "freeShip": false,
             "productColor": ["red", "green", "black", "blue"],
-            "likes": 1500
+            "likes": 500
         },
         {
             "id": 6,
-            "name": "Quần đùi vải kaki thoái mái mùa hè",
+            "name": "Quần đùi vải kaki thoái mái mùa hè, có thể mặc đi chơi đi hộp",
             "images": [
                 "src/assets/api/products/quan/quan-dui-xam.jpeg",
                 "src/assets/api/products/quan/quan-dui-trang.jpeg"
@@ -139,46 +142,48 @@
             "category": { "id": 4, "name": "quần" },
             "events": ["src/assets/api/events/xtra.png", "src/assets/api/events/sieure.png"],
             "favourite": true,
-            "shopTag": "SeoThoiTrang",
-            "voucher": 50,
+            "shopTag": "shopMai.vn",
+            "voucher": 9,
             "label": true,
-            "price": 99000,
-            "sales": 60000,
-            "star": 4.7,
+            "price": 150000,
+            "sales": 6000,
+            "quantity": 6000,
+            "star": 4.9,
             "comboPromotion": "Mua 2 & giảm 5%",
             "shippingTime": "Nhận từ 31 th01 - 30 th02",
             "freeShip": true,
             "productColor": ["red", "green", "black", "blue"],
-            "likes": 1500
+            "likes": 4500
         },
         {
             "id": 7,
-            "name": "Quần kaki trẻ trung",
+            "name": "Quần kaki trẻ trung, mặc đi làm, đi chơi với bạn bè",
             "images": [
                 "src/assets/api/products/quan/quan-kaki.png",
                 "src/assets/api/products/quan/quan-kaki(2).jpg",
                 "src/assets/api/products/quan/quan-kaki(3).jpeg",
                 "src/assets/api/products/quan/quan-kaki(4).jpeg"
             ],
-            "decription": "quần kaki nam, nam tính & chất lượng cao, vải xịn",
+            "decription": "quần kaki nam, nam tính & chất lượng cao, vải xịn, thoái mái và sang trọng",
             "category": { "id": 4, "name": "quần" },
             "events": ["src/assets/api/events/xtra.png", "src/assets/api/events/sieure.png"],
             "favourite": true,
-            "shopTag": "SeoThoiTrang",
-            "voucher": 50,
+            "shopTag": "shopMai.vn",
+            "voucher": 12,
             "label": true,
-            "price": 99000,
-            "sales": 60000,
-            "star": 4.7,
-            "comboPromotion": "Mua 2 & giảm 5%",
+            "price": 300000,
+            "sales": 5900,
+            "quantity": 6100,
+            "star": 4.8,
+            "comboPromotion": "Mua 3 được miễn phí ship",
             "shippingTime": "Nhận từ 31 th01 - 30 th02",
-            "freeShip": true,
+            "freeShip": false,
             "productColor": ["red", "green", "black", "blue"],
-            "likes": 1500
+            "likes": 5000
         },
         {
             "id": 8,
-            "name": "Quần tây âu đen trẻ trung",
+            "name": "Quần tây âu đen trẻ trung, mặc đi chơi, đi làm đều được ",
             "images": [
                 "src/assets/api/products/quan/quan-au-den.jpeg",
                 "src/assets/api/products/quan/quan-au-den(2).jpeg",
@@ -193,12 +198,13 @@
                 "src/assets/api/events/25.1.png"
             ],
             "favourite": true,
-            "shopTag": "SeoThoiTrang",
-            "voucher": 50,
+            "shopTag": "shopMai.vn",
+            "voucher": 5,
             "label": true,
-            "price": 99000,
-            "sales": 60000,
-            "star": 4.7,
+            "price": 200000,
+            "sales": 2800,
+            "quantity": 3000,
+            "star": 4.8,
             "comboPromotion": "Mua 2 & giảm 5%",
             "shippingTime": "Nhận từ 31 th01 - 30 th02",
             "freeShip": true,
@@ -207,7 +213,7 @@
         },
         {
             "id": 9,
-            "name": "Quần jean trẻ trung",
+            "name": "Quần jean trẻ trung, mặc khi đi chơi với người yêu, bạn bè",
             "images": [
                 "src/assets/api/products/quan/quan-jean.jpeg",
                 "src/assets/api/products/quan/quan-jean(2).webp",
@@ -222,21 +228,22 @@
                 "src/assets/api/events/25.1.png"
             ],
             "favourite": true,
-            "shopTag": "SeoThoiTrang",
-            "voucher": 50,
+            "shopTag": "shopMai.vn",
+            "voucher": 20,
             "label": true,
-            "price": 99000,
-            "sales": 60000,
-            "star": 4.7,
-            "comboPromotion": "Mua 2 & giảm 5%",
-            "shippingTime": "Nhận từ 31 th01 - 30 th02",
-            "freeShip": true,
+            "price": 250000,
+            "sales": 6000,
+            "quantity": 6200,
+            "star": 4.8,
+            "comboPromotion": "Mua 2 được miễn phí ship",
+            "shippingTime": "Nhận từ 31 th02 - 30 th03",
+            "freeShip": false,
             "productColor": ["red", "green", "black", "blue"],
-            "likes": 1500
+            "likes": 3500
         },
         {
             "id": 10,
-            "name": "Quần thun dài",
+            "name": "Quần thun dài - trẻ trung đi chơi với người yêu, mặc đi hợp lớp ",
             "images": [
                 "src/assets/api/products/quan/quan-thun-dai.jpeg",
                 "src/assets/api/products/quan/quan-thun-dai(2).jpeg",
@@ -244,7 +251,7 @@
                 "src/assets/api/products/quan/quan-thun-dai(4).jpg",
                 "src/assets/api/products/quan/quan-thun-dai(5).jpeg"
             ],
-            "decription": "quần thun dài nam, nam tính & chất lượng cao, vải xịn",
+            "decription": "quần thun dài nam, nam tính & chất lượng cao, vải xịn, bền bỉ",
             "category": { "id": 4, "name": "quần" },
             "events": [
                 "src/assets/api/events/xtra.png",
@@ -252,27 +259,28 @@
                 "src/assets/api/events/25.1.png"
             ],
             "favourite": true,
-            "shopTag": "SeoThoiTrang",
-            "voucher": 50,
+            "shopTag": "shopMai.vn",
+            "voucher": 10,
             "label": true,
             "price": 99000,
-            "sales": 60000,
-            "star": 4.7,
-            "comboPromotion": "Mua 2 & giảm 5%",
+            "sales": 6000,
+            "quantity": 6100,
+            "star": 4.9,
+            "comboPromotion": "Mua 2 & giảm 5%, Mua 3 được miễn phí ship, Mua 5 được tăng 1 ",
             "shippingTime": "Nhận từ 31 th01 - 30 th02",
-            "freeShip": true,
+            "freeShip": false,
             "productColor": ["red", "green", "black", "blue"],
-            "likes": 1500
+            "likes": 5500
         },
         {
             "id": 11,
-            "name": "Điện Thoại SamSung A23 ",
+            "name": "Samsung Galaxy A23 / Samsung Galaxy A23 (6GB/128GB) – bản tiêu chuẩn ",
             "images": [
                 "src/assets/api/products/dt/ssA23.jpg",
                 "src/assets/api/products/dt/ssA23(2).jpeg",
                 "src/assets/api/products/dt/ssA23(3).jpeg"
             ],
-            "decription": "Samsung Galaxy A23 (4G) 4GB 128GB Chính hãng - Clickbuy",
+            "decription": "Samsung Galaxy A23 là smartphone tầm trung với màn hình lớn 6.6 inch Full HD+, thiết kế hiện đại và pin 5000mAh cho thời lượng sử dụng cả ngày. Máy trang bị camera chính 50MP chụp ảnh rõ nét cùng hiệu năng ổn định, phù hợp cho nhu cầu học tập, làm việc và giải trí cơ bản.",
             "category": { "id": 6, "name": "Điện Thoại" },
             "events": [
                 "src/assets/api/events/xtra.png",
@@ -280,27 +288,28 @@
                 "src/assets/api/events/25.1.png"
             ],
             "favourite": true,
-            "shopTag": "SeoPhone",
-            "voucher": 50,
+            "shopTag": "Anna_Jewelry",
+            "voucher": 12,
             "label": true,
-            "price": 15000000,
-            "sales": 1000,
+            "price": 4590000,
+            "sales": 1500,
+            "quantity": 3000,
             "star": 4.9,
             "comboPromotion": null,
             "shippingTime": "Nhận từ 31 th01 - 30 th02",
             "freeShip": true,
             "productColor": ["red", "green", "black", "blue"],
-            "likes": 4500
+            "likes": 1200
         },
         {
             "id": 12,
-            "name": "Điện thoại ip17 Pro Max",
+            "name": "iPhone 17 Pro Max 256GB - Màn Hình OLED 6.7 Inch, Chip Thế Hệ Mới, Camera Cao Cấp",
             "images": [
                 "src/assets/api/products/dt/ip17.jpeg",
                 "src/assets/api/products/dt/ip17(2).jpeg",
                 "src/assets/api/products/dt/ip17(3).jpeg"
             ],
-            "decription": "Điện thoại ip17 Pro Max 8g ",
+            "decription": "Flagship cao cấp với màn hình OLED 6.7 inch, hiệu năng mạnh mẽ, camera nâng cấp và thiết kế sang trọng. Phù hợp cho người dùng cần trải nghiệm cao cấp, chụp ảnh đẹp và hiệu suất vượt trội. ",
             "category": { "id": 6, "name": "Điện thoại" },
             "events": [
                 "src/assets/api/events/xtra.png",
@@ -308,28 +317,29 @@
                 "src/assets/api/events/25.1.png"
             ],
             "favourite": true,
-            "shopTag": "SeoPhone",
-            "voucher": 50,
+            "shopTag": "Anna_Jewelry",
+            "voucher": 10,
             "label": true,
-            "price": 3000000,
-            "sales": 60000,
+            "price": 34990000,
+            "sales": 1329,
+            "quantity": 2100,
             "star": 5,
             "comboPromotion": null,
             "shippingTime": "Nhận từ 31 th01 - 30 th02",
             "freeShip": true,
             "productColor": ["red", "green", "black", "blue"],
-            "likes": 1500
+            "likes": 1000
         },
         {
             "id": 13,
-            "name": "Điện Thoại OppoA5",
+            "name": "OPPO A5 4GB/64GB - Màn Hình 6.5 Inch, Pin Lớn 5000mAh, Thiết Kế Trẻ Trung",
             "images": [
                 "src/assets/api/products/dt/oppoA5.jpg",
                 "src/assets/api/products/dt/oppoA5(2).jpeg",
                 "src/assets/api/products/dt/oppoA5(3).jpeg",
                 "src/assets/api/products/dt/oppoA3s.webp"
             ],
-            "decription": "Điện Thoại OppoA5 chính hãng 8g",
+            "decription": "OPPO A5 là smartphone tầm trung với màn hình lớn 6.5 inch, hiệu năng ổn định cho các tác vụ hàng ngày và viên pin dung lượng cao 5000mAh cho thời gian sử dụng lâu dài. Phù hợp cho nhu cầu học tập, giải trí và sử dụng cơ bản.",
             "category": { "id": 6, "name": "Điện Thoại" },
             "events": [
                 "src/assets/api/events/xtra.png",
@@ -337,12 +347,13 @@
                 "src/assets/api/events/25.1.png"
             ],
             "favourite": true,
-            "shopTag": "SeoPhone",
-            "voucher": 50,
+            "shopTag": "Anna_Jewelry",
+            "voucher": 9,
             "label": true,
-            "price": 3100,
-            "sales": 60000,
-            "star": 4.7,
+            "price": 3990000,
+            "sales": 2000,
+            "quantity": 4500,
+            "star": 4.9,
             "comboPromotion": "Mua 2 & giảm 5%",
             "shippingTime": "Nhận từ 31 th01 - 30 th02",
             "freeShip": true,
@@ -351,14 +362,14 @@
         },
         {
             "id": 14,
-            "name": "Điện Thoại realme 7i",
+            "name": "Realme 7i 8GB/128GB - Màn Hình 90Hz, Pin 5000mAh, Hiệu Năng Ổn Định",
             "images": [
                 "src/assets/api/products/dt/realme.jpg",
                 "src/assets/api/products/dt/realme(2).jpeg",
                 "src/assets/api/products/dt/realme(3).jpeg",
                 "src/assets/api/products/dt/realme(4).jpeg"
             ],
-            "decription": "Điện thoại realme 7i 8g mạnh mẽ",
+            "decription": "Realme 7i là smartphone tầm trung với màn hình 6.5 inch tần số quét 90Hz cho trải nghiệm mượt mà. Máy sở hữu hiệu năng ổn định, camera đa chức năng và viên pin 5000mAh đáp ứng tốt nhu cầu sử dụng hàng ngày như lướt web, xem video và mạng xã hội.",
             "category": { "id": 6, "name": "Điện Thoại" },
             "events": [
                 "src/assets/api/events/xtra.png",
@@ -366,11 +377,12 @@
                 "src/assets/api/events/25.1.png"
             ],
             "favourite": true,
-            "shopTag": "SeoPhone",
-            "voucher": 50,
+            "shopTag": "Anna_Jewelry",
+            "voucher": 3,
             "label": true,
-            "price": 3100,
-            "sales": 60000,
+            "price": 4290000,
+            "sales": 3200,
+            "quantity": 4000,
             "star": 4.5,
             "comboPromotion": null,
             "shippingTime": "Nhận từ 31 th01 - 30 th02",
@@ -380,13 +392,13 @@
         },
         {
             "id": 15,
-            "name": "Điện Thoại redmi 15C",
+            "name": "Redmi 15C 6GB/128GB - Màn Hình Lớn 6.7 Inch, Pin 5000mAh, Hiệu Năng Ổn Định",
             "images": [
                 "src/assets/api/products/dt/redmi.jpeg",
                 "src/assets/api/products/dt/redmi.webp",
                 "src/assets/api/products/dt/redmi(2).jpeg"
             ],
-            "decription": "Điện thoại redmi 15C 8g mạnh mẽ",
+            "decription": "Redmi 15C là smartphone tầm trung với màn hình lớn 6.7 inch cho trải nghiệm xem nội dung thoải mái. Máy được trang bị hiệu năng ổn định đáp ứng tốt các nhu cầu cơ bản như lướt web, xem video và mạng xã hội. Viên pin 5000mAh cho thời lượng sử dụng lâu dài trong ngày.",
             "category": { "id": 6, "name": "Điện Thoại" },
             "events": [
                 "src/assets/api/events/xtra.png",
@@ -394,23 +406,24 @@
                 "src/assets/api/events/25.1.png"
             ],
             "favourite": true,
-            "shopTag": "SeoPhone",
-            "voucher": 50,
+            "shopTag": "Anna_Jewelry",
+            "voucher": 2,
             "label": true,
-            "price": 3100,
-            "sales": 60000,
+            "price": 3790000,
+            "sales": 900,
+            "quantity": 3100,
             "star": 4.5,
             "comboPromotion": null,
             "shippingTime": "Nhận từ 31 th01 - 30 th02",
             "freeShip": true,
             "productColor": ["red", "green", "black", "blue"],
-            "likes": 1500
+            "likes": 200
         },
         {
             "id": 16,
-            "name": "Điện Thoại redmi note 14 pro max",
+            "name": "Redmi Note 14 Pro Max 12GB/256GB - Màn Hình AMOLED 120Hz, Camera 200MP, Sạc Nhanh",
             "images": ["src/assets/api/products/dt/redmi-note-14-pro.jpg"],
-            "decription": "Điện thoại redmi 15C 8g mạnh mẽ",
+            "decription": "Redmi Note 14 Pro Max là smartphone tầm trung cao cấp với màn hình AMOLED 120Hz cho trải nghiệm hiển thị mượt mà. Máy sở hữu hiệu năng mạnh mẽ, camera độ phân giải cao và công nghệ sạc nhanh hiện đại. Phù hợp cho người dùng cần hiệu suất cao, chơi game và chụp ảnh chất lượng.",
             "category": { "id": 6, "name": "Điện Thoại" },
             "events": [
                 "src/assets/api/events/xtra.png",
@@ -418,27 +431,28 @@
                 "src/assets/api/events/25.1.png"
             ],
             "favourite": true,
-            "shopTag": "SeoPhone",
-            "voucher": 50,
+            "shopTag": "Anna_Jewelry",
+            "voucher": 8,
             "label": true,
-            "price": 3100,
-            "sales": 60000,
-            "star": 4.5,
+            "price": 8990000,
+            "sales": 3000,
+            "quantity": 4100,
+            "star": 4.9,
             "comboPromotion": null,
             "shippingTime": "Nhận từ 31 th01 - 30 th02",
             "freeShip": true,
             "productColor": ["red", "green", "black", "blue"],
-            "likes": 1500
+            "likes": 2500
         },
         {
             "id": 17,
-            "name": "Ốp Điện Thoại SamSung A12 ",
+            "name": "Ốp Lưng Samsung Galaxy A12 Silicon Chống Sốc, Bảo Vệ Toàn Diện ",
             "images": [
                 "src/assets/api/products/op-dt/op-ss-a12.jpeg",
                 "src/assets/api/products/op-dt/op-ss-a12(2).jpeg",
                 "src/assets/api/products/op-dt/op-ss-a12(3).jpg"
             ],
-            "decription": "ỐP Điện thoại SamSung A12 đẹp đẽ",
+            "decription": "Ốp lưng dành cho Samsung Galaxy A12 với chất liệu silicon dẻo, chống trầy xước và hạn chế va đập. Thiết kế ôm sát thân máy, dễ dàng tháo lắp và đảm bảo các cổng kết nối sử dụng thuận tiện.",
             "category": { "id": 7, "name": "Phụ kiện Điện Thoại" },
             "events": [
                 "src/assets/api/events/xtra.png",
@@ -446,26 +460,27 @@
                 "src/assets/api/events/25.1.png"
             ],
             "favourite": true,
-            "shopTag": "SeoPhone",
-            "voucher": 50,
+            "shopTag": "Anna_Jewelry",
+            "voucher": 7,
             "label": true,
-            "price": 3100,
-            "sales": 60000,
-            "star": 4.5,
+            "price": 89000,
+            "sales": 150,
+            "quantity": 500,
+            "star": 3.9,
             "comboPromotion": null,
             "shippingTime": "Nhận từ 31 th01 - 30 th02",
             "freeShip": true,
             "productColor": ["red", "green", "black", "blue"],
-            "likes": 1500
+            "likes": 28
         },
         {
             "id": 18,
-            "name": "Ốp Điện Thoại SamSung A23 ",
+            "name": "Ốp Lưng Samsung Galaxy A23 Nhựa Dẻo Chống Sốc, Bảo Vệ Camera",
             "images": [
                 "src/assets/api/products/op-dt/op-ss-a23.jpg",
                 "src/assets/api/products/op-dt/op-ss-a53-a73-a33-a23.jpg"
             ],
-            "decription": "ỐP Điện thoại SamSung A23 đẹp đẽ",
+            "decription": "Ốp lưng dành cho Samsung Galaxy A23 với chất liệu nhựa dẻo TPU bền bỉ, giúp bảo vệ máy khỏi trầy xước và va đập nhẹ. Thiết kế ôm sát thân máy, hỗ trợ đầy đủ các cổng kết nối và phím bấm.",
             "category": { "id": 7, "name": "Phụ kiện Điện Thoại" },
             "events": [
                 "src/assets/api/events/xtra.png",
@@ -473,23 +488,24 @@
                 "src/assets/api/events/25.1.png"
             ],
             "favourite": true,
-            "shopTag": "SeoPhone",
-            "voucher": 50,
+            "shopTag": "Anna_Jewelry",
+            "voucher": 2,
             "label": true,
-            "price": 3100,
-            "sales": 60000,
+            "price": 99000,
+            "sales": 110,
+            "quantity": 200,
             "star": 4.5,
             "comboPromotion": null,
             "shippingTime": "Nhận từ 31 th01 - 30 th02",
             "freeShip": true,
             "productColor": ["red", "green", "black", "blue"],
-            "likes": 1500
+            "likes": 50
         },
         {
             "id": 102,
-            "name": "Ốp Điện Thoại SamSung s20 ",
+            "name": "Ốp Lưng Samsung Galaxy S20 Silicon Trong Suốt Chống Sốc, Viền Bảo Vệ Camera",
             "images": ["src/assets/api/products/op-dt/op-ss-s20.jpg", "src/assets/api/products/op-dt/op-ss-s20(2).jpg"],
-            "decription": "ỐP Điện thoại SamSung s20 đẹp đẽ",
+            "decription": "Ốp lưng dành cho Samsung Galaxy S20 với chất liệu silicon dẻo cao cấp, chống trầy xước và hạn chế va đập hiệu quả. Thiết kế mỏng nhẹ, ôm sát thân máy, bảo vệ cụm camera và không ảnh hưởng đến các cổng kết nối.",
             "category": { "id": 7, "name": "Phụ kiện Điện Thoại" },
             "events": [
                 "src/assets/api/events/xtra.png",
@@ -497,28 +513,29 @@
                 "src/assets/api/events/25.1.png"
             ],
             "favourite": true,
-            "shopTag": "SeoPhone",
-            "voucher": 50,
+            "shopTag": "Anna_Jewelry",
+            "voucher": 10,
             "label": true,
-            "price": 4000,
-            "sales": 60000,
+            "price": 129000,
+            "sales": 200,
+            "quantity": 200,
             "star": 4.5,
             "comboPromotion": null,
             "shippingTime": "Nhận từ 31 th01 - 30 th02",
             "freeShip": true,
             "productColor": ["red", "green", "black", "blue"],
-            "likes": 1500
+            "likes": 160
         },
         {
             "id": 19,
-            "name": "Pin dự phòng Polymer ",
+            "name": "Pin Dự Phòng Polymer 10000mAh - Sạc Nhanh 2 Cổng USB, Thiết Kế Nhỏ Gọn",
             "images": [
                 "src/assets/api/products/pinDuPhong/pin-du-phong-polymer.jpeg",
                 "src/assets/api/products/pinDuPhong/pin-du-phong-polymer(2).jpg",
                 "src/assets/api/products/pinDuPhong/pin-du-phong-polymer(3).jpeg",
                 "src/assets/api/products/pinDuPhong/pin-du-phong-polymer(4).jpeg"
             ],
-            "decription": "Pin dự phòng Polymer 1000mhz",
+            "decription": "Pin dự phòng sử dụng lõi Polymer an toàn, dung lượng 10000mAh đáp ứng nhu cầu sạc điện thoại nhiều lần trong ngày. Hỗ trợ 2 cổng USB tiện lợi, thiết kế mỏng nhẹ, dễ mang theo khi di chuyển.",
             "category": { "id": 7, "name": "Phụ kiện Điện Thoại" },
             "events": [
                 "src/assets/api/events/xtra.png",
@@ -526,28 +543,29 @@
                 "src/assets/api/events/25.1.png"
             ],
             "favourite": true,
-            "shopTag": "SeoPhone",
-            "voucher": 24,
+            "shopTag": "Anna_Jewelry",
+            "voucher": 10,
             "label": true,
-            "price": 4000,
-            "sales": 60000,
+            "price": 259000,
+            "sales": 600,
+            "quantity": 2000,
             "star": 4.5,
             "comboPromotion": null,
             "shippingTime": "Nhận từ 31 th01 - 30 th02",
             "freeShip": true,
             "productColor": ["red", "green", "black", "blue"],
-            "likes": 1500
+            "likes": 500
         },
         {
             "id": 20,
-            "name": "Giá Đỡ Điện Thoại chất lương cao",
+            "name": "Giá Đỡ Điện Thoại Để Bàn Điều Chỉnh Góc Nghiêng, Thiết Kế Gấp Gọn",
             "images": [
                 "src/assets/api/products/giaDodt/gia-do.jpeg",
                 "src/assets/api/products/giaDodt/gia-do(2).jpeg",
                 "src/assets/api/products/giaDodt/gia-do(3).jpeg",
                 "src/assets/api/products/giaDodt/gia-do(4).jpeg"
             ],
-            "decription": "Giá đỡ điện thoại bằng kim loại",
+            "decription": "Giá đỡ điện thoại chất liệu nhựa ABS bền bỉ, hỗ trợ điều chỉnh nhiều góc nhìn tiện lợi khi xem phim, học online hoặc làm việc. Thiết kế gấp gọn, dễ mang theo và tương thích với nhiều dòng smartphone khác nhau.",
             "category": { "id": 7, "name": "Phụ kiện Điện Thoại" },
             "events": [
                 "src/assets/api/events/xtra.png",
@@ -555,17 +573,18 @@
                 "src/assets/api/events/25.1.png"
             ],
             "favourite": true,
-            "shopTag": "SeoPhone",
-            "voucher": 24,
+            "shopTag": "Anna_Jewelry",
+            "voucher": 20,
             "label": true,
-            "price": 4000,
-            "sales": 60000,
+            "price": 79000,
+            "sales": 600,
+            "quantity": 600,
             "star": 4.5,
             "comboPromotion": null,
             "shippingTime": "Nhận từ 31 th01 - 30 th02",
             "freeShip": true,
             "productColor": ["red", "green", "black", "blue"],
-            "likes": 1500
+            "likes": 500
         },
         {
             "id": 21,
