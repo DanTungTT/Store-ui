@@ -1,5 +1,5 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import { publicRouter as RouteItems } from "./routers";
+import { publicRouter as RouteItems } from "./routes";
 import AppProvider from "./provider/AppProvider";
 function App() {
     return (

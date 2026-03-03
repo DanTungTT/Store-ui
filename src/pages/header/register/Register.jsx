@@ -1,7 +1,7 @@
 import { SubnetLayout } from "~/layout";
 import { useLayoutContext } from "~/provider/LayoutProvider";
 import { FormLogin, Input } from "~/componnents";
-import GuestRouter from "~/routers/GuestRouter";
+import { GuestRouter } from "~/routes/";
 
 import { useEffect } from "react";
 const Register = () => {

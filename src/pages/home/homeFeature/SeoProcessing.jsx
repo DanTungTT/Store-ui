@@ -1,5 +1,5 @@
 import { DefaultLayout } from "~/layout";
-const SeoXuLi = () => {
+const SeoProcessing = () => {
     return (
         <>
             <DefaultLayout>day la SeoXuLi</DefaultLayout>
@@ -7,4 +7,4 @@ const SeoXuLi = () => {
     );
 };
 
-export default SeoXuLi;
+export default SeoProcessing;

@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 
 import { useLayoutContext } from "~/provider/LayoutProvider";
-import GuestRouter from "~/routers/GuestRouter";
+import { GuestRouter } from "~/routes/";
 import { SubnetLayout } from "~/layout";
 import { FormLogin } from "~/componnents";
 

@@ -3,7 +3,7 @@ import { useEffect } from "react";
 import { SubnetLayout } from "~/layout";
 import { FormLogin, Input } from "~/componnents";
 import { useLayoutContext } from "~/provider/LayoutProvider";
-import GuestRouter from "~/routers/GuestRouter";
+import { GuestRouter } from "~/routes/";
 
 const Login = () => {
     const { setTitleHeader, setTitleHelp, setLayoutFooter } = useLayoutContext();

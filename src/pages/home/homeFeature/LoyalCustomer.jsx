@@ -1,5 +1,5 @@
 import { DefaultLayout } from "~/layout";
-const KhachHangThanThiet = () => {
+const LoyalCustomer = () => {
     return (
         <>
             <DefaultLayout>day la KhachHangThanThiet</DefaultLayout>
@@ -7,4 +7,4 @@ const KhachHangThanThiet = () => {
     );
 };
 
-export default KhachHangThanThiet;
+export default LoyalCustomer;

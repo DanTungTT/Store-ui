@@ -1,9 +1,8 @@
 import { useEffect, useState } from "react";
 import { data, Link } from "react-router-dom";
-import { publicRouter as LinkItems } from "~/routers";
-import useFetch from "../../../services/useFetch";
 
-// https://api.escuelajs.co/api/v1/categories
+import { useFetch } from "~/services/";
+
 const Content = () => {
     const rs = useFetch("\products");
 

@@ -1,15 +1,15 @@
+import { useEffect } from "react";
 import clsx from "clsx";
 
 import { useLayoutContext } from "~/provider/LayoutProvider";
-import GuestRouter from "~/routers/GuestRouter";
+import { GuestRouter } from "~/routes/";
 import { SubnetLayout } from "~/layout";
-import { FormLogin, Input } from "~/componnents";
-import { Reson, Step, BenefitItem, Following } from "./componnents";
+import { FormLogin } from "~/componnents";
 
+import { Reson, Step, BenefitItem, Following } from "./componnents";
 import { liBanerItems, conviceItems, stepItems, benefitItems, follows } from "./data";
 
 import styles from "./becomeASeller.module.css";
-import { useEffect } from "react";
 
 const BecomeASeller = () => {
     const { setTitleHeader, setLayoutFooter, setTitleHelp } = useLayoutContext();

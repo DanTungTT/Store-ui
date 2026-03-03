@@ -1,5 +1,5 @@
 import { DefaultLayout } from "~/layout";
-const MaGiamGia = () => {
+const DiscountCode = () => {
     return (
         <>
             <DefaultLayout>day la MaGiamGia</DefaultLayout>
@@ -7,4 +7,4 @@ const MaGiamGia = () => {
     );
 };
 
-export default MaGiamGia;
+export default DiscountCode;

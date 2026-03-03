@@ -2,14 +2,14 @@ import clsx from "clsx";
 import { Link } from "react-router-dom";
 
 import { useAuthenContext } from "~/provider/AuthenProvider";
+import * as config from "~/config";
 
 import DownAppWrapper from "./downApp/DownAppWrapper";
 import LanguagesWrapper from "./languages/LanguagesWrapper";
-import Avatar from "./Avatar";
 
+import Avatar from "./Avatar";
 import styles from "./topbar.module.css";
 import { UseIcon, faFacebook, faInstagram, faBell, faCircleQuestion, faXmark } from "~/assets/icon";
-
 const Menu = ({ setOpenMenu, openMenu }) => {
     const { isAuthen } = useAuthenContext();
     return (
@@ -22,13 +22,13 @@ const Menu = ({ setOpenMenu, openMenu }) => {
                 <ul className="p-5 [&>li]:p-5 [&>li]:text-[1.8rem] [&>li]:w-fit mt-10">
                     <li>
                         <span>
-                            <Link to="/sellerChannel">Kênh người bán</Link>
+                            <Link to={config.routes.sellerChannel}>Kênh người bán</Link>
                         </span>
                     </li>
                     {/* tro thanh nguoi ban */}
                     <li>
                         <span>
-                            <Link to="/becomeASeller">Trờ thành người bán</Link>
+                            <Link to={config.routes.becomeASeller}>Trờ thành người bán</Link>
                         </span>
                     </li>
 
@@ -61,7 +61,7 @@ const Menu = ({ setOpenMenu, openMenu }) => {
 
                     {/* support */}
                     <li className="sm:hidden">
-                        <Link to="/support">
+                        <Link to={config.routes.support}>
                             <span>
                                 <UseIcon icon={faCircleQuestion} />
                                 Hỗ trợ
@@ -77,12 +77,12 @@ const Menu = ({ setOpenMenu, openMenu }) => {
                     ) : (
                         <div className="sm:hidden flex">
                             <li>
-                                <Link to="/register">
+                                <Link to={config.routes.register}>
                                     <span>Đăng ký</span>
                                 </Link>
                             </li>
                             <li className={clsx(styles.spacing, "relative")}>
-                                <Link to="/login">
+                                <Link to={config.routes.login}>
                                     <span>Đăng nhập</span>
                                 </Link>
                             </li>
