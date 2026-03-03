@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
 import HomeFeatureWrapper from "./HomeFeatureWrapper";
-import Sidebar from "./Sidebar";
+
 import Content from "./Content";
 import Banner from "./Banner";
 

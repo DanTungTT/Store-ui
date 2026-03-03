@@ -1,4 +1,4 @@
-import { SubnetHeader, SubnetFooter } from "~/componnents";
+import { SubnetHeader, SubnetFooter } from "./componnents";
 const SubnetLayout = ({ children }) => {
     return (
         <>

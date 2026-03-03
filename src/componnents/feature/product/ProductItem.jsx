@@ -1,6 +1,7 @@
-import isInStock from "~/componnents/feature/isInStock";
+import clsx from "clsx";
+
+import { isInStock, formatVND } from "~/utils";
 import { Favourite, Voucher, EventImgs, ShopTag, ButtonBuy } from "~/componnents/ui";
-import formatVND from "../formatVND";
 
 const ProductItem = ({ name, images, favourite, voucher, events, shopTag, price, sales, quantity }) => {
     const statusProduct = isInStock({ sales, quantity });
@@ -26,10 +27,12 @@ const ProductItem = ({ name, images, favourite, voucher, events, shopTag, price,
                 <div className="ml-4">{shopTag && <ShopTag nameShop={shopTag} />}</div>
                 <div className="flex justify-between items-center px-5 ">
                     <div>
-                        <span className="primaryColor">{formatVND(price - (price * voucher) / 100)}</span>
+                        <span className={clsx(!statusProduct ? "text-primaryColor" : "primaryColor")}>
+                            {formatVND(price - (price * voucher) / 100)}
+                        </span>
                     </div>
                     <div>
-                        <ButtonBuy />
+                        <ButtonBuy statusProduct={statusProduct} />
                     </div>
                 </div>
             </div>

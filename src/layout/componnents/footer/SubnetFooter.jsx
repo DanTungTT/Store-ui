@@ -10,7 +10,7 @@ const SubnetFooter = () => {
 
     const [footerInfors, followingFooter, payFooter, qrFooter] = data;
     const footer1 = (
-        <Footer className="informationFooter">
+        <Footer className="informationFooter  border-t-4  border-primary ">
             <div className="grid grid-cols-3 px-5 gap-x-[2rem] sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5">
                 {footerInfors.map(({ title, list }, index) => {
                     return (

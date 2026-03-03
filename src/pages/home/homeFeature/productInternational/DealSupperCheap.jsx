@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { ProductList, ProductItem } from "~/componnents/feature/product";
-import useFetch from "~/hooks/projectHooks/useFetch";
-import isInStock from "~/componnents/feature/isInStock";
+import { useFetch } from "~/services";
+import { isInStock } from "~/utils";
 
 const categories = [
     "Thời trang nam",

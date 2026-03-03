@@ -1,9 +1,9 @@
-import useFetch from "~/hooks/projectHooks/useFetch";
 import { ProductList, ProductItem } from "~/componnents/feature/product";
-import isInStock from "~/componnents/feature/isInStock";
-const WatchLiveStream = () => {
+import { useFetch } from "~/services";
+import { isInStock } from "~/utils";
+const ProductVoucher20Percent = () => {
     const data = useFetch("/products");
-    const products = data.filter((product) => product.voucher <= 50 && isInStock(product));
+    const products = data.filter((product) => product.voucher >= 20 && isInStock(product));
     return (
         <>
             <ProductList>
@@ -17,4 +17,4 @@ const WatchLiveStream = () => {
     );
 };
 
-export default WatchLiveStream;
+export default ProductVoucher20Percent;

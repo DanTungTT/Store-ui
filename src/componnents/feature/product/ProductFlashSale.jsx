@@ -1,6 +1,6 @@
 import { forwardRef } from "react";
 import { Favourite, Voucher, EventImgs, ShopTag, Button, VoucherFlashSale } from "~/componnents/ui";
-import formatVND from "../formatVND";
+import { formatVND } from "~/utils";
 
 const ProductFlashSale = ({ name, images, voucher, events, price, sales, quantity = 1 }) => {
     const w = (sales / quantity) * 100;

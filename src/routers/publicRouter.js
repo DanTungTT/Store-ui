@@ -1,4 +1,4 @@
-import { Home, Login, SellerChannel,  BecomeASeller, Support, Register, HangQuocTe, DealHot, KhachHangThanThiet, MaGiamGia, SeoStyle, SeoXuLi } from "~/pages";
+import { Home, Login, SellerChannel,  BecomeASeller, Support, Register, ProductInternational, DealHot, KhachHangThanThiet, MaGiamGia, SeoStyle, SeoXuLi } from "~/pages";
 const publicRouter = [
     {path:"/", element: Home},
     {path:"/sellerChannel", element: SellerChannel},
@@ -8,7 +8,7 @@ const publicRouter = [
     {path:"/login", element: Login},
     // body
     {path:"/deal-hot", element: DealHot},
-    {path:"/hang-quoc-te", element: HangQuocTe},
+    {path:"/hang-quoc-te", element: ProductInternational},
     {path:"/khach-hang-than-thiet", element: KhachHangThanThiet},
     {path:"/ma-giam-gia", element: MaGiamGia},
     {path:"/seo-style", element: SeoStyle},

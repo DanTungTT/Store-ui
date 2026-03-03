@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { data, Link } from "react-router-dom";
 import { publicRouter as LinkItems } from "~/routers";
-import useFetch from "../../hooks/projectHooks/useFetch";
+import useFetch from "../../../services/useFetch";
 
 // https://api.escuelajs.co/api/v1/categories
 const Content = () => {

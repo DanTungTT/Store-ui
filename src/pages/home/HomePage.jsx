@@ -1,5 +1,5 @@
 import { DefaultLayout } from "~/layout";
-import { Body } from "~/componnents";
+import { Body } from "~/layout";
 function Home() {
     return (
         <>

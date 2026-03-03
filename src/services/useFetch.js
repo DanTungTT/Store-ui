@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import * as request from "~/api/instance";
+import * as request from "./instance";
 
 const useFetch = (path, query = null) => {
    const [data, setData] = useState([])

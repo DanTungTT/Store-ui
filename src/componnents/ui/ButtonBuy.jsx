@@ -1,8 +1,14 @@
+import clsx from "clsx";
 import { UseIcon, faCartShopping } from "~/assets/icon";
-const ButtonBuy = () => {
+const ButtonBuy = ({ statusProduct }) => {
     return (
         <>
-            <button className="rounded-[50%] bg-primary p-2 h-[3rem] w-[3rem] text-secondaryColor cursor-pointer">
+            <button
+                className={clsx(
+                    !statusProduct ? "text-primaryColor bg-gray-300" : "bg-primary text-secondaryColor",
+                    "rounded-[50%]  p-2 h-[3rem] w-[3rem]  cursor-pointer",
+                )}
+            >
                 <UseIcon icon={faCartShopping} />
             </button>
         </>

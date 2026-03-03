@@ -1,5 +1,6 @@
-import { useEffect, useLayoutEffect, useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import clsx from "clsx";
+
 import { UseIcon, faAngleRight, faAngleLeft } from "~/assets/icon";
 
 const ProductList = ({ children, flashSale = null, categories, setSelectedCategory }) => {
