@@ -1,4 +1,4 @@
-import { UseIcon, faXmark } from "~/assets/icon";
+import { Icon, faXmark } from "~/componnents/icon";
 const SlideBanner = ({ noti, link, onRemoveNoti }) => {
     return (
         <div className="flex px-5">
@@ -9,7 +9,7 @@ const SlideBanner = ({ noti, link, onRemoveNoti }) => {
                     {link ? "Liên kết" : ""}
                 </a>
             </span>
-            <UseIcon icon={faXmark} className="absolute top-0 right-0 p-4" onClick={onRemoveNoti} />
+            <Icon icon={faXmark} className="absolute top-0 right-0 p-4" onClick={onRemoveNoti} />
         </div>
     );
 };

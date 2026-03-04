@@ -1,5 +1,5 @@
-import { useEffect, useState } from "react";
-import { ProductList, ProductItem } from "~/componnents/feature/product";
+import { useState } from "react";
+import { ProductList, ProductItem } from "~/componnents/product";
 import { useFetch } from "~/services";
 import { isInStock } from "~/utils";
 

@@ -3,7 +3,7 @@ import { useHoverFloating } from "~/hooks/floatingUi";
 import { arrow, autoPlacement, offset } from "@floating-ui/react";
 
 import NotificationFloating from "./NotificationFloating";
-import { UseIcon, faBell } from "~/assets/icon";
+import { Icon, faBell } from "~/componnents/icon";
 import clsx from "clsx";
 const NotificationWrapper = ({ ...props }) => {
     const refArrow = useRef(null);
@@ -36,7 +36,7 @@ const NotificationWrapper = ({ ...props }) => {
         <>
             <li {...props} ref={refs.setReference} {...getReferenceProps()}>
                 <span>
-                    <UseIcon icon={faBell} />
+                    <Icon icon={faBell} />
                     Thông báo
                 </span>
                 {/* floating element */}

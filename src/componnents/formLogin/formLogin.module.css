@@ -7,6 +7,7 @@
     --formLogin-width-: 38rem;
     --formLogin-placeholderColor-: #c0c0c0;
 }
+
 .formLogin {
     @apply w-[var(--formLogin-width-)] text-[var(--formLogin-textColor-)]  shadow-[0rem_0rem_1rem_#ededed] py-[3rem] px-5 sm:p-[3rem] bg-[var(--formLogin-bgColor-)];
 

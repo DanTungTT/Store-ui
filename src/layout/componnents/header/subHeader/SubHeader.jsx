@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-import { Logo } from "~/componnents/logo";
+import { Logo } from "~/componnents/ui";
 import { useLayoutContext } from "~/provider/LayoutProvider";
 
 const subnetHeader = () => {

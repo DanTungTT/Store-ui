@@ -1,4 +1,4 @@
-import { UseIcon } from "~/assets/icon";
+import { Icon } from "~/componnents/icon";
 import data from "./data";
 import "./footer.css";
 
@@ -31,7 +31,7 @@ const SubnetFooter = () => {
                             return (
                                 <li key={index}>
                                     <span>
-                                        <UseIcon icon={icon} />
+                                        <Icon icon={icon} />
                                     </span>
                                     <span>{name}</span>
                                 </li>
@@ -74,13 +74,13 @@ const SubnetFooter = () => {
                     <h3>{qrFooter.title}</h3>
                     <ul className="grid grid-cols-2 grid-rows-3">
                         <li className="qr row-span-3 flex items-center overflow-hidden">
-                            <UseIcon icon={qrFooter.qr} className="text-[10rem]" />
+                            <Icon icon={qrFooter.qr} className="text-[10rem]" />
                         </li>
                         {qrFooter.appDow.map(({ name, icon }, index) => {
                             return (
                                 <li key={index}>
                                     <span>
-                                        <UseIcon icon={icon} />
+                                        <Icon icon={icon} />
                                     </span>
                                     <span>{name}</span>
                                 </li>

@@ -11,7 +11,7 @@ import Menu from "./Menu";
 import Avatar from "./Avatar";
 
 import styles from "./topbar.module.css";
-import { UseIcon, faFacebook, faInstagram, faCircleQuestion, faList } from "~/assets/icon";
+import { Icon, faFacebook, faInstagram, faCircleQuestion, faList } from "~/componnents/icon";
 
 const Topbar = () => {
     const { isAuthen } = useAuthenContext();
@@ -32,7 +32,7 @@ const Topbar = () => {
                 {/* menu tablet */}
                 {isTablet && (
                     <div onClick={() => setOpenMenu(!openMenu)}>
-                        <UseIcon icon={faList} />
+                        <Icon icon={faList} />
                     </div>
                 )}
                 {isTablet && openMenu && (
@@ -65,12 +65,12 @@ const Topbar = () => {
                             <div className="flex items-center ml-1">
                                 <span>
                                     <a href="https://www.facebook.com/">
-                                        <UseIcon icon={faFacebook} className="text-[1.5rem]" />
+                                        <Icon icon={faFacebook} className="text-[1.5rem]" />
                                     </a>
                                 </span>
                                 <span>
                                     <a href="https://www.instagram.com/">
-                                        <UseIcon icon={faInstagram} className="text-[1.5rem]" />
+                                        <Icon icon={faInstagram} className="text-[1.5rem]" />
                                     </a>
                                 </span>
                             </div>
@@ -86,7 +86,7 @@ const Topbar = () => {
                     <li>
                         <Link to="/support">
                             <span>
-                                <UseIcon icon={faCircleQuestion} />
+                                <Icon icon={faCircleQuestion} />
                                 Hỗ trợ
                             </span>
                         </Link>

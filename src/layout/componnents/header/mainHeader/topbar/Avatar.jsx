@@ -6,7 +6,7 @@ import { useAuthenContext } from "~/provider/AuthenProvider";
 import { useNameContext } from "~/provider/NameProvider";
 import FloatingBox from "~/componnents/floatingBox/FloatingBox";
 
-import { UseIcon, faUserAstronaut, faRightFromBracket } from "~/assets/icon";
+import { Icon, faUserAstronaut, faRightFromBracket } from "~/componnents/icon";
 
 const Avatar = () => {
     const { logout, isAuthen } = useAuthenContext();
@@ -24,7 +24,7 @@ const Avatar = () => {
                 {...getReferenceProps()}
                 className="bg-white rounded-[50%] w-[2.5rem] h-[2.5rem] flex items-center justify-center mx-10"
             >
-                <UseIcon icon={faUserAstronaut} className=" text-black"></UseIcon>
+                <Icon icon={faUserAstronaut} className=" text-black"></Icon>
             </div>
             {open && (
                 <>
@@ -37,7 +37,7 @@ const Avatar = () => {
                                     </span>
                                     <span className="text-[var(--primary-textColor-)]">Xem chi tiết</span>
                                     <span className="text-[var(--primary-textColor-)]" onClick={logout}>
-                                        <UseIcon icon={faRightFromBracket} className="mx-2" />
+                                        <Icon icon={faRightFromBracket} className="mx-2" />
                                         Đăng xuất
                                     </span>
                                 </div>

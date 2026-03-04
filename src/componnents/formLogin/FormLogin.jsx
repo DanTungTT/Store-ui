@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { faFacebook, faGoogle } from "~/assets/icon";
+import { faFacebook, faGoogle } from "~/componnents/icon";
 import clsx from "clsx";
 
 import { useAuthenContext } from "~/provider/AuthenProvider";

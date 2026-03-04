@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import clsx from "clsx";
 
-import { UseIcon, faAngleRight, faAngleLeft } from "~/assets/icon";
+import { Icon, faAngleRight, faAngleLeft } from "~/componnents/icon";
 
 const ProductList = ({ children, flashSale = null, categories, setSelectedCategory }) => {
     const ref = useRef();
@@ -37,7 +37,7 @@ const ProductList = ({ children, flashSale = null, categories, setSelectedCatego
                 <div className="text-right primaryColor p-5 flex justify-between">
                     {flashSale && <span className="flex items-center justify-end text-[2rem]">FLASH SALE </span>}
                     <span className="flex items-center justify-end cursor-pointer flex-1">
-                        Xem Thêm <UseIcon icon={faAngleRight} />
+                        Xem Thêm <Icon icon={faAngleRight} />
                     </span>
                 </div>
                 {/* category  */}
@@ -83,7 +83,7 @@ const ProductList = ({ children, flashSale = null, categories, setSelectedCatego
                                "
                         onClick={handlePrevProduct}
                     >
-                        <UseIcon icon={faAngleLeft} />
+                        <Icon icon={faAngleLeft} />
                     </span>
                 )}
                 {!maxWidth && (
@@ -93,7 +93,7 @@ const ProductList = ({ children, flashSale = null, categories, setSelectedCatego
                     z-10 shadow-[0_0_5px_#333] flex justify-center items-center hover:text-[2.5rem] hover:w-24
                     hover:h-24 transition-all duration-200 "
                     >
-                        <UseIcon icon={faAngleRight} />
+                        <Icon icon={faAngleRight} />
                     </span>
                 )}
 
@@ -107,7 +107,7 @@ const ProductList = ({ children, flashSale = null, categories, setSelectedCatego
                         {children}
                         <li className="px-20 flex flex-col items-center justify-center cursor-pointer">
                             <span className="rounded-[50%] h-10 w-10 border border-primary primaryColor flex items-center justify-center">
-                                <UseIcon icon={faAngleRight} />
+                                <Icon icon={faAngleRight} />
                             </span>
                             <div className="w-32 mt-2 primaryColor">Xem Tất Cả</div>
                         </li>

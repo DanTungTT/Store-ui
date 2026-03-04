@@ -1,5 +1,5 @@
 import clsx from "clsx";
-import { UseIcon, faMagnifyingGlass } from "~/assets/icon";
+import { Icon, faMagnifyingGlass } from "~/componnents/icon";
 const SearchInput = ({ placeholder, className, styles }) => {
     return (
         <>
@@ -11,7 +11,7 @@ const SearchInput = ({ placeholder, className, styles }) => {
                     name="searchInput"
                 />
                 <div className="m-2 flex justify-center items-center">
-                    <UseIcon
+                    <Icon
                         className="md:mx-1 sm:mx-1   sm:p-[25%] px-[30%] py-[30%]  bg-primary   text-white hover:bg-[#cb4226]"
                         icon={faMagnifyingGlass}
                     />

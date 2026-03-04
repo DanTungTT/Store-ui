@@ -1,5 +1,5 @@
 import clsx from "clsx";
-import { UseIcon, faCartShopping } from "~/assets/icon";
+import { Icon, faCartShopping } from "~/componnents/icon";
 const ButtonBuy = ({ statusProduct }) => {
     return (
         <>
@@ -9,7 +9,7 @@ const ButtonBuy = ({ statusProduct }) => {
                     "rounded-[50%]  p-2 h-[3rem] w-[3rem]  cursor-pointer",
                 )}
             >
-                <UseIcon icon={faCartShopping} />
+                <Icon icon={faCartShopping} />
             </button>
         </>
     );

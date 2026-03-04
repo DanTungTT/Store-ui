@@ -1,9 +1,10 @@
-import { SubnetLayout } from "~/layout";
-import { useLayoutContext } from "~/provider/LayoutProvider";
-import { FormLogin, Input } from "~/componnents";
-import { GuestRouter } from "~/routes/";
-
 import { useEffect } from "react";
+
+import { GuestRouter } from "~/routes/";
+import { useLayoutContext } from "~/provider/LayoutProvider";
+import { FormLogin } from "~/componnents";
+import { SubLayout } from "~/layout";
+
 const Register = () => {
     const { setTitleHeader, setTitleHelp, setLayoutFooter } = useLayoutContext();
     useEffect(() => {
@@ -27,7 +28,7 @@ const Register = () => {
     return (
         <>
             <GuestRouter>
-                <SubnetLayout>
+                <SubLayout>
                     <div className="bg-[#ee4d2d] min-h-[60rem]">
                         <main>
                             <div className="flex items-center justify-center w-full ">
@@ -48,7 +49,7 @@ const Register = () => {
                             </div>
                         </main>
                     </div>
-                </SubnetLayout>
+                </SubLayout>
             </GuestRouter>
         </>
     );

@@ -1,10 +1,10 @@
-import { UseIcon, faBolt } from "~/assets/icon";
+import { Icon, faBolt } from "~/componnents/icon";
 const VoucherFlashSale = ({ value }) => {
     return (
         <>
             <div className="absolute top-0 right-0 ">
                 <span>
-                    <UseIcon
+                    <Icon
                         icon={faBolt}
                         className="absolute -left-5 top-1/2 -translate-y-1/2  primaryColor rotate-[160deg] text-[1.8rem]"
                     />

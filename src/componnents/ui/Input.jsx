@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { UseIcon, faEye, faEyeSlash } from "~/assets/icon";
+import { Icon, faEye, faEyeSlash } from "~/componnents/icon";
 
 const Input = ({ type, setIcon, errorMessage, ...props }) => {
     const [isPasswordVisible, setIsPasswordVisible] = useState(true);
@@ -19,7 +19,7 @@ const Input = ({ type, setIcon, errorMessage, ...props }) => {
                             onClick={() => setIsPasswordVisible(!isPasswordVisible)}
                             className="cursor-pointer relative w-[2rem] flex items-center"
                         >
-                            <UseIcon icon={iconType} className="absolute" />
+                            <Icon icon={iconType} className="absolute" />
                         </div>
                     )}
                 </div>

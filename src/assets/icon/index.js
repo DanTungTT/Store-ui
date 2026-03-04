@@ -1,2 +1,48 @@
-export { default as UseIcon } from "./Icon";
-export * from "./Icon";
+
+import { faFacebook, faInstagram, faGoogle, faAppStore, faGooglePay } from "@fortawesome/free-brands-svg-icons";
+import {
+    faAngleUp,
+    faAngleDown,
+    faAngleRight,
+    faAngleLeft,
+    faQrcode,
+    faEye,
+    faEyeSlash,
+    faBell,
+    faCircleQuestion,
+    faGlobe,
+    faMagnifyingGlass,
+    faXmark,
+    faBagShopping,
+    faUserAstronaut,
+    faRightFromBracket,
+    faList,
+    faCartShopping,
+    faBolt,
+} from "@fortawesome/free-solid-svg-icons";
+
+export {
+    faFacebook,
+    faInstagram,
+    faGoogle,
+    faAngleUp,
+    faAngleRight,
+    faAngleLeft,
+    faQrcode,
+    faEye,
+    faEyeSlash,
+    faAppStore,
+    faGooglePay,
+    faBell,
+    faCircleQuestion,
+    faGlobe,
+    faAngleDown,
+    faMagnifyingGlass,
+    faXmark,
+    faBagShopping,
+    faUserAstronaut,
+    faRightFromBracket,
+    faList,
+    faCartShopping,
+    faBolt,
+};

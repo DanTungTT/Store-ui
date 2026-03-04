@@ -1,3 +1,3 @@
 
-export { default as FormLogin } from "./formLogin/FormLogin";
+export * from "./formLogin";
 export * from "./ui"

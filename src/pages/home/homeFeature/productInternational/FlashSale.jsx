@@ -1,8 +1,7 @@
-import { ProductList } from "~/componnents/feature/product";
-import { ProductFlashSale } from "~/componnents/feature/product";
-
+import { ProductList, ProductFlashSale } from "~/componnents/product";
 import { useFetch } from "~/services";
 import { isInStock } from "~/utils";
+
 const FlashSale = () => {
     const data = useFetch("/products");
     const products = data.filter((product) => product.voucher > 30 && isInStock(product));

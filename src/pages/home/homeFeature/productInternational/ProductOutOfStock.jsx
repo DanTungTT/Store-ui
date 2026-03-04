@@ -1,6 +1,6 @@
 import { useFetch } from "~/services";
 import { isInStock } from "~/utils";
-import { ProductList, ProductItem } from "~/componnents/feature/product";
+import { ProductList, ProductItem } from "~/componnents/product";
 
 const ProductOutOfStock = () => {
     const data = useFetch("/products");

@@ -1,7 +1,7 @@
 import { useLayoutContext } from "~/provider/LayoutProvider";
 import { useEffect, useState } from "react";
 
-import { SubnetLayout } from "~/layout";
+import { SubLayout } from "~/layout";
 import { SearchInput } from "~/componnents/ui";
 import BannerWrapper from "./componnents/BannerWrapper";
 import CategoryItem from "./componnents/CategoryItem";
@@ -56,7 +56,7 @@ const SupportPage = () => {
     }, []);
     return (
         <>
-            <SubnetLayout>
+            <SubLayout>
                 <div className="bg-primary h-[22rem]">
                     <div className="flex flex-col justify-evenly items-center h-full w-[50rem] m-auto">
                         {/* greeting */}
@@ -128,7 +128,7 @@ const SupportPage = () => {
                         </div>
                     </div>
                 </main>
-            </SubnetLayout>
+            </SubLayout>
         </>
     );
 };

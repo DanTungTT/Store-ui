@@ -1,5 +1,9 @@
 import { useEffect } from "react";
+
 import { DefaultLayout } from "~/layout";
+import { useLayoutContext } from "~/provider/LayoutProvider";
+import { Button } from "~/componnents/ui";
+
 import MenuBar from "./MenuBar";
 import FlashSale from "./FlashSale";
 import SamePriceProducts from "./SamePriceProducts";
@@ -9,8 +13,7 @@ import ProductWrapper from "./ProductWrapper";
 import ProductOutOfStock from "./ProductOutOfStock";
 import ProductOnlyForYou from "./ProductOnlyForYou";
 import WatchLiveStream from "./WatchLiveStream";
-import { useLayoutContext } from "~/provider/LayoutProvider";
-import { Button } from "~/componnents/ui";
+
 import {
     bannerImg,
     firstPay,

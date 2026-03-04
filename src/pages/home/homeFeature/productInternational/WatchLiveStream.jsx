@@ -1,5 +1,5 @@
 import { useFetch } from "~/services";
-import { ProductList, ProductItem } from "~/componnents/feature/product";
+import { ProductList, ProductItem } from "~/componnents/product";
 import { isInStock } from "~/utils";
 
 const WatchLiveStream = () => {

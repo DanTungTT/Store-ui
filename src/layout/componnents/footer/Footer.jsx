@@ -1,4 +1,4 @@
-import SubnetFooter from "./SubnetFooter";
+import SubnetFooter from "./SubFooter";
 const Footer = () => {
     return (
         <>

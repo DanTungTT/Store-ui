@@ -2,10 +2,10 @@ import { useEffect } from "react";
 
 import { useLayoutContext } from "~/provider/LayoutProvider";
 import { GuestRouter } from "~/routes/";
-import { SubnetLayout } from "~/layout";
+import { SubLayout } from "~/layout";
 import { FormLogin } from "~/componnents";
 
-import { UseIcon, faAngleUp } from "~/assets/icon";
+import { Icon, faAngleUp } from "~/componnents/icon";
 
 const SellerChannel = () => {
     const { setTitleHeader, setTitleHelp } = useLayoutContext();
@@ -34,7 +34,7 @@ const SellerChannel = () => {
     return (
         <>
             <GuestRouter>
-                <SubnetLayout>
+                <SubLayout>
                     <main className="container-page min-h-[70rem]">
                         <div className="flex flex-col  justify-between md:flex-row md:pt-[9rem] ">
                             {/* banner */}
@@ -61,14 +61,14 @@ const SellerChannel = () => {
                                 <div className="w-[40rem] my-7 shadow-[0rem_0rem_1rem_#ededed] p-5 text-center hover:bg-[#eeeded] ">
                                     <button>
                                         Đăng nhập với tài khoản Chính/Phụ
-                                        <UseIcon icon={faAngleUp} className="rotate-[90deg] ml-2" />
+                                        <Icon icon={faAngleUp} className="rotate-[90deg] ml-2" />
                                     </button>
                                 </div>
                             </div>
                             {/*  */}
                         </div>
                     </main>
-                </SubnetLayout>
+                </SubLayout>
             </GuestRouter>
         </>
     );

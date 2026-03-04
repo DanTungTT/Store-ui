@@ -1,6 +1,7 @@
-import { ProductList, ProductItem } from "~/componnents/feature/product";
+import { ProductList, ProductItem } from "~/componnents/product";
 import { useFetch } from "~/services";
 import { getFinalPrice, isInStock } from "~/utils";
+
 const SamePriceProducts = ({ priceLimit }) => {
     const data = useFetch("/products");
 

@@ -3,7 +3,7 @@ import clsx from "clsx";
 
 import { useLayoutContext } from "~/provider/LayoutProvider";
 import { GuestRouter } from "~/routes/";
-import { SubnetLayout } from "~/layout";
+import { SubLayout } from "~/layout";
 import { FormLogin } from "~/componnents";
 
 import { Reson, Step, BenefitItem, Following } from "./componnents";
@@ -33,7 +33,7 @@ const BecomeASeller = () => {
     return (
         <>
             <GuestRouter>
-                <SubnetLayout>
+                <SubLayout>
                     <main className={styles.becomeASellerContainer}>
                         {/* banner & register form */}
 
@@ -169,7 +169,7 @@ const BecomeASeller = () => {
                             </div>
                         </div>
                     </main>
-                </SubnetLayout>
+                </SubLayout>
             </GuestRouter>
         </>
     );

@@ -1,6 +1,7 @@
 import { useFetch } from "~/services";
-import { ProductList, ProductItem } from "~/componnents/feature/product";
+import { ProductList, ProductItem } from "~/componnents/product";
 import { getFinalPrice, isInStock } from "~/utils";
+
 const ProductWrapper = () => {
     const data = useFetch("/products");
     const products = data.filter((pro) => getFinalPrice(pro) <= 10000 && isInStock(pro));

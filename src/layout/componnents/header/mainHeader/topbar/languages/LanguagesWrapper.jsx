@@ -1,7 +1,7 @@
 import { useRef } from "react";
 import { useHoverFloating } from "~/hooks/floatingUi";
 import LanguagesFloating from "./LanguagesFloating";
-import { UseIcon, faGlobe, faAngleDown } from "~/assets/icon";
+import { Icon, faGlobe, faAngleDown } from "~/componnents/icon";
 import { arrow, autoPlacement, offset } from "@floating-ui/react";
 const LanguagesWrapper = ({ ...props }) => {
     const { open, refs, floatingStyles, getReferenceProps, getFloatingProps, transitionStyles, middlewareData } =
@@ -30,9 +30,9 @@ const LanguagesWrapper = ({ ...props }) => {
         <>
             <li {...props}>
                 <span {...getReferenceProps()} ref={refs.setReference}>
-                    <UseIcon icon={faGlobe} />
+                    <Icon icon={faGlobe} />
                     Tiếng Việt
-                    <UseIcon icon={faAngleDown} />
+                    <Icon icon={faAngleDown} />
                 </span>
                 {open && (
                     <div ref={refs.setFloating} style={floatingStyles}>

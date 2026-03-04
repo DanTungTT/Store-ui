@@ -1,9 +1,9 @@
-import { useState } from "react";
 import clsx from "clsx";
 
 import Topbar from "./topbar/Topbar";
 import MiddleHeader from "./middleHeader/MiddleHeader";
 import styles from "./header.module.css";
+
 const Header = () => {
     return (
         <>

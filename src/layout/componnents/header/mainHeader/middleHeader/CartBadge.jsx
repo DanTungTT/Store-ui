@@ -4,7 +4,7 @@ import { useHoverFloating } from "~/hooks/floatingUi";
 import FloatingBox from "~/componnents/floatingBox/FloatingBox";
 
 import { arrow, offset } from "@floating-ui/react";
-import { UseIcon, faBagShopping } from "~/assets/icon/";
+import { Icon, faBagShopping } from "~/componnents/icon/";
 import { imgNoProduct } from "~/assets/img/header/middleHeader";
 const CardBadge = ({ ...props }) => {
     const refArrow = useRef(null);
@@ -34,7 +34,7 @@ const CardBadge = ({ ...props }) => {
         <>
             <div {...props}>
                 <span ref={refs.setReference} {...getReferenceProps()}>
-                    <UseIcon icon={faBagShopping} className="text-[5rem]" />
+                    <Icon icon={faBagShopping} className="text-[5rem]" />
                 </span>
                 {open && (
                     <div ref={refs.setFloating} {...getFloatingProps()} style={floatingStyles}>

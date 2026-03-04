@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 
-import { SubnetLayout } from "~/layout";
+import { SubLayout } from "~/layout";
 import { FormLogin, Input } from "~/componnents";
 import { useLayoutContext } from "~/provider/LayoutProvider";
 import { GuestRouter } from "~/routes/";
@@ -34,7 +34,7 @@ const Login = () => {
     return (
         <>
             <GuestRouter>
-                <SubnetLayout>
+                <SubLayout>
                     <div className="bg-[#ee4d2d] min-h-[60rem]">
                         <main>
                             <div className="flex items-center justify-center w-full pt-5">
@@ -55,7 +55,7 @@ const Login = () => {
                             </div>
                         </main>
                     </div>
-                </SubnetLayout>
+                </SubLayout>
             </GuestRouter>
         </>
     );

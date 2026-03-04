@@ -9,7 +9,7 @@ import LanguagesWrapper from "./languages/LanguagesWrapper";
 
 import Avatar from "./Avatar";
 import styles from "./topbar.module.css";
-import { UseIcon, faFacebook, faInstagram, faBell, faCircleQuestion, faXmark } from "~/assets/icon";
+import { Icon, faFacebook, faInstagram, faBell, faCircleQuestion, faXmark } from "~/componnents/icon";
 const Menu = ({ setOpenMenu, openMenu }) => {
     const { isAuthen } = useAuthenContext();
     return (
@@ -41,12 +41,12 @@ const Menu = ({ setOpenMenu, openMenu }) => {
                         <div className="flex items-center ml-1">
                             <span>
                                 <a href="https://www.facebook.com/">
-                                    <UseIcon icon={faFacebook} className="text-[1.5rem]" />
+                                    <Icon icon={faFacebook} className="text-[1.5rem]" />
                                 </a>
                             </span>
                             <span>
                                 <a href="https://www.instagram.com/">
-                                    <UseIcon icon={faInstagram} className="text-[1.5rem]" />
+                                    <Icon icon={faInstagram} className="text-[1.5rem]" />
                                 </a>
                             </span>
                         </div>
@@ -54,7 +54,7 @@ const Menu = ({ setOpenMenu, openMenu }) => {
 
                     <li className="sm:hidden">
                         <span>
-                            <UseIcon icon={faBell} />
+                            <Icon icon={faBell} />
                             Thông báo
                         </span>
                     </li>
@@ -63,7 +63,7 @@ const Menu = ({ setOpenMenu, openMenu }) => {
                     <li className="sm:hidden">
                         <Link to={config.routes.support}>
                             <span>
-                                <UseIcon icon={faCircleQuestion} />
+                                <Icon icon={faCircleQuestion} />
                                 Hỗ trợ
                             </span>
                         </Link>
@@ -93,7 +93,7 @@ const Menu = ({ setOpenMenu, openMenu }) => {
                     </li>
                 </ul>
                 <div>
-                    <UseIcon
+                    <Icon
                         onClick={() => setOpenMenu(!openMenu)}
                         icon={faXmark}
                         className="text-secondary absolute top-0 right-0 p-3 m-3"

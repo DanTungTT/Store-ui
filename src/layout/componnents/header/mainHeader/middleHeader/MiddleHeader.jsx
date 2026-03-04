@@ -1,16 +1,17 @@
+import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import clsx from "clsx";
-import { useEffect, useState } from "react";
 
 import { useClickFloating } from "~/hooks/floatingUi";
 import useMediaQuery from "~/hooks/projectHooks/useMediaQuery";
-import { Logo } from "~/componnents/logo";
-import Menu from "../topbar/Menu";
+import { Logo } from "~/componnents/ui";
 import { SearchInput } from "~/componnents/ui";
+
+import Menu from "../topbar/Menu";
 import CardBadge from "./CartBadge";
 
 import styles from "../header.module.css";
-import { UseIcon, faList, faMagnifyingGlass } from "~/assets/icon";
+import { Icon, faList, faMagnifyingGlass } from "~/componnents/icon";
 
 const MiddleHeader = () => {
     // const categories = api("\categories");
@@ -77,7 +78,7 @@ const MiddleHeader = () => {
                 </div>
                 {/* shoping card */}
                 <div className="sm:hidden " ref={refs.setReference} {...getReferenceProps()}>
-                    <UseIcon icon={faMagnifyingGlass} className="text-[3.1rem]" />
+                    <Icon icon={faMagnifyingGlass} className="text-[3.1rem]" />
                 </div>
                 {open && (
                     <div
@@ -95,7 +96,7 @@ const MiddleHeader = () => {
                     </div>
                 )}
                 <div className="block sm:hidden p-0 m-0">
-                    <UseIcon icon={faList} onClick={() => setOpenMenu(!openMenu)} className="text-[3rem]" />
+                    <Icon icon={faList} onClick={() => setOpenMenu(!openMenu)} className="text-[3rem]" />
                 </div>
                 {isMobile && openMenu && (
                     <>
