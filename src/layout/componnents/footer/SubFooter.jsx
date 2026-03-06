@@ -3,14 +3,14 @@ import data from "./data";
 import "./footer.css";
 
 import { useLayoutContext } from "~/provider/LayoutProvider";
+
+const [footerInfors, followingFooter, payFooter, qrFooter] = data;
+
 const SubnetFooter = () => {
     const { LayoutFooter } = useLayoutContext();
 
-    let Footer = LayoutFooter;
-
-    const [footerInfors, followingFooter, payFooter, qrFooter] = data;
     const footer1 = (
-        <Footer className="informationFooter  border-t-4  border-primary ">
+        <LayoutFooter className="informationFooter  border-t-4  border-primary ">
             <div className="grid grid-cols-3 px-5 gap-x-[2rem] sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5">
                 {footerInfors.map(({ title, list }, index) => {
                     return (
@@ -89,7 +89,7 @@ const SubnetFooter = () => {
                     </ul>
                 </div>
             </div>
-        </Footer>
+        </LayoutFooter>
     );
 
     return (

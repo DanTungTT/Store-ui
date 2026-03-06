@@ -1,7 +1,10 @@
 import axios from "axios"
 
+
+const baseURL = import.meta.env.VITE_URL_BASE
+
 const instance = axios.create({
-    baseURL: "http://localhost:3000",
+    baseURL,
     headers: {'X-Custom-Header': 'foobar'}  
 })
 export const get = async (path) => {

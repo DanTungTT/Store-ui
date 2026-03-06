@@ -4,12 +4,12 @@ import { isInStock } from "~/utils";
 
 const FlashSale = () => {
     const data = useFetch("/products");
-    const products = data.filter((product) => product.voucher > 30 && isInStock(product));
+    const products = data.filter((product) => product.voucher > 20 && isInStock(product));
     return (
         <>
             <div>
                 <ProductList flashSale>
-                    {products.map((product, index) => {
+                    {products.map((product) => {
                         return (
                             <li key={product.id}>
                                 <ProductFlashSale {...product} />

@@ -1,5 +1,5 @@
-const isInStock = ({ sales, quantity}) => {
-    return sales !== quantity ;
+const isInStock = ({ sold, initalStock}) => {
+    return sold !== initalStock ;
 }
  
 export default isInStock;

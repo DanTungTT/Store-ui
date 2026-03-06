@@ -1,10 +1,11 @@
 import clsx from "clsx";
 
-import { isInStock, formatVND } from "~/utils";
+import { isInStock, formatVND, getFinalPrice } from "~/utils";
 import { Favourite, Voucher, EventImgs, ShopTag, ButtonBuy } from "~/componnents/ui";
 
-const ProductItem = ({ name, images, favourite, voucher, events, shopTag, price, sales, quantity }) => {
-    const statusProduct = isInStock({ sales, quantity });
+const ProductItem = ({ name, images, favourite, voucher, events, shopTag, price, sold, initalStock }) => {
+    const statusProduct = isInStock({ sold, initalStock });
+    const finalPrice = getFinalPrice({ price, voucher });
 
     return (
         <>
@@ -28,7 +29,7 @@ const ProductItem = ({ name, images, favourite, voucher, events, shopTag, price,
                 <div className="flex justify-between items-center px-5 ">
                     <div>
                         <span className={clsx(!statusProduct ? "text-primaryColor" : "primaryColor")}>
-                            {formatVND(price - (price * voucher) / 100)}
+                            {formatVND(finalPrice)}
                         </span>
                     </div>
                     <div>

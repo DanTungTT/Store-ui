@@ -1,17 +1,19 @@
 import { Link } from "react-router-dom";
 
+import * as config from "~/config";
 import { Logo } from "~/componnents/ui";
 import { useLayoutContext } from "~/provider/LayoutProvider";
 
 const subnetHeader = () => {
     const { titleHeader, titleHelp } = useLayoutContext();
+
     return (
         <>
             <header className="shadow min-h-[var(--subnetHeader-height-)]">
                 <div className="container-page">
                     <div className="flex flex-col sm:flex-row sm:justify-between sm:items-center p-5">
                         <div className=" flex items-center m-1">
-                            <Link to="/">
+                            <Link to={config.routes.home}>
                                 <Logo />
                             </Link>
                             <h1 className="header-title text-[2.5rem]/[3rem] ml-6">{titleHeader}</h1>

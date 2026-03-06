@@ -9,6 +9,7 @@ import { Icon, faAngleUp } from "~/componnents/icon";
 
 const SellerChannel = () => {
     const { setTitleHeader, setTitleHelp } = useLayoutContext();
+
     const inputs = [
         {
             id: "1",
@@ -35,10 +36,10 @@ const SellerChannel = () => {
         <>
             <GuestRouter>
                 <SubLayout>
-                    <main className="container-page min-h-[70rem]">
-                        <div className="flex flex-col  justify-between md:flex-row md:pt-[9rem] ">
+                    <main className="container-page min-h-[80rem]">
+                        <div className="flex flex-col  justify-between md:flex-row md:pt-[9rem]">
                             {/* banner */}
-                            <div className="text-center m-auto py-20 mb-20 sm:py-20 sm:mt-[5rem]">
+                            <div className="flex-1 text-center m-auto py-20 mb-20 sm:py-20 sm:mt-[5rem]">
                                 <div className="m-auto  w-[30rem] sm:w-[40.5rem]">
                                     <h1 className="text-[3rem]  primaryColor font-medium">Bán hàng chuyên nghiệp</h1>
                                     <p className="text-[1.9rem] my-4 text-[#888888]">
@@ -50,12 +51,13 @@ const SellerChannel = () => {
                                     <img
                                         src="https://deo.shopeemobile.com/shopee/shopee-buyeruserfetoc-live-sg/assets/9019759f347a781f.png"
                                         alt="anh "
-                                        className="w-[40rem]"
+                                        className="w-[40rem] mx-auto"
                                     />
                                 </div>
                             </div>
 
-                            <div className="overflow-hidden max-w-full flex flex-col justify-center items-center">
+                            {/*form login  */}
+                            <div className="flex-1 overflow-hidden max-w-full flex flex-col justify-center items-center">
                                 <FormLogin title="Đăng Nhập" qr inputs={inputs} />
                                 {/*  */}
                                 <div className="w-[40rem] my-7 shadow-[0rem_0rem_1rem_#ededed] p-5 text-center hover:bg-[#eeeded] ">
