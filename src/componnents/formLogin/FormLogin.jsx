@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useCallback, useEffect, useState } from "react";
 import clsx from "clsx";
 
 import { useAuthenContext } from "~/provider/AuthenProvider";
@@ -9,6 +9,13 @@ import { faFacebook, faGoogle } from "~/componnents/icon";
 import QrLogin from "./QrLogin";
 import styles from "./formLogin.module.css";
 
+const schema = {
+    text: ["isRequired"],
+    password: ["isRequired", { minLength: 6 }],
+    email: ["isRequired", "isEmail"],
+    number: ["isRequired", "isNumber", { lengthInput: 10 }],
+};
+
 const FormLogin = ({ title, qr, inputs, clauseAndPolicy }) => {
     const { login } = useAuthenContext();
     const [form, setForm] = useState({
@@ -17,23 +24,16 @@ const FormLogin = ({ title, qr, inputs, clauseAndPolicy }) => {
         email: "",
         number: "",
     });
-
     const [error, setError] = useState({});
     const [isFormValid, setIsFormValid] = useState(false);
 
-    const schema = {
-        text: ["isRequired"],
-        password: ["isRequired", { minLength: 6 }],
-        email: ["isRequired", "isEmail"],
-        number: ["isRequired", "isNumber", { lengthInput: 10 }],
-    };
     // handle event onChange
     const handleChange = (input) => {
         setForm({ ...form, [input.name]: input.value });
     };
 
     // handle event onblur
-    const handleBlur = (name, inputValue) => {
+    const handleBlur = (name) => {
         const errorMessage = validateField(name, form[name], schema[name]);
         if (errorMessage) {
             setError((prev) => ({ ...prev, [name]: errorMessage }));
@@ -41,6 +41,7 @@ const FormLogin = ({ title, qr, inputs, clauseAndPolicy }) => {
         }
         setError((prev) => ({ ...prev, [name]: null }));
     };
+
     // handle  submit form
     const handleSubmit = (e) => {
         e.preventDefault();
@@ -57,15 +58,14 @@ const FormLogin = ({ title, qr, inputs, clauseAndPolicy }) => {
             login(form);
         }
     };
+    const facebook = useCallback(() => ({ icon: faFacebook, className: "text-blue-500" }), []);
+    const google = useCallback(() => ({ icon: faGoogle, className: "text-red-500" }), []);
 
     useEffect(() => {
         for (const key of Object.keys(error)) {
-            if (error[key] !== null) return setIsFormValid(false);
+            error[key] !== null ? setIsFormValid(false) : setIsFormValid(true);
         }
-        for (const key of Object.keys(error)) {
-            if (error[key] === null) return setIsFormValid(true);
-        }
-    }, [isFormValid, error]);
+    }, [error]);
 
     return (
         <>
@@ -86,8 +86,7 @@ const FormLogin = ({ title, qr, inputs, clauseAndPolicy }) => {
                                 key={index}
                                 {...input}
                                 name={name}
-                                className="outline-none "
-                                value={form?.[input.type]}
+                                value={form?.[name]}
                                 onChange={(e) => handleChange(e.target)}
                                 onBlur={(e) => handleBlur(name, e.target.value)}
                                 errorMessage={error[input.type]}
@@ -120,17 +119,12 @@ const FormLogin = ({ title, qr, inputs, clauseAndPolicy }) => {
                     {/* Sign in using another platform */}
                     <div className="flex justify-between  my-5">
                         <Button
-                            propsIcon={{ icon: faFacebook, className: "text-blue-500" }}
+                            propsIcon={facebook}
                             title="Facebook"
                             className="w-[90%] py-3 btn-normal"
                             type="button"
                         />
-                        <Button
-                            propsIcon={{ icon: faGoogle, className: "text-red-500" }}
-                            title="Google"
-                            className="w-[90%] py-3 btn-normal"
-                            type="button"
-                        />
+                        <Button propsIcon={google} title="Google" className="w-[90%] py-3 btn-normal" type="button" />
                     </div>
 
                     {/* policy */}

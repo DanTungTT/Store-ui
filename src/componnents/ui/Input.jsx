@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, memo } from "react";
 import { Icon, faEye, faEyeSlash } from "~/componnents/icon";
 
 const Input = ({ type, setIcon, errorMessage, ...props }) => {
@@ -28,4 +28,4 @@ const Input = ({ type, setIcon, errorMessage, ...props }) => {
         </>
     );
 };
-export default Input;
+export default memo(Input);

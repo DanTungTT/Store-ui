@@ -8,11 +8,12 @@ const ProductWrapper = () => {
     return (
         <>
             <ProductList>
-                {products.map((product) => (
-                    <li key={product.id}>
-                        <ProductItem {...product}></ProductItem>
-                    </li>
-                ))}
+                {products.length !== 0 &&
+                    products.map((product) => (
+                        <li key={product.id}>
+                            <ProductItem {...product}></ProductItem>
+                        </li>
+                    ))}
             </ProductList>
         </>
     );

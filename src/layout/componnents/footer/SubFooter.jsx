@@ -7,10 +7,11 @@ import { useLayoutContext } from "~/provider/LayoutProvider";
 const [footerInfors, followingFooter, payFooter, qrFooter] = data;
 
 const SubnetFooter = () => {
-    const { LayoutFooter } = useLayoutContext();
+    const { layoutFooter } = useLayoutContext();
+    const Footer = layoutFooter;
 
     const footer1 = (
-        <LayoutFooter className="informationFooter  border-t-4  border-primary ">
+        <Footer className="informationFooter  border-t-4  border-primary ">
             <div className="grid grid-cols-3 px-5 gap-x-[2rem] sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5">
                 {footerInfors.map(({ title, list }, index) => {
                     return (
@@ -89,12 +90,12 @@ const SubnetFooter = () => {
                     </ul>
                 </div>
             </div>
-        </LayoutFooter>
+        </Footer>
     );
 
     return (
         <>
-            {LayoutFooter ? (
+            {layoutFooter ? (
                 footer1
             ) : (
                 <footer className="text-center text-[1.5rem]">© 2025 Shopee. Tất cả các quyền được bảo lưu.</footer>

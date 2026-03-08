@@ -73,7 +73,7 @@ const ProductList = ({ children, flashSale = null, categories, setSelectedCatego
                 )}
 
                 {/* prev & next list products */}
-                {!minWidth && (
+                {!minWidth && children && (
                     <span
                         className="absolute -left-10 top-1/2 -translate-y-1/2 
                              bg-white rounded-[50%] h-20 w-20 text-[2rem] z-10 shadow-[0_0_5px_#333] 
@@ -86,7 +86,7 @@ const ProductList = ({ children, flashSale = null, categories, setSelectedCatego
                         <Icon icon={faAngleLeft} />
                     </span>
                 )}
-                {!maxWidth && (
+                {!maxWidth && children && (
                     <span
                         onClick={handleNextProduct}
                         className="absolute -right-10 top-1/2 -translate-y-1/2 bg-white rounded-[50%] h-20 w-20 text-[2rem]
@@ -101,18 +101,25 @@ const ProductList = ({ children, flashSale = null, categories, setSelectedCatego
                 <div
                     ref={ref}
                     onScroll={(e) => handleScroll(e)}
-                    className="overflow-x-scroll [&::-webkit-scrollbar]:hidden scroll-smooth"
+                    className="overflow-x-scroll [&::-webkit-scrollbar]:hidden scroll-smooth relative"
                 >
                     <ul className="flex items-center p-2 transition-all duration-300 ">
                         {children}
-                        <li className="px-20 flex flex-col items-center justify-center cursor-pointer">
-                            <span className="rounded-[50%] h-10 w-10 border border-primary primaryColor flex items-center justify-center">
-                                <Icon icon={faAngleRight} />
-                            </span>
-                            <div className="w-32 mt-2 primaryColor">Xem Tất Cả</div>
-                        </li>
+                        {!!children && (
+                            <li className="px-20 flex flex-col items-center justify-center cursor-pointer">
+                                <span className="rounded-[50%] h-10 w-10 border border-primary primaryColor flex items-center justify-center">
+                                    <Icon icon={faAngleRight} />
+                                </span>
+                                <div className="w-32 mt-2 primaryColor">Xem Tất Cả</div>
+                            </li>
+                        )}
                     </ul>
                 </div>
+                {!children && (
+                    <span className="absolute  top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 primaryColor">
+                        Không có sản phẩm{" "}
+                    </span>
+                )}
             </div>
         </>
     );

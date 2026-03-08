@@ -37,12 +37,7 @@ const NotificationFloating = forwardRef(({ refFloating, middlewareData, ...props
                     <div className="flex flex-col h-full">
                         <div className="p-1 border-b border-[#c0bebe] flex-0">
                             <div className="headding bg-primary p-2">
-                                <h5 className="text-[1.5rem]">Thông báo </h5>
-                            </div>
-                            <div className="flex justify-between [&>span]:text-white w-full [&>span]:m-1 [&>span]:cursor-pointer [&>span]:p-2 [&>span]:text-center">
-                                <span className="flex-1 bg-primary">Tất cả</span>
-                                <span className="flex-1 bg-primary">Chưa xem</span>
-                                <span className="flex-1 bg-primary">Đã xem</span>
+                                <h5 className="text-[1.5rem]">Thông báo mới nhất </h5>
                             </div>
                         </div>
                         {/*  list noti  */}
@@ -52,7 +47,6 @@ const NotificationFloating = forwardRef(({ refFloating, middlewareData, ...props
                         {/* footer noti */}
                         <div className="footer flex-0 [&>span]:p-3 [&>span]:cursor-pointer flex p-1">
                             <span className="flex-1 text-center bg-primary">Xem thêm</span>
-                            <span className="flex-1 text-center bg-primary">Đánh dấu đã đọc</span>
                         </div>
                     </div>
                 )}

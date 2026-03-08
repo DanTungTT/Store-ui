@@ -20,9 +20,12 @@ const DealSupperCheap = () => {
 
     const cateParentId_2 =
         cateFiltered && categories_API.filter((cate) => cate.parentId == cateFiltered[0]?.id && cate);
-    const products = data.filter(
-        (product) => cateParentId_2.some((cate) => product.category?.id == cate.id && product) && isInStock(product),
-    );
+    const products = data
+        .filter(
+            (product) =>
+                cateParentId_2.some((cate) => product.category?.id == cate.id && product) && isInStock(product),
+        )
+        .slice(0, 13);
 
     return (
         <>

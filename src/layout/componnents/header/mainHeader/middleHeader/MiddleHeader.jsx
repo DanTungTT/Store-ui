@@ -4,6 +4,7 @@ import clsx from "clsx";
 
 import { useClickFloating } from "~/hooks/floatingUi";
 import useMediaQuery from "~/hooks/projectHooks/useMediaQuery";
+import * as config from "~/config";
 import { Logo } from "~/componnents/ui";
 import { SearchInput } from "~/componnents/ui";
 
@@ -14,7 +15,6 @@ import styles from "../header.module.css";
 import { Icon, faList, faMagnifyingGlass } from "~/componnents/icon";
 
 const MiddleHeader = () => {
-    // const categories = api("\categories");
     const { open, refs, floatingStyles, getReferenceProps, getFloatingProps, transitionStyles } = useClickFloating({
         optionsFloating: {
             strategy: "absolute",
@@ -35,8 +35,10 @@ const MiddleHeader = () => {
             },
         },
     });
+
     const [openMenu, setOpenMenu] = useState(false);
     const isMobile = useMediaQuery("(max-width: 640px");
+
     useEffect(() => {
         return () => setOpenMenu(false);
     }, [isMobile]);
@@ -44,13 +46,13 @@ const MiddleHeader = () => {
         <>
             <div className="flex justify-evenly items-center mt-3 h-full">
                 {/* logo */}
-                <Link to="/">
-                    <div className="flex items-center">
+                <Link to={config.routes.home}>
+                    <div className="flex items-center-safe">
                         <Logo />
                         <span
                             className={clsx(
                                 styles.fontLogo,
-                                "text-[1.5rem]/[1.4rem] ml-5 hidden sm:text-[4rem]/[1rem] sm:block",
+                                "text-[1.5rem]/[1.4rem] ml-5 mt-3 hidden sm:text-[4rem]/[1rem] sm:block",
                             )}
                         >
                             SEO
@@ -63,18 +65,6 @@ const MiddleHeader = () => {
                         placeholder="Seo bao ship 0đ - Đăng ký ngay!"
                         className="text-[20px] w-full h-[4rem]"
                     />
-                    {/* <div className="w-full h-[1rem]">
-                        <ul className="flex left-1/2 max-w-full truncate">
-                            {categories &&
-                                categories.map((category, index) => {
-                                    return (
-                                        <li key={category.id} className="text-secondaryColor px-5 py-1 cursor-pointer">
-                                            {category.name}
-                                        </li>
-                                    );
-                                })}
-                        </ul>
-                    </div> */}
                 </div>
                 {/* shoping card */}
                 <div className="sm:hidden " ref={refs.setReference} {...getReferenceProps()}>

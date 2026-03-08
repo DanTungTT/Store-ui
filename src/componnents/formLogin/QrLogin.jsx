@@ -1,3 +1,4 @@
+import { memo } from "react";
 import { Icon, faQrcode } from "~/componnents/icon";
 const QrLogin = () => {
     return (
@@ -47,4 +48,4 @@ const QrLogin = () => {
         </>
     );
 };
-export default QrLogin;
+export default memo(QrLogin);

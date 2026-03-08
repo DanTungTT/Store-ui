@@ -13,6 +13,7 @@ import ProductWrapper from "./ProductWrapper";
 import ProductOutOfStock from "./ProductOutOfStock";
 import ProductOnlyForYou from "./ProductOnlyForYou";
 import WatchLiveStream from "./WatchLiveStream";
+import VoucherCard from "../VoucherCard";
 
 import {
     bannerImg,
@@ -75,43 +76,19 @@ const HangQuocTe = () => {
                     <section data-index="1" id="voucher" className="scroll-mt-130">
                         <img src={voucherXtra} alt="ảnh voucher xtra giảm tới 20%" />
                         <div className="flex justify-evenly p-10">
-                            <div className="flex">
-                                <img src={voucherXtra1} alt="nhãn dán giới thiệu voucherXtra" />
-                                <div className="w-[27rem] border border-[#333] rounded-tr-3xl rounded-br-3xl">
-                                    <h2 className="text-[2.7rem] font-extrabold mt-6 p-5">Giảm 20%</h2>
-                                    <p className="text-[2rem] text-center">Giảm tối đa 100k </p>
-                                    <p className="text-[2rem] text-center">Giảm đơn tối thiểu 100k </p>
-                                    <Button
-                                        type="button"
-                                        className="bg-primary text-secondaryColor px-15 py-5 m-8 rounded-2xl"
-                                        title="Sử Dụng"
-                                    />
-                                    <div className="text-right p-5">
-                                        <a href="#" className="block text-[2rem] text-blue-500">
-                                            Điều Kiện
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
+                            <VoucherCard
+                                img={voucherXtra1}
+                                title="Giảm 20%"
+                                decr="Giảm tối đa 100K, Giảm đơn tối thiếu 100K"
+                                state="disable"
+                            />
 
-                            <div className="flex">
-                                <img src={voucherXtra1} alt="nhãn dán giới thiệu voucherXtra" />
-                                <div className="w-[27rem] border border-[#333] rounded-tr-3xl rounded-br-3xl">
-                                    <h2 className="text-[2.7rem] font-extrabold mt-6 p-5">Giảm 20%</h2>
-                                    <p className="text-[2rem] text-center">Giảm tối đa 100k </p>
-                                    <p className="text-[2rem] text-center">Giảm đơn tối thiểu 100k </p>
-                                    <Button
-                                        type="button"
-                                        className="bg-primary text-secondaryColor px-15 py-5 m-8 rounded-2xl"
-                                        title="Sử Dụng"
-                                    />
-                                    <div className="text-right p-5">
-                                        <a href="#" className="block text-[2rem] text-blue-500">
-                                            Điều Kiện
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
+                            <VoucherCard
+                                img={voucherXtra1}
+                                title="Giảm 20%"
+                                decr="Giảm tối đa 100K, Giảm đơn tối thiếu 100K"
+                                state="disable"
+                            />
                         </div>
                     </section>
                     {/* đồng giá */}
@@ -140,7 +117,7 @@ const HangQuocTe = () => {
                             <img src={deal29Dong} alt="ảnh deal 29 đồng" />
                         </div>
                         <div>
-                            <SamePriceProducts priceLimit={[29000]} />
+                            <SamePriceProducts priceLimit={[29000, 100000]} />
                         </div>
                     </section>
                     <section data-index="3" id="xemLive" className="scroll-mt-85">
