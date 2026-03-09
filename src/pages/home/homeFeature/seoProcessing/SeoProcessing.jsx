@@ -19,7 +19,7 @@ const SeoProcessing = () => {
 
                                 {/* voucher card */}
                                 <div className="bg-normal rounded-3xl">
-                                    <div className="flex justify-evenly p-10">
+                                    <div className="flex justify-evenly items-center p-5">
                                         <VoucherCard
                                             img={voucher}
                                             title="Giảm 30%"

@@ -3,8 +3,8 @@ import { publicRouter as RouteItems } from "./routes";
 import AppProvider from "./provider/AppProvider";
 import { useFetch } from "./services";
 function App() {
-    // const nameShop = useFetch("/shops");
-    // nameShop.map((name) => console.log(name.shopName));
+    const nameShop = useFetch("/shops");
+    nameShop.map((name) => console.log(name.shopName));
     return (
         <>
             <AppProvider>
