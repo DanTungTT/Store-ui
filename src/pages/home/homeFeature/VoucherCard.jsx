@@ -1,9 +1,11 @@
+import clsx from "clsx";
 import { Button } from "~/componnents/ui";
-const VoucherCard = ({ title, decr, label, used = null, disable = false, img }) => {
+
+const VoucherCard = ({ title, decr, label, used = null, disable, img }) => {
     return (
         <>
             <div className="flex h-[32rem] relative">
-                {label && (
+                {label && !disable && (
                     <span
                         className="absolute -right-4 top-7 shadow
                                      bg-secondary primaryColor
@@ -27,11 +29,14 @@ const VoucherCard = ({ title, decr, label, used = null, disable = false, img }) 
                             Độc quyền - S Xử lí
                         </span>
                     )}
-                    {used && <div className="ml-5 mt-2">Đã dùng {used}%</div>}
+                    {used && !disable && <div className="ml-5 mt-2">Đã dùng {used}%</div>}
                     <Button
                         type="button"
-                        className="bg-primary text-secondaryColor px-30 py-5 mt-5 rounded-2xl"
-                        title="Lưu"
+                        className={clsx(
+                            disable ? "bg-gray-500 mt-10" : "bg-primary mt-5",
+                            "text-secondaryColor w-80 py-5 rounded-2xl",
+                        )}
+                        title={disable ? "Hết lượt sử dụng" : "Lưu"}
                     />
                     <div className="text-right p-5 mt-2">
                         <a href="#" className="block text-[2rem] text-blue-500">

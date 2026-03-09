@@ -1,12 +1,13 @@
 import { DefaultLayout } from "~/layout";
 import VoucherCard from "../VoucherCard";
+import ProductVoucher30Percent from "./ProductVoucher30Percent";
 import { banner, deal30, voucher } from "~/assets/img/body/homeFeatures/seo-xu-li";
 const SeoProcessing = () => {
     return (
         <>
             <DefaultLayout>
                 <main className="bg-[#970000]">
-                    <div className="container-page px-20">
+                    <div className="container-page px-30">
                         <div>
                             {/* banner img */}
                             <div>
@@ -19,7 +20,7 @@ const SeoProcessing = () => {
 
                                 {/* voucher card */}
                                 <div className="bg-normal rounded-3xl">
-                                    <div className="flex justify-evenly items-center p-5">
+                                    <div className="flex justify-evenly items-center py-10">
                                         <VoucherCard
                                             img={voucher}
                                             title="Giảm 30%"
@@ -34,8 +35,12 @@ const SeoProcessing = () => {
                                             decr="Giảm tối đa 40k₫ Đơn Tối Thiểu 100k₫"
                                             label
                                             used="98"
+                                            disable
                                         />
                                     </div>
+                                </div>
+                                <div>
+                                    <ProductVoucher30Percent />
                                 </div>
                             </div>
                         </div>

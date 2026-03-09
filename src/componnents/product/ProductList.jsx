@@ -4,27 +4,34 @@ import clsx from "clsx";
 import { Icon, faAngleRight, faAngleLeft } from "~/componnents/icon";
 
 const ProductList = ({ children, flashSale = null, categories, setSelectedCategory }) => {
-    const ref = useRef();
+    const refContainer = useRef();
     const activeRef = useRef();
 
     const [minWidth, setMinWidth] = useState(true);
     const [maxWidth, setMaxWidth] = useState(false);
     const [indexActive, setIndexActive] = useState(0);
 
+    const isShowViewAll = children.length > 13;
+    const enable = children.length > 8;
+
     const handleScroll = (e) => {
-        setMinWidth(ref.current.scrollLeft === 0);
-        setMaxWidth(ref.current.clientWidth + ref.current.scrollLeft >= ref.current.scrollWidth);
+        setMinWidth(refContainer.current.scrollLeft === 0);
+        setMaxWidth(
+            refContainer.current.clientWidth + refContainer.current.scrollLeft >= refContainer.current.scrollWidth,
+        );
     };
     const handlePrevProduct = () => {
-        ref.current.scrollLeft === 0 && setMinWidth(false);
-        ref.current.scrollLeft -= ref.current.offsetWidth;
+        refContainer.current.scrollLeft === 0 && setMinWidth(false);
+        refContainer.current.scrollLeft -= refContainer.current.offsetWidth;
         setMaxWidth(false);
     };
     const handleNextProduct = () => {
-        ref.current.scrollLeft += ref.current.offsetWidth;
-        if (ref.current.clientWidth + ref.current.scrollLeft >= ref.current.scrollWidth) setMaxWidth(true);
+        refContainer.current.scrollLeft += refContainer.current.offsetWidth;
+        if (refContainer.current.clientWidth + refContainer.current.scrollLeft >= refContainer.current.scrollWidth)
+            setMaxWidth(true);
         setMinWidth(false);
     };
+
     useEffect(() => {
         if (categories) {
             activeRef.current.style.translate = `${activeRef.current.offsetWidth * indexActive}px`;
@@ -32,7 +39,7 @@ const ProductList = ({ children, flashSale = null, categories, setSelectedCatego
     }, [indexActive]);
     return (
         <>
-            <div className="rounded-2xl min-h-[34.5rem] w-full border border-[#c0bfbf] p-5 m-10 relative ">
+            <div className="rounded-2xl min-h-[34.5rem] w-full border border-[#c0bfbf] p-5 m-10 relative bg-normal">
                 {/* title */}
                 <div className="text-right primaryColor p-5 flex justify-between">
                     {flashSale && <span className="flex items-center justify-end text-[2rem]">FLASH SALE </span>}
@@ -72,7 +79,7 @@ const ProductList = ({ children, flashSale = null, categories, setSelectedCatego
                     </div>
                 )}
 
-                {/* prev & next list products */}
+                {/* btn prev & next products */}
                 {!minWidth && children && (
                     <span
                         className="absolute -left-10 top-1/2 -translate-y-1/2 
@@ -86,7 +93,7 @@ const ProductList = ({ children, flashSale = null, categories, setSelectedCatego
                         <Icon icon={faAngleLeft} />
                     </span>
                 )}
-                {!maxWidth && children && (
+                {!maxWidth && enable && (
                     <span
                         onClick={handleNextProduct}
                         className="absolute -right-10 top-1/2 -translate-y-1/2 bg-white rounded-[50%] h-20 w-20 text-[2rem]
@@ -99,13 +106,13 @@ const ProductList = ({ children, flashSale = null, categories, setSelectedCatego
 
                 {/* list products */}
                 <div
-                    ref={ref}
+                    ref={refContainer}
                     onScroll={(e) => handleScroll(e)}
                     className="overflow-x-scroll [&::-webkit-scrollbar]:hidden scroll-smooth relative"
                 >
                     <ul className="flex items-center p-2 transition-all duration-300 ">
                         {children}
-                        {!!children && (
+                        {!!children && isShowViewAll && (
                             <li className="px-20 flex flex-col items-center justify-center cursor-pointer">
                                 <span className="rounded-[50%] h-10 w-10 border border-primary primaryColor flex items-center justify-center">
                                     <Icon icon={faAngleRight} />
