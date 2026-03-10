@@ -9,7 +9,7 @@ const ProductFlashSale = ({ name, images, voucher, events, price, sales, quantit
         <>
             <div className="w-[22.5rem] h-[37.6rem]  mx-2 cursor-pointer hover:shadow-[0_0_.5rem_#333] hover:-translate-y-2 py-3 transition-all duration-200 ">
                 <div className="h-[22.5rem]  flex justify-center items-center rounded-[.6rem] relative">
-                    <img src={images[0]} className="object-center w-full h-full" />
+                    <img src={images[0]} className="object-center" />
                     {!!voucher && <VoucherFlashSale value={voucher} />}
                     {events && <EventImgs imgList={events} w={40} />}
                 </div>
